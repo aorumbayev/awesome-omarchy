@@ -1,0 +1,89 @@
+# Pre-commit configuration for awesome-omarchy
+# This file includes all the same validation tools that run in CI
+# Install: pip install pre-commit && pre-commit install
+# Run manually: pre-commit run --all-files
+
+repos:
+  # Awesome List Validation
+  - repo: local
+    hooks:
+      - id: awesome-lint
+        name: Awesome List Lint
+        entry: npx awesome-lint
+        language: system
+        files: README\.md$
+        description: "Validate README.md against awesome list standards"
+        pass_filenames: true
+        require_serial: true
+
+  # Markdown Formatting and Linting
+  - repo: local
+    hooks:
+      - id: remark-lint
+        name: Markdown Lint (remark)
+        entry: bash -c 'npx remark --frail --quiet --no-stdout README.md CONTRIBUTING.md'
+        language: system
+        files: \.(md|markdown)$
+        description: "Lint markdown files with remark-cli"
+        pass_filenames: false
+        require_serial: true
+
+  # Spell Checking
+  - repo: https://github.com/crate-ci/typos
+    rev: v1.35.4
+    hooks:
+      - id: typos
+        name: Spell Check (typos)
+        files: \.(md|markdown)$
+        description: "Check spelling in markdown files"
+
+  # Link Checking (Optional - can be slow)
+  - repo: local
+    hooks:
+      - id: lychee-links
+        name: Link Check (lychee)
+        entry: lychee
+        language: system
+        files: \.(md|markdown)$
+        args: ['--config', '.github/workflows/lychee.toml', '--verbose', '--no-progress']
+        description: "Check links in markdown files"
+        pass_filenames: true
+        # Set to manual stage so it doesn't run automatically on every commit
+        stages: [manual]
+
+  # Basic Git Hooks (Additional Quality Checks)
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+        name: Trim Trailing Whitespace
+        description: "Remove trailing whitespace"
+      - id: end-of-file-fixer
+        name: Fix End of Files
+        description: "Ensure files end with a newline"
+      - id: check-yaml
+        name: Check YAML Syntax
+        description: "Validate YAML file syntax"
+      - id: check-toml
+        name: Check TOML Syntax  
+        description: "Validate TOML file syntax"
+      - id: check-merge-conflict
+        name: Check Merge Conflicts
+        description: "Check for merge conflict markers"
+      - id: mixed-line-ending
+        name: Mixed Line Ending
+        description: "Replace or check mixed line endings"
+
+# CI Environment Setup (for local development)
+# These settings ensure your local environment matches CI
+default_language_version:
+  node: '22'
+
+# Configure specific stages
+default_stages: [pre-commit, pre-push]
+
+# Fail fast - stop on first failure
+fail_fast: true
+
+# Minimum pre-commit version required
+minimum_pre_commit_version: '3.0.0'

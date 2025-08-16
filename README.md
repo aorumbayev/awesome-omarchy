@@ -1,112 +1,70 @@
 # Awesome Omarchy [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome Omarchy themes, resources, tutorials, and community contributions for the opinionated Arch/Hyprland setup.
+> A curated list of awesome Omarchy themes, resources, and tools for the modern Arch Linux/Hyprland setup.
 
-Opinionated Arch Linux/Hyprland setup that transforms a fresh Arch installation into a fully-configured, beautiful, and modern web development system with a single command.
+Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fresh Arch installation into a fully-configured, beautiful, and modern desktop environment with a single command.
 
 ## Contents
 
 - [Official Resources](#official-resources)
+- [Alternative Implementations](#alternative-implementations)
 - [Themes](#themes)
-- [Installation & Setup](#installation--setup)
-- [Configuration](#configuration)
+- [Development Tools](#development-tools)
+- [Related Projects](#related-projects)
 - [Community Resources](#community-resources)
-- [Tutorials](#tutorials)
-- [Videos](#videos)
-- [Tools & Utilities](#tools--utilities)
 
 ## Official Resources
 
-- [Omarchy Repository](https://github.com/basecamp/omarchy#readme) - The main Omarchy project by Basecamp.
-- [Omarchy Website](https://omarchy.org) - Official website with documentation and guides.
-- [The Omarchy Manual](https://manuals.omamix.org/2/the-omarchy-manual) - Comprehensive manual and documentation.
+- [Omarchy](https://github.com/basecamp/omarchy) - The main Omarchy project by Basecamp.
+- [Omarchy Documentation](https://omarchy.org) - Official website with installation guides and documentation.
+
+## Alternative Implementations
+
+- [omarchy-nix](https://github.com/henrysipp/omarchy-nix) - NixOS version of Omarchy with declarative configuration.
+- [omarchy-titus](https://github.com/ChrisTitusTech/omarchy-titus) - Chris Titus Tech's customized version of Omarchy.
+- [armarchy](https://github.com/nilszeilon/armarchy) - ARM architecture-optimized fork of Omarchy.
+- [deckarchy](https://github.com/aorumbayev/deckarchy) - Steam Deck hardware fixes and optimizations for Omarchy installation.
 
 ## Themes
 
-### Official Themes
-- [Built-in Themes](https://github.com/basecamp/omarchy/tree/master/themes#readme) - Eleven beautiful themes included with Omarchy.
+- [omarchy-osaka-jade-theme](https://github.com/Justikun/omarchy-osaka-jade-theme) - Elegant jade-colored theme inspired by Osaka aesthetics.
+- [omarchy-gold-rush-theme](https://github.com/tahayvr/omarchy-gold-rush-theme) - Luxurious gold-themed color scheme.
+- [omarchy-space-monkey-theme](https://github.com/TyRichards/omarchy-space-monkey-theme) - Space-inspired theme with cosmic elements.
+- [omarchy-matte-black](https://github.com/tahayvr/omarchy-matte-black) - Sleek matte black theme for minimalists.
+- [omarchy-retropc-theme](https://github.com/rondilley/omarchy-retropc-theme) - Nostalgic retro PC theme with vintage computing aesthetics.
+- [omarchy-midnight-theme](https://github.com/JaxonWright/omarchy-midnight-theme) - Dark midnight theme optimized for OLED displays.
+- [omarchy-ash-theme](https://github.com/bjarneo/omarchy-ash-theme) - Subtle ash-gray color scheme.
+- [omarchy-rose-pine-dark](https://github.com/guilhermetk/omarchy-rose-pine-dark) - Rose Pine inspired dark theme.
+- [omarchy-flexoki-dark-theme](https://github.com/euandeas/omarchy-flexoki-dark-theme) - Flexoki color palette adaptation.
+- [omarchy-mars-theme](https://github.com/steve-lohmeyer/omarchy-mars-theme) - Mars-inspired red theme.
+- [omarchy-monochrome-theme](https://github.com/Swarnim114/omarchy-monochrome-theme) - Clean monochrome design.
+- [omarchy-futurism-theme](https://github.com/bjarneo/omarchy-futurism-theme) - Futuristic theme with modern aesthetics.
+- [omarchy-everblush-theme](https://github.com/Swarnim114/omarchy-everblush-theme) - Everblush color scheme adaptation.
+- [omarchy-hakker-green-theme](https://github.com/joaquinmeza/omarchy-hakker-green-theme) - Hacker-style green terminal theme.
+- [omarchy-synthwave84-theme](https://github.com/omacom-io/omarchy-synthwave84-theme) - Synthwave 84 inspired theme with retro aesthetics.
 
-### Community Themes
-- [Midnight Theme](https://github.com/JaxonWright/omarchy-midnight-theme#readme) - Blacked-out theme optimized for OLED displays.
-- [Omarchy Themes Collection](https://github.com/Alexx2/omarchy-themes#readme) - Collection of community-created themes under MIT License.
-- [Retro PC Theme](https://github.com/rondilley/omarchy-retropc-theme#readme) - Nostalgic theme to relive the good old computing days.
-- [Solarized Osaka Theme](https://github.com/motorsss/omarchy-solarizedosaka-theme#readme) - Beautiful theme based on solarized osaka colorscheme with Mount Fuji background.
+## Development Tools
 
-### Theme Development
-- [Creating Custom Themes](https://manuals.omamix.org/2/the-omarchy-manual/52/themes) - Guide for developing your own themes.
-- [Theme Installation Guide](https://manuals.omamix.org/2/the-omarchy-manual/90/extra-themes) - How to install and manage themes.
+- [omarchy-ai](https://github.com/mitkox/omarchy-ai) - AI-powered enhancements and tools for Omarchy.
+- [omarchy-iso](https://github.com/omacom-io/omarchy-iso) - Custom ISO builder for Omarchy installations.
+- [omarchy-box](https://github.com/dylanbr/omarchy-box) - Containerized Omarchy environment.
+- [omarchy-chromium](https://github.com/omacom-io/omarchy-chromium) - Chromium browser integration and optimizations for Omarchy.
+- [omarchy-installer](https://github.com/omacom-io/omarchy-installer) - Enhanced installation utilities and scripts for Omarchy setup.
+- [omarchy-themes-generator](https://github.com/hipsterusername/omarchy-themes-generator) - Tool for generating custom Omarchy themes.
+- [omarchy-theme-generator](https://github.com/maxberggren/omarchy-theme-generator) - Alternative theme generation utility.
 
-## Installation & Setup
+## Related Projects
 
-### Prerequisites
-- Fresh Arch Linux installation
-- Internet connection
-- Basic terminal knowledge
-
-### Quick Start
-```bash
-# Install Omarchy with a single command
-curl -sSL https://get.omarchy.org | bash
-```
-
-### Theme Installation
-```bash
-# Install themes from GitHub
-omarchy-theme-install https://github.com/username/theme-name
-```
-
-## Configuration
-
-### Core Components
-- [btop](https://github.com/aristocratos/btop#readme) - System monitor with themed interface.
-- [Hyprland](https://hyprland.org) - Wayland compositor.
-- [hyprlock](https://github.com/hyprwm/hyprlock#readme) - Lock screen.
-- [mako](https://github.com/emersion/mako#readme) - Notification daemon.
-- [Neovim](https://neovim.io) - Modern Vim-based editor with custom configuration.
-- [walker](https://github.com/abenz1267/walker#readme) - Application launcher.
-- [waybar](https://github.com/Alexays/Waybar#readme) - Top bar with custom styling.
-
-### Customization
-- Configuration files location: `~/.config/`
-- Theme switching via Omarchy TUI
-- Custom keybindings and shortcuts
+- [j5onrf/dots](https://github.com/j5onrf/dots) - Hyprland dotfiles with Waybar and ML4W inspired by Omarchy aesthetics.
+- [CyphrRiot/ArchRiot](https://github.com/CyphrRiot/ArchRiot) - A curated Arch Linux experience inspired by Omarchy's philosophy.
+- [dougburks/ohmydebn](https://github.com/dougburks/ohmydebn) - A debonair Debian + Cinnamon setup inspired by Omarchy.
 
 ## Community Resources
 
-### Forums & Discussion
-- [GitHub Discussions](https://github.com/basecamp/omarchy/discussions) - Official community discussions.
+- [GitHub Discussions](https://github.com/basecamp/omarchy/discussions) - Official community discussions and support.
 - [GitHub Issues](https://github.com/basecamp/omarchy/issues) - Bug reports and feature requests.
-
-### Package Collections
-- [omarchy-theme Topic](https://github.com/topics/omarchy-theme) - Discover more community themes.
-
-## Tutorials
-
-### Getting Started
-- [Official Manual](https://manuals.omamix.org/2/the-omarchy-manual) - Complete setup and usage guide.
-
-### Theme Development
-- [Theme Creation Tutorial](https://manuals.omamix.org/2/the-omarchy-manual/52/themes) - Step-by-step theme development.
-- [Theme Distribution Guide](https://manuals.omamix.org/2/the-omarchy-manual/90/extra-themes) - How to share your themes.
-
-## Videos
-
-> Looking for video tutorials? Please contribute by adding relevant YouTube videos, tutorials, or screencasts!
-
-## Tools & Utilities
-
-### Development Tools
-- [Code editors](https://github.com/basecamp/omarchy#readme) - Pre-configured development environment.
-- [Git](https://git-scm.com) - Version control integration and configuration.
-
-### System Tools
-- [System monitoring](https://github.com/aristocratos/btop#readme) - Performance monitoring tools.
-- [Window management](https://hyprland.org) - Hyprland window management utilities.
-
-### Customization Tools
-- [Configuration management](https://manuals.omamix.org/2/the-omarchy-manual) - Dotfiles and settings management.
-- [Theme development](https://manuals.omamix.org/2/the-omarchy-manual/52/themes) - Theme creation and editing tools.
+- [omarchy-theme Topic](https://github.com/topics/omarchy-theme) - Browse all repositories tagged with omarchy-theme.
 
 ## Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
+Contributions are welcome! Please see our [Contributing Guide](CONTRIBUTING.md) for details on how to submit themes, tools, or other resources.

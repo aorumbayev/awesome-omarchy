@@ -10,10 +10,10 @@ Brief description of what you're adding/changing.
 
 ## Resource Details
 <!-- Fill out if adding a new resource -->
-- **Resource Name**: 
-- **Category**: 
-- **Link**: 
-- **Description**: 
+- **Resource Name**:
+- **Category**:
+- **Link**:
+- **Description**:
 
 ## Checklist
 - [ ] I have read the [Contributing Guidelines](CONTRIBUTING.md)

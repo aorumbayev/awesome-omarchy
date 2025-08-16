@@ -7,10 +7,10 @@ assignees: ''
 ---
 
 ## Resource Information
-**Name**: 
-**URL**: 
-**Category**: 
-**Description**: 
+**Name**:
+**URL**:
+**Category**:
+**Description**:
 
 ## Why This Resource Should Be Included
 Explain why this resource would be valuable to the Omarchy community.

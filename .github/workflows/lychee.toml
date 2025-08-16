@@ -1,0 +1,24 @@
+# Lychee configuration for link checking
+# Equivalent to the previous mlc_config.json settings
+
+# Timeout for each request (was 10s in mlc_config.json)
+timeout = 10
+
+# Retry configuration (was retryCount: 3 in mlc_config.json)
+max_retries = 3
+retry_wait_time = 2
+
+# Accept these status codes as valid (was aliveStatusCodes in mlc_config.json)
+accept = [200, 206]
+
+# User agent for requests (similar to httpHeaders in mlc_config.json)
+user_agent = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+
+# Exclude localhost patterns (was in ignorePatterns)
+exclude_loopback = true
+
+# Additional excludes for localhost patterns
+exclude = [
+    "^http://localhost.*",
+    "^https://localhost.*"
+]

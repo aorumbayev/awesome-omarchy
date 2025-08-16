@@ -16,9 +16,9 @@ A clear and concise description of what the bug is.
 - [ ] Other (please specify)
 
 ## Location
-**Section**: 
-**Resource Name**: 
-**Link**: 
+**Section**:
+**Resource Name**:
+**Link**:
 
 ## Expected Behavior
 A clear and concise description of what you expected to happen.
