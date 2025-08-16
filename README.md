@@ -34,6 +34,7 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-retropc-theme](https://github.com/rondilley/omarchy-retropc-theme) - Nostalgic retro PC theme with vintage computing aesthetics.
 - [omarchy-midnight-theme](https://github.com/JaxonWright/omarchy-midnight-theme) - Dark midnight theme optimized for OLED displays.
 - [omarchy-ash-theme](https://github.com/bjarneo/omarchy-ash-theme) - Subtle ash-gray color scheme.
+- [omarchy-dracula-theme](https://github.com/catlee/omarchy-dracula-theme) - Popular Dracula theme adaptation.
 - [omarchy-rose-pine-dark](https://github.com/guilhermetk/omarchy-rose-pine-dark) - Rose Pine inspired dark theme.
 - [omarchy-flexoki-dark-theme](https://github.com/euandeas/omarchy-flexoki-dark-theme) - Flexoki color palette adaptation.
 - [omarchy-mars-theme](https://github.com/steve-lohmeyer/omarchy-mars-theme) - Mars-inspired red theme.
