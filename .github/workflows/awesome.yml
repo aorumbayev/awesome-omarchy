@@ -1,0 +1,50 @@
+name: Awesome List CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  awesome-lint:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Awesome Lint
+      uses: max/awesome-lint@v2
+      
+  format-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Install dependencies
+      run: |
+        npm install -g remark-cli remark-preset-lint-recommended remark-preset-lint-consistent
+        
+    - name: Lint markdown
+      run: |
+        remark --frail --quiet --no-stdout README.md CONTRIBUTING.md
+        
+  spell-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Check spelling
+      uses: crate-ci/typos@master
+      with:
+        files: '*.md'

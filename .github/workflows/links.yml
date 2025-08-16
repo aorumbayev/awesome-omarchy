@@ -1,0 +1,33 @@
+name: Check Links
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  schedule:
+    # Run weekly on Sundays at 00:00 UTC
+    - cron: '0 0 * * 0'
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Check links in README
+      uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        use-quiet-mode: 'yes'
+        use-verbose-mode: 'yes'
+        config-file: '.github/workflows/mlc_config.json'
+        
+    - name: Check links in CONTRIBUTING
+      uses: gaurav-nelson/github-action-markdown-link-check@v1
+      with:
+        use-quiet-mode: 'yes'
+        use-verbose-mode: 'yes'
+        config-file: '.github/workflows/mlc_config.json'
+        file-path: './CONTRIBUTING.md'
