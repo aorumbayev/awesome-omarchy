@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A curated list of awesome Omarchy themes, resources, and tools for the modern Arch Linux/Hyprland setup.">
+    <meta name="keywords" content="omarchy, arch linux, hyprland, themes, tools, awesome list, tokyo night">
+    <meta name="author" content="Awesome Omarchy Community">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Awesome Omarchy - Curated Resources">
+    <meta property="og:description" content="A curated list of awesome Omarchy themes, resources, and tools for the modern Arch Linux/Hyprland setup.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aorumbayev.github.io/awesome-omarchy/">
+    <meta property="og:image" content="https://aorumbayev.github.io/awesome-omarchy/og-image.png">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Awesome Omarchy - Curated Resources">
+    <meta name="twitter:description" content="A curated list of awesome Omarchy themes, resources, and tools for the modern Arch Linux/Hyprland setup.">
+    <meta name="twitter:image" content="https://aorumbayev.github.io/awesome-omarchy/og-image.png">
+    
+    <title>Awesome Omarchy</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧛</text></svg>">
+    
+    <style>
+        /* Tokyo Night Color Palette */
+        :root {
+            --bg-primary: #1a1b26;
+            --bg-secondary: #24283b;
+            --bg-tertiary: #414868;
+            --text-primary: #c0caf5;
+            --text-secondary: #9aa5ce;
+            --text-muted: #565f89;
+            --accent-blue: #7aa2f7;
+            --accent-purple: #bb9af7;
+            --accent-green: #9ece6a;
+            --accent-yellow: #e0af68;
+            --accent-red: #f7768e;
+            --accent-orange: #ff9e64;
+            --accent-cyan: #7dcfff;
+            --border-color: #3b4261;
+            --shadow: rgba(0, 0, 0, 0.3);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        /* Header Section */
+        .header {
+            text-align: center;
+            padding: 4rem 0 3rem;
+            position: relative;
+        }
+
+        .ascii-art {
+            font-family: 'Courier New', monospace;
+            font-size: clamp(0.3rem, 2vw, 0.8rem);
+            line-height: 1;
+            white-space: pre;
+            margin-bottom: 2rem;
+            overflow-x: auto;
+            padding: 1rem;
+        }
+
+        .ascii-awesome {
+            color: var(--accent-purple);
+            text-shadow: 0 0 10px var(--accent-purple);
+        }
+
+        .ascii-omarchy {
+            color: #9AC868;
+            text-shadow: 0 0 10px #9AC868;
+        }
+
+        .title {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: clamp(1rem, 3vw, 1.3rem);
+            color: var(--text-secondary);
+            margin-bottom: 2rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+
+
+        /* Top Icons Container */
+        .top-icons {
+            position: fixed;
+            top: 1.5rem;
+            right: 1.5rem;
+            display: flex;
+            gap: 0.75rem;
+            z-index: 1000;
+        }
+
+        .icon-button {
+            width: 2.5rem;
+            height: 2.5rem;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px var(--shadow);
+            cursor: pointer;
+        }
+
+        .icon-button:hover {
+            color: var(--bg-primary);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px var(--shadow);
+        }
+
+        .icon-button:hover:first-child {
+            background: var(--accent-purple);
+        }
+
+        .icon-button:hover:last-child {
+            background: var(--accent-blue);
+        }
+
+        /* Search Popup */
+        .search-popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(26, 27, 38, 0.95);
+            backdrop-filter: blur(8px);
+            display: none;
+            align-items: flex-start;
+            justify-content: center;
+            padding-top: 15vh;
+            z-index: 2000;
+        }
+
+        .search-popup.visible {
+            display: flex;
+        }
+
+        .search-container {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 1rem;
+            padding: 2rem;
+            max-width: 600px;
+            width: 90%;
+            max-height: 70vh;
+            overflow: hidden;
+            box-shadow: 0 8px 32px var(--shadow);
+        }
+
+        .search-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1.5rem;
+        }
+
+        .search-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--accent-blue);
+            margin: 0;
+        }
+
+        .search-close {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0.25rem;
+            border-radius: 50%;
+            transition: all 0.3s ease;
+            width: 2rem;
+            height: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .search-close:hover {
+            background: var(--bg-tertiary);
+            color: var(--text-primary);
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 1rem;
+            background: var(--bg-primary);
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            color: var(--text-primary);
+            font-size: 1rem;
+            outline: none;
+            transition: all 0.3s ease;
+            margin-bottom: 1rem;
+        }
+
+        .search-input:focus {
+            border-color: var(--accent-blue);
+            box-shadow: 0 0 0 3px rgba(122, 162, 247, 0.1);
+        }
+
+        .search-input::placeholder {
+            color: var(--text-muted);
+        }
+
+        .search-results {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .search-result-item {
+            padding: 1rem;
+            border-radius: 0.5rem;
+            margin-bottom: 0.5rem;
+            background: var(--bg-primary);
+            border: 1px solid transparent;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .search-result-item:hover {
+            border-color: var(--accent-blue);
+            background: var(--bg-tertiary);
+        }
+
+        .search-result-title {
+            font-weight: 600;
+            color: var(--accent-blue);
+            margin-bottom: 0.5rem;
+            font-size: 1rem;
+        }
+
+        .search-result-description {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .search-result-highlight {
+            background: rgba(187, 154, 247, 0.3);
+            color: var(--accent-purple);
+            padding: 0.1rem 0.2rem;
+            border-radius: 0.2rem;
+        }
+
+        .search-no-results {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+        }
+
+        .search-info {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+        }
+
+        /* Contribute Button */
+        .contribute-button {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.5rem 1rem;
+            background: var(--bg-primary);
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px var(--shadow);
+        }
+
+        .contribute-button:hover {
+            background: var(--accent-blue);
+            color: var(--bg-primary);
+            border-color: var(--accent-blue);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px var(--shadow);
+        }
+
+        .contribute-button svg {
+            transition: transform 0.3s ease;
+        }
+
+        .contribute-button:hover svg {
+            transform: scale(1.1);
+        }
+
+        /* Content Section */
+        .content-section {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 1rem;
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+
+        .content-header {
+            background: var(--bg-tertiary);
+            padding: 1rem 2rem;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .content-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--accent-cyan);
+        }
+
+        .content-body {
+            padding: 2rem;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+
+        /* Loading States */
+        .loading-spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 2px solid var(--border-color);
+            border-radius: 50%;
+            border-top-color: var(--accent-blue);
+            animation: spin 1s ease-in-out infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            color: var(--text-secondary);
+            font-style: italic;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        /* Error States */
+        .error-message {
+            background: rgba(247, 118, 142, 0.1);
+            border: 1px solid var(--accent-red);
+            border-radius: 0.5rem;
+            padding: 1rem;
+            color: var(--accent-red);
+            text-align: center;
+        }
+
+        /* Markdown Styling */
+        .markdown-content h1,
+        .markdown-content h2,
+        .markdown-content h3,
+        .markdown-content h4,
+        .markdown-content h5,
+        .markdown-content h6 {
+            color: var(--accent-blue);
+            margin: 1.5rem 0 1rem;
+            font-weight: 600;
+        }
+
+        .markdown-content h1 {
+            font-size: 2rem;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 0.5rem;
+        }
+
+        .markdown-content h2 {
+            font-size: 1.5rem;
+        }
+
+        .markdown-content h3 {
+            font-size: 1.3rem;
+        }
+
+        .markdown-content p {
+            margin: 1rem 0;
+            color: var(--text-primary);
+        }
+
+        .markdown-content ul,
+        .markdown-content ol {
+            margin: 1rem 0;
+            padding-left: 2rem;
+        }
+
+        .markdown-content li {
+            margin: 0.5rem 0;
+            color: var(--text-primary);
+        }
+
+        .markdown-content a {
+            color: var(--accent-blue);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s ease;
+        }
+
+        .markdown-content a:hover {
+            border-bottom-color: var(--accent-blue);
+        }
+
+        .markdown-content code {
+            background: var(--bg-primary);
+            color: var(--accent-cyan);
+            padding: 0.2rem 0.4rem;
+            border-radius: 0.3rem;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+
+        .markdown-content pre {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            padding: 1rem;
+            overflow-x: auto;
+            margin: 1rem 0;
+        }
+
+        .markdown-content pre code {
+            background: none;
+            padding: 0;
+        }
+
+        .markdown-content blockquote {
+            border-left: 4px solid var(--accent-purple);
+            padding-left: 1rem;
+            margin: 1rem 0;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        .markdown-content img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            margin: 1rem 0;
+        }
+
+        /* Badge Styling */
+        .markdown-content img[alt*="badge"],
+        .markdown-content img[src*="badge"],
+        .markdown-content img[src*="shields.io"] {
+            display: inline;
+            margin: 0 0.2rem;
+            vertical-align: middle;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 2rem 0;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-color);
+            margin-top: 3rem;
+        }
+
+        .footer a {
+            color: var(--accent-purple);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 1rem;
+            }
+
+            .header {
+                padding: 2rem 0 1rem;
+            }
+
+            .ascii-art {
+                font-size: clamp(0.2rem, 1.5vw, 0.4rem);
+                padding: 0.5rem;
+            }
+
+            .top-icons {
+                top: 1rem;
+                right: 1rem;
+                gap: 0.5rem;
+            }
+
+            .icon-button {
+                width: 2rem;
+                height: 2rem;
+                font-size: 1rem;
+            }
+
+            .search-container {
+                padding: 1.5rem;
+                width: 95%;
+            }
+
+            .search-popup {
+                padding-top: 10vh;
+            }
+
+            .content-header {
+                padding: 1rem;
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+
+            .content-body {
+                padding: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .ascii-art {
+                font-size: clamp(0.15rem, 1vw, 0.3rem);
+            }
+
+            .title {
+                font-size: 1.8rem;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+            }
+        }
+
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg-primary);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--bg-tertiary);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--accent-blue);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="ascii-art" id="asciiArt">
+<span class="ascii-awesome">
+   ▄████████  ▄█     █▄     ████████     ▄████████   ▄██████▄    ▄▄▄▄███▄▄▄▄      ████████   
+  ███    ███ ███     ███   ███    ███   ███    ███  ███    ███ ▄██▀▀▀███▀▀▀██▄   ███    ███ 
+  ███    ███ ███     ███   ███    █▀    ███    █▀   ███    ███ ███   ███   ███   ███    █▀  
+  ███    ███ ███     ███   ███▄▄▄       ███         ███    ███ ███   ███   ███  ▄███▄▄▄     
+▀███████████ ███     ███   ███▀▀▀       ██████████  ███    ███ ███   ███   ███ ▀▀███▀▀▀     
+  ███    ███ ███     ███   ███    █▄           ███  ███    ███ ███   ███   ███   ███    █▄  
+  ███    ███ ███ ▄█▄ ███   ███    ███    ▄█    ███  ███    ███ ███   ███   ███   ███    ███ 
+  ███    █▀   ▀███▀███▀    ██████████  ▄█████████▀   ▀██████▀   ▀█   ███   █▀    ██████████ 
+</span>
+<span class="ascii-omarchy">                 ▄▄▄
+ ▄█████▄    ▄███████████▄    ▄███████   ▄███████   ▄███████   ▄█   █▄    ▄█   █▄
+███   ███  ███   ███   ███  ███   ███  ███   ███  ███   ███  ███   ███  ███   ███
+███   ███  ███   ███   ███  ███   ███  ███   ███  ███   █▀   ███   ███  ███   ███
+███   ███  ███   ███   ███ ▄███▄▄▄███ ▄███▄▄▄██▀  ███       ▄███▄▄▄███▄ ███▄▄▄███
+███   ███  ███   ███   ███ ▀███▀▀▀███ ▀███▀▀▀▀    ███      ▀▀███▀▀▀███  ▀▀▀▀▀▀███
+███   ███  ███   ███   ███  ███   ███ ██████████  ███   █▄   ███   ███  ▄██   ███
+███   ███  ███   ███   ███  ███   ███  ███   ███  ███   ███  ███   ███  ███   ███
+ ▀█████▀    ▀█   ███   █▀   ███   █▀   ███   ███  ███████▀   ███   █▀    ▀█████▀
+                                       ███   █▀
+</span>            </div>
+            <p class="subtitle">A curated list of awesome Omarchy themes, resources, and tools for the modern Arch Linux/Hyprland setup</p>
+            
+
+        </header>
+
+        <!-- Top Icons -->
+        <div class="top-icons">
+            <button class="icon-button" onclick="toggleSearch()" title="Search repositories">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+            </button>
+            <a href="https://github.com/aorumbayev/awesome-omarchy" class="icon-button" target="_blank" rel="noopener" title="View on GitHub">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                </svg>
+            </a>
+        </div>
+
+        <!-- Search Popup -->
+        <div class="search-popup" id="searchPopup">
+            <div class="search-container">
+                <div class="search-header">
+                    <h3 class="search-title">🔍 Search Repositories</h3>
+                    <button class="search-close" onclick="toggleSearch()">×</button>
+                </div>
+                <input 
+                    type="text" 
+                    class="search-input" 
+                    id="searchInput"
+                    placeholder="Search by repository name or description..."
+                    autocomplete="off"
+                >
+                <div class="search-info" id="searchInfo">Type to search through repository names and descriptions</div>
+                <div class="search-results" id="searchResults"></div>
+            </div>
+        </div>
+
+        <!-- Content Section -->
+        <main class="content-section">
+            <div class="content-header">
+                <h2 class="content-title">📋 Curated Resources</h2>
+                <a href="https://github.com/aorumbayev/awesome-omarchy" target="_blank" rel="noopener" class="contribute-button" title="Contribute to Awesome Omarchy">
+                    <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" style="margin-right: 0.5rem;">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                    Contribute
+                </a>
+            </div>
+            <div class="content-body">
+                <div id="content" class="markdown-content">
+                    <div class="loading-text">
+                        <div class="loading-spinner"></div>
+                        <p>Fetching the latest awesome Omarchy resources...</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>
+                Built with 💜 for the Omarchy community • 
+                <a href="https://github.com/aorumbayev/awesome-omarchy" target="_blank" rel="noopener">Contribute on GitHub</a>
+            </p>
+            <p style="margin-top: 0.5rem; font-size: 0.8rem;">
+                Crafted by <a href="https://github.com/aorumbayev" target="_blank" rel="noopener">@aorumbayev</a>
+            </p>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.9.0/build/highlight.min.js"></script>
+    <script>
+        // --- Configuration ---
+        const CONFIG = {
+            GITHUB_API_URL: 'https://api.github.com/repos/aorumbayev/awesome-omarchy/contents/README.md',
+            CACHE_KEY: 'awesome-omarchy-content',
+            CACHE_TIMESTAMP_KEY: 'awesome-omarchy-timestamp',
+            CACHE_DURATION: 10 * 60 * 1000, // 10 minutes
+            RETRY_ATTEMPTS: 3,
+            RETRY_DELAY: 1000 // 1 second
+        };
+
+        // --- DOM Elements ---
+        const contentEl = document.getElementById('content');
+        const searchPopupEl = document.getElementById('searchPopup');
+        const searchInputEl = document.getElementById('searchInput');
+        const searchResultsEl = document.getElementById('searchResults');
+        const searchInfoEl = document.getElementById('searchInfo');
+
+        // --- State ---
+        let isLoading = false;
+        let repositories = [];
+        let isSearchOpen = false;
+
+        // --- Utilities ---
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+
+        // --- UI Functions ---
+        function showLoading() {
+            isLoading = true;
+            contentEl.innerHTML = `
+                <div class="loading-text">
+                    <div class="loading-spinner"></div>
+                    <p>Fetching the latest awesome Omarchy resources...</p>
+                </div>
+            `;
+        }
+
+        function hideLoading() {
+            isLoading = false;
+        }
+
+        function showError(message) {
+            hideLoading();
+            contentEl.innerHTML = `
+                <div class="error-message">
+                    <h3>⚠️ Failed to load content</h3>
+                    <p>${message}</p>
+                    <p style="margin-top: 1rem;">
+                        <button onclick="location.reload()" style="
+                            background: var(--accent-blue); 
+                            color: var(--bg-primary); 
+                            border: none; 
+                            padding: 0.5rem 1rem; 
+                            border-radius: 0.5rem; 
+                            cursor: pointer;
+                            transition: all 0.3s ease;
+                        ">Refresh Page</button>
+                    </p>
+                </div>
+            `;
+        }
+
+        // --- Cache Functions ---
+        function getCachedContent() {
+            try {
+                const content = localStorage.getItem(CONFIG.CACHE_KEY);
+                const timestamp = localStorage.getItem(CONFIG.CACHE_TIMESTAMP_KEY);
+                if (content && timestamp && (Date.now() - parseInt(timestamp) < CONFIG.CACHE_DURATION)) {
+                    return JSON.parse(content);
+                }
+            } catch (error) {
+                console.warn('Cache read error:', error);
+            }
+            return null;
+        }
+
+        function setCachedContent(content) {
+            try {
+                localStorage.setItem(CONFIG.CACHE_KEY, JSON.stringify(content));
+                localStorage.setItem(CONFIG.CACHE_TIMESTAMP_KEY, Date.now().toString());
+            } catch (error) {
+                console.warn('Cache write error:', error);
+            }
+        }
+
+        // --- API Functions ---
+        async function fetchWithRetry(url, options = {}) {
+            for (let i = 0; i < CONFIG.RETRY_ATTEMPTS; i++) {
+                try {
+                    const response = await fetch(url, {
+                        ...options,
+                        headers: {
+                            'Accept': 'application/vnd.github.v3+json',
+                            'User-Agent': 'awesome-omarchy-site/1.0',
+                            ...options.headers
+                        }
+                    });
+                    if (!response.ok) throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                    return response;
+                } catch (error) {
+                    if (i === CONFIG.RETRY_ATTEMPTS - 1) throw error;
+                    await new Promise(resolve => setTimeout(resolve, CONFIG.RETRY_DELAY * (i + 1)));
+                }
+            }
+        }
+
+        async function fetchReadmeContent() {
+            try {
+                const response = await fetchWithRetry(CONFIG.GITHUB_API_URL);
+                const data = await response.json();
+                if (!data.content) throw new Error('No content field in API response');
+                return atob(data.content);
+            } catch (error) {
+                console.error('Fetch error:', error);
+                if (error.message.includes('HTTP 403')) throw new Error('API rate limit exceeded.');
+                if (error.message.includes('HTTP 404')) throw new Error('Repository or README not found.');
+                if (!navigator.onLine) throw new Error('No internet connection detected.');
+                throw new Error(`Failed to fetch content: ${error.message}`);
+            }
+        }
+
+        // --- Content Rendering ---
+        function renderMarkdown(content) {
+            try {
+                marked.setOptions({
+                    breaks: true,
+                    gfm: true,
+                    highlight: function(code, lang) {
+                        const language = hljs.getLanguage(lang) ? lang : 'plaintext';
+                        return hljs.highlight(code, { language }).value;
+                    }
+                });
+                return marked.parse(content);
+            } catch (error) {
+                console.error('Markdown parsing error:', error);
+                return `<pre><code>${content}</code></pre>`;
+            }
+        }
+
+        function displayContent(content) {
+            try {
+                contentEl.innerHTML = renderMarkdown(content);
+                hideLoading();
+                extractRepositories(content);
+            } catch (error) {
+                console.error('Display error:', error);
+                showError('Failed to render content');
+            }
+        }
+
+        // --- Search Functions ---
+        function extractRepositories(content) {
+            repositories = [];
+            const lines = content.split('\n');
+            lines.forEach(line => {
+                const match = line.match(/- \[([^\]]+)\]\((https:\/\/github\.com\/[^)]+)\)(?: - (.+))?/);
+                if (match) {
+                    const [, name, url, description] = match;
+                    repositories.push({
+                        name: name.trim(),
+                        url: url.trim(),
+                        description: description ? description.trim() : '',
+                    });
+                }
+            });
+        }
+
+        function toggleSearch() {
+            isSearchOpen = !isSearchOpen;
+            searchPopupEl.classList.toggle('visible');
+            document.body.style.overflow = isSearchOpen ? 'hidden' : '';
+            if (isSearchOpen) {
+                searchInputEl.focus();
+            } else {
+                searchInputEl.value = '';
+                searchResultsEl.innerHTML = '';
+                searchInfoEl.textContent = 'Type to search through repository names and descriptions';
+            }
+        }
+
+        function highlightMatch(text, query) {
+            if (!text || !query) return text;
+            const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+            return text.replace(regex, '<span class="search-result-highlight">$1</span>');
+        }
+        
+        function openRepository(url) {
+            window.open(url, '_blank', 'noopener');
+        }
+
+        function performSearch(query) {
+            if (!query.trim()) {
+                searchResultsEl.innerHTML = '';
+                searchInfoEl.textContent = 'Type to search through repository names and descriptions';
+                return;
+            }
+
+            const lowercaseQuery = query.toLowerCase();
+            const matches = repositories.filter(repo =>
+                repo.name.toLowerCase().includes(lowercaseQuery) ||
+                repo.description.toLowerCase().includes(lowercaseQuery)
+            );
+
+            if (matches.length > 0) {
+                searchInfoEl.textContent = `Found ${matches.length} match${matches.length !== 1 ? 'es' : ''} for "${query}"`;
+                searchResultsEl.innerHTML = matches.map(repo => `
+                    <div class="search-result-item" onclick="openRepository('${repo.url}')">
+                        <div class="search-result-title">${highlightMatch(repo.name, query)}</div>
+                        <div class="search-result-description">${highlightMatch(repo.description, query) || 'No description available'}</div>
+                    </div>
+                `).join('');
+            } else {
+                searchInfoEl.textContent = `No matches found for "${query}"`;
+                searchResultsEl.innerHTML = `
+                    <div class="search-no-results">
+                        <h3>No matches found</h3>
+                        <p>No repositories found matching "<strong>${query}</strong>"</p>
+                    </div>
+                `;
+            }
+        }
+
+        // --- Main Application Logic ---
+        async function loadContent() {
+            if (isLoading) return;
+            showLoading();
+
+            const cachedContent = getCachedContent();
+            if (cachedContent) {
+                displayContent(cachedContent);
+            }
+
+            try {
+                const freshContent = await fetchReadmeContent();
+                setCachedContent(freshContent);
+                // Only re-render if content is new or wasn't cached
+                if (!cachedContent || cachedContent !== freshContent) {
+                    displayContent(freshContent);
+                }
+            } catch (error) {
+                console.error('Load error:', error);
+                if (!cachedContent) {
+                    showError(error.message);
+                }
+            }
+        }
+
+        // --- Initialization ---
+        document.addEventListener('DOMContentLoaded', () => {
+            loadContent();
+
+            const debouncedSearch = debounce(performSearch, 300);
+            searchInputEl.addEventListener('input', e => debouncedSearch(e.target.value));
+
+            document.addEventListener('keydown', e => {
+                if (e.key === 'Escape' && isSearchOpen) {
+                    toggleSearch();
+                }
+            });
+
+            searchPopupEl.addEventListener('click', e => {
+                if (e.target === searchPopupEl) {
+                    toggleSearch();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
