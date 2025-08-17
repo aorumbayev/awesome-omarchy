@@ -46,6 +46,7 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 
 ## Development Tools
 
+- [awesome-omarchy-tui](https://github.com/aorumbayev/awesome-omarchy-tui) - Terminal UI for browsing awesome-omarchy repository content.
 - [omarchy-ai](https://github.com/mitkox/omarchy-ai) - AI-powered enhancements and tools for Omarchy.
 - [omarchy-iso](https://github.com/omacom-io/omarchy-iso) - Custom ISO builder for Omarchy installations.
 - [omarchy-box](https://github.com/dylanbr/omarchy-box) - Containerized Omarchy environment.
