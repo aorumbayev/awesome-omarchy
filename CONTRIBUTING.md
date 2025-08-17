@@ -4,7 +4,7 @@ Quick guide for contributing to this curated list of Omarchy resources.
 
 ## What to Include
 
-✅ **Yes:** High-quality Omarchy themes, tools, guides, and related projects (5+ stars, actively maintained)  
+✅ **Yes:** High-quality Omarchy themes, tools, guides, and related projects (5+ stars, actively maintained)
 ❌ **No:** Broken links, duplicates, unrelated content, or low-quality resources
 
 ## How to Contribute

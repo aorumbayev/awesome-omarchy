@@ -65,7 +65,7 @@ repos:
         name: Check YAML Syntax
         description: "Validate YAML file syntax"
       - id: check-toml
-        name: Check TOML Syntax  
+        name: Check TOML Syntax
         description: "Validate TOML file syntax"
       - id: check-merge-conflict
         name: Check Merge Conflicts
