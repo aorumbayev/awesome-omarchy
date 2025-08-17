@@ -336,6 +336,119 @@
             transform: scale(1.1);
         }
 
+        /* Installation Section */
+        .installation-section {
+            background: transparent;
+            border: none;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            margin-top: 1rem;
+            box-shadow: none;
+            backdrop-filter: none;
+        }
+
+        .tab-container {
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        .tab-buttons {
+            display: flex;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 1rem;
+        }
+
+        .tab-button {
+            flex: 1;
+            background: transparent;
+            border: none;
+            padding: 0.5rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .tab-button.active {
+            color: var(--accent-primary);
+        }
+
+        .tab-button.active::after {
+            content: '';
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: var(--accent-primary);
+        }
+
+        .tab-button:hover {
+            color: var(--text-primary);
+        }
+
+        .tab-content {
+            position: relative;
+        }
+
+        .tab-pane {
+            display: none;
+        }
+
+        .tab-pane.active {
+            display: block;
+        }
+
+        .install-code {
+            background: var(--bg-primary);
+            border: 1px solid var(--border-color);
+            border-radius: 0.375rem;
+            padding: 0.75rem;
+            margin: 0;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .install-code code {
+            color: var(--accent-green);
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+            font-weight: 500;
+            background: none;
+            border: none;
+            padding: 0;
+            white-space: nowrap;
+            word-break: keep-all;
+        }
+
+        .install-code::before {
+            content: var(--before-content, '📋');
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            background: var(--bg-secondary);
+            color: var(--text-muted);
+            padding: 0.2rem 0.4rem;
+            border-radius: 0.2rem;
+            font-size: 0.7rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 1px solid var(--border-color);
+            min-width: 1.5rem;
+            text-align: center;
+        }
+
+        .install-code:hover::before {
+            background: var(--accent-primary);
+            color: var(--bg-primary);
+            border-color: var(--accent-primary);
+        }
+
         /* Content Section */
         .content-section {
             background: var(--bg-secondary);
@@ -364,8 +477,6 @@
 
         .content-body {
             padding: 2rem;
-            max-height: 70vh;
-            overflow-y: auto;
         }
 
         /* Loading States */
@@ -540,6 +651,31 @@
                 padding: 0.5rem;
             }
 
+            .installation-section {
+                padding: 0.75rem;
+                margin-bottom: 1rem;
+            }
+
+            .tab-button {
+                padding: 0.4rem;
+                font-size: 0.85rem;
+            }
+
+            .install-code {
+                padding: 0.6rem;
+            }
+
+            .install-code code {
+                font-size: 0.8rem;
+            }
+
+            .install-code::before {
+                font-size: 0.65rem;
+                padding: 0.15rem 0.3rem;
+                top: 0.4rem;
+                right: 0.4rem;
+            }
+
             .top-icons {
                 top: 1rem;
                 right: 1rem;
@@ -584,6 +720,33 @@
 
             .subtitle {
                 font-size: 1rem;
+            }
+
+            .installation-section {
+                padding: 0.5rem;
+            }
+
+            .tab-button {
+                padding: 0.35rem;
+                font-size: 0.8rem;
+            }
+
+            .install-code {
+                padding: 0.5rem;
+                padding-top: 1.5rem;
+            }
+
+            .install-code code {
+                font-size: 0.75rem;
+                word-break: break-all;
+                white-space: pre-wrap;
+            }
+
+            .install-code::before {
+                top: 0.3rem;
+                right: 0.3rem;
+                font-size: 0.6rem;
+                padding: 0.1rem 0.25rem;
             }
         }
 
@@ -639,6 +802,23 @@
 </span>            </div>
             <p class="subtitle">A curated list of awesome Omarchy themes, resources, and tools for the modern Arch Linux/Hyprland setup</p>
             
+            <!-- Installation Section -->
+            <div class="installation-section">
+                <div class="tab-container">
+                    <div class="tab-buttons">
+                        <button class="tab-button active" data-tab="unix">Unix</button>
+                        <button class="tab-button" data-tab="windows">Windows</button>
+                    </div>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="unix-tab">
+                            <pre class="install-code"><code>curl -fsSL https://tui.awesome-omarchy.com/install.sh | bash</code></pre>
+                        </div>
+                        <div class="tab-pane" id="windows-tab">
+                            <pre class="install-code"><code>iwr https://tui.awesome-omarchy.com/install.ps1 | iex</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </header>
 
@@ -679,12 +859,6 @@
         <main class="content-section">
             <div class="content-header">
                 <h2 class="content-title">📋 Curated Resources</h2>
-                <a href="https://github.com/aorumbayev/awesome-omarchy" target="_blank" rel="noopener" class="contribute-button" title="Contribute to Awesome Omarchy">
-                    <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" style="margin-right: 0.5rem;">
-                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
-                    </svg>
-                    Contribute
-                </a>
             </div>
             <div class="content-body">
                 <div id="content" class="markdown-content">
@@ -987,7 +1161,58 @@
                     toggleSearch();
                 }
             });
+
+            // Tab switching functionality
+            initializeTabs();
+            
+            // Copy functionality for install commands
+            initializeCopyButtons();
         });
+
+        // --- Tab Functions ---
+        function initializeTabs() {
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const tabPanes = document.querySelectorAll('.tab-pane');
+
+            tabButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const tabId = button.getAttribute('data-tab');
+                    
+                    // Remove active class from all buttons and panes
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    tabPanes.forEach(pane => pane.classList.remove('active'));
+                    
+                    // Add active class to clicked button and corresponding pane
+                    button.classList.add('active');
+                    document.getElementById(`${tabId}-tab`).classList.add('active');
+                });
+            });
+        }
+
+        // --- Copy Functions ---
+        function initializeCopyButtons() {
+            const installCodes = document.querySelectorAll('.install-code');
+            
+            installCodes.forEach(codeBlock => {
+                codeBlock.addEventListener('click', async () => {
+                    const code = codeBlock.querySelector('code').textContent;
+                    
+                    try {
+                        await navigator.clipboard.writeText(code);
+                        
+                        // Visual feedback with emoji
+                        codeBlock.style.setProperty('--before-content', '"✓"');
+                        
+                        setTimeout(() => {
+                            codeBlock.style.removeProperty('--before-content');
+                        }, 1500);
+                        
+                    } catch (err) {
+                        console.error('Failed to copy:', err);
+                    }
+                });
+            });
+        }
     </script>
 </body>
 </html>
