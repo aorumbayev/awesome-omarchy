@@ -43,6 +43,14 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-everblush-theme](https://github.com/Swarnim114/omarchy-everblush-theme) - Everblush color scheme adaptation.
 - [omarchy-hakker-green-theme](https://github.com/joaquinmeza/omarchy-hakker-green-theme) - Hacker-style green terminal theme.
 - [omarchy-synthwave84-theme](https://github.com/omacom-io/omarchy-synthwave84-theme) - Synthwave 84 inspired theme with retro aesthetics.
+- [omarchy-aura-theme](https://github.com/bjarneo/omarchy-aura-theme) - Aura theme providing visually appealing configuration set.
+- [omarchy-nes-theme](https://github.com/bjarneo/omarchy-nes-theme) - Retro NES theme with nostalgic gaming aesthetics.
+- [omarchy-serenity-theme](https://github.com/bjarneo/omarchy-serenity-theme) - Serenity theme with calm and peaceful color scheme.
+- [omarchy-snow-theme](https://github.com/bjarneo/omarchy-snow-theme) - Snow theme with clean winter-inspired aesthetics.
+- [omarchy-hollow-knight-theme](https://github.com/bjarneo/omarchy-hollow-knight-theme) - Hollow Knight inspired theme with gaming aesthetics.
+- [omarchy-fiery-ocean-theme](https://github.com/bjarneo/omarchy-fiery-ocean-theme) - Fiery Ocean theme with vibrant aquatic colors.
+- [omarchy-alabaster-theme](https://github.com/grierson/omarchy-alabaster-theme) - Alabaster theme with clean, minimalist design.
+- [omarchy-cobalt2-theme](https://github.com/hoblin/omarchy-cobalt2-theme) - Cobalt2 theme inspired by the iconic VSCode theme.
 
 ## Development Tools
 
@@ -54,12 +62,16 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-installer](https://github.com/omacom-io/omarchy-installer) - Enhanced installation utilities and scripts for Omarchy setup.
 - [omarchy-themes-generator](https://github.com/hipsterusername/omarchy-themes-generator) - Tool for generating custom Omarchy themes.
 - [omarchy-theme-generator](https://github.com/maxberggren/omarchy-theme-generator) - Alternative theme generation utility.
+- [omarchy-migrate](https://github.com/CyphrRiot/Migrate) - Stunningly beautiful terminal backup and restore tool written in Pure Go.
+- [omarchy-waybar](https://github.com/timmo001/omarchy-waybar) - Omarchy Waybar configuration and customizations.
+- [omarchy-hypr](https://github.com/timmo001/omarchy-hypr) - Omarchy Hyprland configuration files and settings.
 
 ## Related Projects
 
 - [j5onrf/dots](https://github.com/j5onrf/dots) - Hyprland dotfiles with Waybar and ML4W inspired by Omarchy aesthetics.
 - [CyphrRiot/ArchRiot](https://github.com/CyphrRiot/ArchRiot) - A curated Arch Linux experience inspired by Omarchy's philosophy.
 - [dougburks/ohmydebn](https://github.com/dougburks/ohmydebn) - A debonair Debian + Cinnamon setup inspired by Omarchy.
+- [alibaghernejad/waybar-privacy-dots](https://github.com/alibaghernejad/waybar-privacy-dots) - Privacy-first module for your Waybar status bar.
 
 ## Community Resources
 
