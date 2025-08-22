@@ -24,6 +24,7 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-titus](https://github.com/ChrisTitusTech/omarchy-titus) - Chris Titus Tech's customized version of Omarchy.
 - [armarchy](https://github.com/nilszeilon/armarchy) - ARM architecture-optimized fork of Omarchy.
 - [deckarchy](https://github.com/aorumbayev/deckarchy) - Steam Deck hardware fixes and optimizations for Omarchy installation.
+- [omadora](https://github.com/elpritchos/omadora) - Minimal Fedora install based on Omarchy.
 
 ## Themes
 
@@ -71,6 +72,9 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-velocity-theme](https://github.com/perfektnacht/omarchy-velocity-theme) - Dynamic theme with speed-inspired design elements.
 - [omarchy-wasteland-theme](https://github.com/perfektnacht/omarchy-wasteland-theme) - Post-apocalyptic wasteland-inspired color scheme.
 - [omarchy-waveform-dark-theme](https://github.com/hipsterusername/omarchy-waveform-dark-theme) - Dark theme with waveform-inspired design patterns.
+- [omarchy-motivator-theme](https://github.com/rondilley/omarchy-motivator-theme) - Omarchy Theme for maximum motivation.
+- [omarchy-archriot-theme](https://github.com/CyphrRiot/omarchy-archriot-theme) - ArchRiot theme for Omarchy by CyphrRiot.
+- [omarchy-ayu-dark-theme](https://github.com/fdidron/omarchy-ayu-dark-theme) - Omarchy Ayu Dark Theme.
 
 ## Development Tools
 
@@ -79,12 +83,17 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-iso](https://github.com/omacom-io/omarchy-iso) - Custom ISO builder for Omarchy installations.
 - [omarchy-box](https://github.com/dylanbr/omarchy-box) - Containerized Omarchy environment.
 - [omarchy-chromium](https://github.com/omacom-io/omarchy-chromium) - Chromium browser integration and optimizations for Omarchy.
+- [omarchy-configurator](https://github.com/omacom-io/omarchy-configurator) - Configuration management tool for Omarchy.
 - [omarchy-installer](https://github.com/omacom-io/omarchy-installer) - Enhanced installation utilities and scripts for Omarchy setup.
 - [omarchy-themes-generator](https://github.com/hipsterusername/omarchy-themes-generator) - Tool for generating custom Omarchy themes.
 - [omarchy-theme-generator](https://github.com/maxberggren/omarchy-theme-generator) - Alternative theme generation utility.
 - [omarchy-migrate](https://github.com/CyphrRiot/Migrate) - Stunningly beautiful terminal backup and restore tool written in Pure Go.
+- [omarchy-monitor-settings](https://github.com/ryanyogan/omarchy-monitor-settings) - Omarchy Monitor Settings TUI.
 - [omarchy-waybar](https://github.com/timmo001/omarchy-waybar) - Omarchy Waybar configuration and customizations.
 - [omarchy-hypr](https://github.com/timmo001/omarchy-hypr) - Omarchy Hyprland configuration files and settings.
+- [OMARCHY-VM-UTM](https://github.com/hjanuschka/OMARCHY-VM-UTM) - OMARCHY VM for UTM - Pre-configured Arch Linux virtual machine.
+- [omarchy-workspace-mover](https://github.com/jonashan/omarchy-workspace-mover) - A Omarchy plugin for moving workspaces between monitors.
+- [flutter_omarchy](https://github.com/aloisdeniel/flutter_omarchy) - Develop Flutter apps for Omarchy.
 
 ## Related Projects
 
@@ -96,6 +105,8 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 ## Community Resources
 
 - [GitHub Discussions](https://github.com/basecamp/omarchy/discussions) - Official community discussions and support.
+- [Omarchy on Raspberry Pi 5](https://github.com/basecamp/omarchy/discussions/642) - Community discussion on running Omarchy on Raspberry Pi 5.
+- [Omarchy on 11 inch MacBook Air](https://seanabrahams.com/linux/archlinux/macbook/omarchy/2025/08/07/omarchy-macbook-air.html) - Technical guide for installing Omarchy on a 2014 MacBook Air with WiFi configuration.
 - [GitHub Issues](https://github.com/basecamp/omarchy/issues) - Bug reports and feature requests.
 - [omarchy-theme Topic](https://github.com/topics/omarchy-theme) - Browse all repositories tagged with omarchy-theme.
 

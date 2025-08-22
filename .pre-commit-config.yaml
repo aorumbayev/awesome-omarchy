@@ -58,21 +58,27 @@ repos:
       - id: trailing-whitespace
         name: Trim Trailing Whitespace
         description: "Remove trailing whitespace"
+        exclude: ^\.pages/
       - id: end-of-file-fixer
         name: Fix End of Files
         description: "Ensure files end with a newline"
+        exclude: ^\.pages/
       - id: check-yaml
         name: Check YAML Syntax
         description: "Validate YAML file syntax"
+        exclude: ^\.pages/
       - id: check-toml
         name: Check TOML Syntax
         description: "Validate TOML file syntax"
+        exclude: ^\.pages/
       - id: check-merge-conflict
         name: Check Merge Conflicts
         description: "Check for merge conflict markers"
+        exclude: ^\.pages/
       - id: mixed-line-ending
         name: Mixed Line Ending
         description: "Replace or check mixed line endings"
+        exclude: ^\.pages/
 
 # CI Environment Setup (for local development)
 # These settings ensure your local environment matches CI
