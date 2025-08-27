@@ -19,7 +19,7 @@ Quick guide for contributing to this curated list of Omarchy resources.
 **Setup:**
 ```bash
 pip install pre-commit && pre-commit install
-npm install -g remark-cli remark-preset-lint-recommended remark-preset-lint-consistent
+# No additional setup needed - all tools use npx
 ```
 
 **Usage:**

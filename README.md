@@ -11,7 +11,9 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [Themes](#themes)
 - [Development Tools](#development-tools)
 - [Related Projects](#related-projects)
+- [Alternative Curated Lists](#alternative-curated-lists)
 - [Community Resources](#community-resources)
+- [Articles and Tutorials](#articles-and-tutorials)
 
 ## Official Resources
 
@@ -25,6 +27,8 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [armarchy](https://github.com/nilszeilon/armarchy) - ARM architecture-optimized fork of Omarchy.
 - [deckarchy](https://github.com/aorumbayev/deckarchy) - Steam Deck hardware fixes and optimizations for Omarchy installation.
 - [omadora](https://github.com/elpritchos/omadora) - Minimal Fedora install based on Omarchy.
+- [omarchy-cachyos](https://github.com/lentra0/omarchy-cachyos) - Opinionated CachyOS/Hyprland Setup.
+- [pomarchy](https://github.com/pgagnidze/pomarchy) - Opinionated Omarchy setup with additional customizations.
 
 ## Themes
 
@@ -75,6 +79,11 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-motivator-theme](https://github.com/rondilley/omarchy-motivator-theme) - Omarchy Theme for maximum motivation.
 - [omarchy-archriot-theme](https://github.com/CyphrRiot/omarchy-archriot-theme) - ArchRiot theme for Omarchy by CyphrRiot.
 - [omarchy-ayu-dark-theme](https://github.com/fdidron/omarchy-ayu-dark-theme) - Omarchy Ayu Dark Theme.
+- [omarchy-ayu-light-theme](https://github.com/fdidron/omarchy-ayu-light-theme) - Omarchy Ayu Light Theme.
+- [omarchy-fairyfloss-theme](https://github.com/jackdbai/omarchy-fairyfloss-theme) - Fairyfloss theme for Omarchy.
+- [omarchy-github-light-theme](https://github.com/ryanyogan/omarchy-github-light-theme) - GitHub Light theme adaptation.
+- [omarchy-vague-theme](https://github.com/Rnedlose/omarchy-vague-theme) - Theme based on the Vague neovim theme.
+- [omarchy-night-owl-theme](https://github.com/maxberggren/omarchy-night-owl-theme) - Dark blue night owl theme for Omarchy.
 
 ## Development Tools
 
@@ -94,6 +103,11 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [OMARCHY-VM-UTM](https://github.com/hjanuschka/OMARCHY-VM-UTM) - OMARCHY VM for UTM - Pre-configured Arch Linux virtual machine.
 - [omarchy-workspace-mover](https://github.com/jonashan/omarchy-workspace-mover) - A Omarchy plugin for moving workspaces between monitors.
 - [flutter_omarchy](https://github.com/aloisdeniel/flutter_omarchy) - Develop Flutter apps for Omarchy.
+- [omarchy-pkgs](https://github.com/omacom-io/omarchy-pkgs) - Official Omarchy packages and utilities.
+- [omarchy-cheat-sheet](https://github.com/acrogenesis/omarchy-cheat-sheet) - Quick reference guide for Omarchy commands and shortcuts.
+- [omarchy-theme-builder](https://github.com/jg-k/omarchy-theme-builder) - Advanced theme building tool for Omarchy.
+- [FW12Rotate](https://github.com/2disbetter/FW12Rotate) - Framework 12 rotation application specifically for Omarchy Linux.
+- [JaimeStill/omarchy-theme-generator](https://github.com/JaimeStill/omarchy-theme-generator) - Generate Omarchy themes based on images.
 
 ## Related Projects
 
@@ -102,6 +116,11 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [dougburks/ohmydebn](https://github.com/dougburks/ohmydebn) - A debonair Debian + Cinnamon setup inspired by Omarchy.
 - [alibaghernejad/waybar-privacy-dots](https://github.com/alibaghernejad/waybar-privacy-dots) - Privacy-first module for your Waybar status bar.
 
+## Alternative Curated Lists
+
+- [Wheel-Smith/awesome-omarchy](https://github.com/Wheel-Smith/awesome-omarchy) - Alternative curated list of Omarchy resources with explicit focus on theme resources with screenshot previews.
+- [Alexx2/omarchy-themes](https://github.com/Alexx2/omarchy-themes) - Personal collection of Omarchy themes.
+
 ## Community Resources
 
 - [GitHub Discussions](https://github.com/basecamp/omarchy/discussions) - Official community discussions and support.
@@ -109,6 +128,17 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [Omarchy on 11 inch MacBook Air](https://seanabrahams.com/linux/archlinux/macbook/omarchy/2025/08/07/omarchy-macbook-air.html) - Technical guide for installing Omarchy on a 2014 MacBook Air with WiFi configuration.
 - [GitHub Issues](https://github.com/basecamp/omarchy/issues) - Bug reports and feature requests.
 - [omarchy-theme Topic](https://github.com/topics/omarchy-theme) - Browse all repositories tagged with omarchy-theme.
+
+## Articles and Tutorials
+
+- [All-in on Omarchy at 37signals](https://world.hey.com/dhh/all-in-on-omarchy-at-37signals-68162450) - DHH's announcement about 37signals adopting Omarchy company-wide.
+- [My Journey from macOS to Arch Linux with Omarchy](https://www.ssp.sh/blog/macbook-to-arch-linux-omarchy/) - Sean Abrahams' detailed experience switching from a MacBook Pro to Linux with Omarchy.
+- [Why I Switched to Omarchy (and Why You Might Too)](https://medium.com/@prathamgundikere/why-i-switched-to-omarchy-and-why-you-might-too-617d84ac63ce) - Medium article about discovering and adopting Omarchy.
+- [This One Command Turned My Arch Install Into a Beautiful Hyprland Setup](https://news.itsfoss.com/omarchy/) - It's FOSS review of Omarchy installation and features.
+- [Installing Omarchy on Arch - iFixit Repair Guide](https://www.ifixit.com/Guide/Installing+Omarchy+on+Arch/190367) - Step-by-step installation guide on iFixit.
+
+- [Installing Omarchy via Arch Linux on macOS](https://deepakness.com/raw/installing-arch-omarchy-on-mac/) - Guide for installing on Mac hardware.
+- [Configuring Omarchy on Beelink](https://www.dennisokeeffe.com/blog/2025-07-17-configuring-arch-linux-omarchy-via-mac) - Configuration guide for Beelink mini PCs.
 
 ## Contributing
 

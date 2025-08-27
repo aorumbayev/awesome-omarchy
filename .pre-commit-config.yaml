@@ -13,20 +13,20 @@ repos:
         language: system
         files: README\.md$
         description: "Validate README.md against awesome list standards"
-        pass_filenames: true
+        pass_filenames: false
         require_serial: true
 
   # Markdown Formatting and Linting
   - repo: local
     hooks:
-      - id: remark-lint
-        name: Markdown Lint (remark)
-        entry: bash -c 'npx remark --frail --quiet --no-stdout README.md CONTRIBUTING.md'
-        language: system
-        files: \.(md|markdown)$
-        description: "Lint markdown files with remark-cli"
-        pass_filenames: false
-        require_serial: true
+       - id: remark-lint
+         name: Markdown Lint (remark)
+         entry: bash -c 'npx remark --frail --quiet --no-stdout README.md CONTRIBUTING.md'
+         language: system
+         files: \.(md|markdown)$
+         description: "Lint markdown files with remark-cli"
+         pass_filenames: false
+         require_serial: true
 
   # Spell Checking
   - repo: https://github.com/crate-ci/typos
