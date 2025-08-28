@@ -22,12 +22,13 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 
 ## Alternative Implementations
 
-- [omarchy-nix](https://github.com/henrysipp/omarchy-nix) - NixOS version of Omarchy with declarative configuration.
-- [omarchy-titus](https://github.com/ChrisTitusTech/omarchy-titus) - Chris Titus Tech's customized version of Omarchy.
 - [armarchy](https://github.com/nilszeilon/armarchy) - ARM architecture-optimized fork of Omarchy.
 - [deckarchy](https://github.com/aorumbayev/deckarchy) - Steam Deck hardware fixes and optimizations for Omarchy installation.
+- [hyprwhspr](https://github.com/goodroot/hyprwhspr)  -  Native speech-to-text for Arch / Omarchy - Fast, accurate and easy system-wide Whisper dictation.
 - [omadora](https://github.com/elpritchos/omadora) - Minimal Fedora install based on Omarchy.
 - [omarchy-cachyos](https://github.com/lentra0/omarchy-cachyos) - Opinionated CachyOS/Hyprland Setup.
+- [omarchy-nix](https://github.com/henrysipp/omarchy-nix) - NixOS version of Omarchy with declarative configuration.
+- [omarchy-titus](https://github.com/ChrisTitusTech/omarchy-titus) - Chris Titus Tech's customized version of Omarchy.
 - [pomarchy](https://github.com/pgagnidze/pomarchy) - Opinionated Omarchy setup with additional customizations.
 
 ## Themes
