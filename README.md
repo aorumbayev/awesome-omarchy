@@ -109,6 +109,7 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-theme-builder](https://github.com/jg-k/omarchy-theme-builder) - Advanced theme building tool for Omarchy.
 - [FW12Rotate](https://github.com/2disbetter/FW12Rotate) - Framework 12 rotation application specifically for Omarchy Linux.
 - [JaimeStill/omarchy-theme-generator](https://github.com/JaimeStill/omarchy-theme-generator) - Generate Omarchy themes based on images.
+- [omarchist](https://github.com/tahayvr/omarchist) - GUI app for Omarchy with visual theme designer built with Tauri/Rust/Svelte.
 
 ## Related Projects
 
