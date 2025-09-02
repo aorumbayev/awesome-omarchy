@@ -483,6 +483,13 @@
             border-color: var(--accent-primary);
         }
 
+        .install-note {
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 0.75rem;
+        }
+
         /* Content Section */
         .content-section {
             background: var(--bg-secondary);
@@ -840,8 +847,7 @@
             <div class="installation-section">
                 <div class="tab-container">
                     <div class="tab-buttons">
-                        <button class="tab-button active" data-tab="arch-yay">Arch (yay)</button>
-                        <button class="tab-button" data-tab="arch-pacman">Arch (pacman)</button>
+                        <button class="tab-button active" data-tab="arch-yay">AUR</button>
                         <button class="tab-button" data-tab="unix">Unix</button>
                         <button class="tab-button" data-tab="cargo">Cargo</button>
                         <button class="tab-button" data-tab="windows">Windows</button>
@@ -849,9 +855,6 @@
                     <div class="tab-content">
                         <div class="tab-pane active" id="arch-yay-tab">
                             <pre class="install-code"><code>yay -Sy awesome-omarchy-tui-bin</code></pre>
-                        </div>
-                        <div class="tab-pane" id="arch-pacman-tab">
-                            <pre class="install-code"><code>pacman -Sy awesome-omarchy-tui-bin</code></pre>
                         </div>
                         <div class="tab-pane" id="unix-tab">
                             <pre class="install-code"><code>curl -fsSL https://tui.awesome-omarchy.com/install.sh | bash</code></pre>
@@ -864,6 +867,7 @@
                         </div>
                     </div>
                 </div>
+                <p class="install-note">After installation - use 'awsomarchy' alias to run the executable</p>
             </div>
 
         </header>
