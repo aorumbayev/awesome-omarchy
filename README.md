@@ -30,6 +30,7 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-nix](https://github.com/henrysipp/omarchy-nix) - NixOS version of Omarchy with declarative configuration.
 - [omarchy-titus](https://github.com/ChrisTitusTech/omarchy-titus) - Chris Titus Tech's customized version of Omarchy.
 - [pomarchy](https://github.com/pgagnidze/pomarchy) - Opinionated Omarchy setup with additional customizations.
+- [typecraft-dev/omarchy-supplement](https://github.com/typecraft-dev/omarchy-supplement) - Additional packages, dotfiles, and overrides to be used after installing Omarchy.
 
 ## Themes
 
@@ -85,6 +86,15 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-github-light-theme](https://github.com/ryanyogan/omarchy-github-light-theme) - GitHub Light theme adaptation.
 - [omarchy-vague-theme](https://github.com/Rnedlose/omarchy-vague-theme) - Theme based on the Vague neovim theme.
 - [omarchy-night-owl-theme](https://github.com/maxberggren/omarchy-night-owl-theme) - Dark blue night owl theme for Omarchy.
+- [omarchy-catppuccin-mocha-theme](https://github.com/KidDogDad/omarchy-catppuccin-mocha-theme) - Catppuccin Mocha theme for Omarchy.
+- [omarchy-kanagawa-dragon-theme](https://github.com/MrTrigger/omarchy-kanagawa-dragon-theme) - Kanagawa Dragon theme adaptation.
+- [omarchy-monokai-dark-theme](https://github.com/ericrswanny/omarchy-monokai-dark-theme) - Monokai inspired dark theme.
+- [omarchy-obsidian-theme](https://github.com/Hydradevx/omarchy-obsidian-theme) - Obsidian-inspired dark theme.
+- [omarchy-rose-pine-dawn-theme](https://github.com/ryanyogan/omarchy-rose-pine-dawn-theme) - Rose Pine Dawn light theme.
+- [omarchy-rose-pine](https://github.com/guilhermetk/omarchy-rose-pine) - Rose Pine theme for Omarchy.
+- [omarchy-anonymous-theme](https://github.com/j4v3l/omarchy-anonymous-theme) - Minimalist monochrome modern theme.
+- [omarchy-firesky-theme](https://github.com/bjarneo/omarchy-firesky-theme) - Fire-lit sky inspired theme for deep focus.
+- [omarchy-wood-theme](https://github.com/bjarneo/omarchy-wood-theme) - Natural wood-inspired theme.
 
 ## Development Tools
 
@@ -106,10 +116,14 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [flutter_omarchy](https://github.com/aloisdeniel/flutter_omarchy) - Develop Flutter apps for Omarchy.
 - [omarchy-pkgs](https://github.com/omacom-io/omarchy-pkgs) - Official Omarchy packages and utilities.
 - [omarchy-cheat-sheet](https://github.com/acrogenesis/omarchy-cheat-sheet) - Quick reference guide for Omarchy commands and shortcuts.
+- [omarchy-theme-builder](https://github.com/gitcoder89431/omarchy-theme-builder) - Interactive, real-time theme builder for Omarchy.
 - [omarchy-theme-builder](https://github.com/jg-k/omarchy-theme-builder) - Advanced theme building tool for Omarchy.
 - [FW12Rotate](https://github.com/2disbetter/FW12Rotate) - Framework 12 rotation application specifically for Omarchy Linux.
 - [JaimeStill/omarchy-theme-generator](https://github.com/JaimeStill/omarchy-theme-generator) - Generate Omarchy themes based on images.
 - [omarchist](https://github.com/tahayvr/omarchist) - GUI app for Omarchy with visual theme designer built with Tauri/Rust/Svelte.
+- [omarchy-enhanced-bindings](https://github.com/nemuiyarou/omarchy-enhanced-bindings) - Enhanced keyboard bindings for Omarchy.
+- [Adsovetzky-Omarchy-s-Waybar](https://github.com/adsovetzky/Adsovetzky-Omarchy-s-Waybar) - Custom Waybar configurations for Omarchy.
+- [omarchy-gui](https://github.com/amanat361/omarchy-gui) - GUI tools for Omarchy configuration.
 
 ## Related Projects
 
@@ -117,6 +131,8 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [CyphrRiot/ArchRiot](https://github.com/CyphrRiot/ArchRiot) - A curated Arch Linux experience inspired by Omarchy's philosophy.
 - [dougburks/ohmydebn](https://github.com/dougburks/ohmydebn) - A debonair Debian + Cinnamon setup inspired by Omarchy.
 - [alibaghernejad/waybar-privacy-dots](https://github.com/alibaghernejad/waybar-privacy-dots) - Privacy-first module for your Waybar status bar.
+- [omarchy-site](https://github.com/omacom-io/omarchy-site) - Official Omarchy website source code.
+- [omarchy-mirror](https://github.com/omacom-io/omarchy-mirror) - Dedicated mirror of Arch repositories for Omarchy hosted on Cloudflare R2.
 
 ## Alternative Curated Lists
 
