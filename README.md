@@ -24,7 +24,7 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 
 - [armarchy](https://github.com/nilszeilon/armarchy) - ARM architecture-optimized fork of Omarchy.
 - [deckarchy](https://github.com/aorumbayev/deckarchy) - Steam Deck hardware fixes and optimizations for Omarchy installation.
-- [hyprwhspr](https://github.com/goodroot/hyprwhspr)  -  Native speech-to-text for Arch / Omarchy - Fast, accurate and easy system-wide Whisper dictation.
+- [hyprwhspr](https://github.com/goodroot/hyprwhspr) - Native speech-to-text for Arch / Omarchy - Fast, accurate and easy system-wide Whisper dictation.
 - [omadora](https://github.com/elpritchos/omadora) - Minimal Fedora install based on Omarchy.
 - [omarchy-cachyos](https://github.com/lentra0/omarchy-cachyos) - Opinionated CachyOS/Hyprland Setup.
 - [omarchy-nix](https://github.com/henrysipp/omarchy-nix) - NixOS version of Omarchy with declarative configuration.
@@ -76,6 +76,7 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-synthwave84-theme](https://github.com/omacom-io/omarchy-synthwave84-theme) - Synthwave 84 inspired theme with retro aesthetics.
 - [omarchy-tekk-o-ween-theme](https://github.com/joaquinmeza/omarchy-tekk-o-ween-theme) - Halloween-themed design with technical elements.
 - [omarchy-velocity-theme](https://github.com/perfektnacht/omarchy-velocity-theme) - Dynamic theme with speed-inspired design elements.
+- [omarchy-void-theme](https://github.com/vyrx-dev/omarchy-void-theme.git) - Void – Low-contrast purple theme with soft accents for a calm UI.
 - [omarchy-wasteland-theme](https://github.com/perfektnacht/omarchy-wasteland-theme) - Post-apocalyptic wasteland-inspired color scheme.
 - [omarchy-waveform-dark-theme](https://github.com/hipsterusername/omarchy-waveform-dark-theme) - Dark theme with waveform-inspired design patterns.
 - [omarchy-motivator-theme](https://github.com/rondilley/omarchy-motivator-theme) - Omarchy Theme for maximum motivation.
