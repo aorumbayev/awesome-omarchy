@@ -41,6 +41,7 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-all-hallows-eve-theme](https://github.com/guilhermetk/omarchy-all-hallows-eve-theme) - Dark Halloween-inspired theme with spooky aesthetics.
 - [omarchy-ash-theme](https://github.com/bjarneo/omarchy-ash-theme) - Subtle ash-gray color scheme.
 - [omarchy-aura-theme](https://github.com/bjarneo/omarchy-aura-theme) - Aura theme providing visually appealing configuration set.
+- [omarchy-ayaka-theme](https://github.com/abhijeet-swami/omarchy-ayaka-theme) - Minimalist theme with glass-like blur effects and vibrant accents.
 - [omarchy-ayu-mirage-theme](https://github.com/fdidron/omarchy-ayumirage) - Ayu Mirage color scheme adaptation with balanced contrast.
 - [omarchy-azure-glow-theme](https://github.com/Hydradevx/omarchy-azure-glow-theme) - Azure blue theme with glowing accents.
 - [omarchy-bauhaus-theme](https://github.com/somerocketeer/omarchy-bauhaus-theme) - Minimalist theme inspired by Bauhaus design principles.
