@@ -32,7 +32,6 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [pomarchy](https://github.com/pgagnidze/pomarchy) - Opinionated Omarchy setup with additional customizations.
 - [typecraft-dev/omarchy-supplement](https://github.com/typecraft-dev/omarchy-supplement) - Additional packages, dotfiles, and overrides to be used after installing Omarchy.
 - [harilvfs/omarchy](https://github.com/harilvfs/omarchy) - Opinionated Arch/Hyprland Setup.
-- [omarchy-minimal](https://github.com/Ashmin-Bhujel/omarchy-minimal) - Opinionated Arch/Hyprland Minimal Setup.
 - [omarchy-hub](https://github.com/deepakness/omarchy-hub) - A comprehensive resource library for Omarchy Linux.
 
 ## Themes
@@ -41,8 +40,11 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-all-hallows-eve-theme](https://github.com/guilhermetk/omarchy-all-hallows-eve-theme) - Dark Halloween-inspired theme with spooky aesthetics.
 - [omarchy-ash-theme](https://github.com/bjarneo/omarchy-ash-theme) - Subtle ash-gray color scheme.
 - [omarchy-aura-theme](https://github.com/bjarneo/omarchy-aura-theme) - Aura theme providing visually appealing configuration set.
+- [omarchy-ayaka-theme](https://github.com/abhijeet-swami/omarchy-ayaka-theme) - Minimalist theme with glass-like blur effects and vibrant accents.
 - [omarchy-ayu-mirage-theme](https://github.com/fdidron/omarchy-ayumirage) - Ayu Mirage color scheme adaptation with balanced contrast.
 - [omarchy-azure-glow-theme](https://github.com/Hydradevx/omarchy-azure-glow-theme) - Azure blue theme with glowing accents.
+- [omarchy-bauhaus-theme](https://github.com/somerocketeer/omarchy-bauhaus-theme) - Minimalist theme inspired by Bauhaus design principles.
+- [omarchy-blackturq-theme](https://github.com/HANCORE-linux/omarchy-blackturq-theme) - Black turquoise theme based on Evo80 keyboard color pattern.
 - [omarchy-blueridge-dark-theme](https://github.com/hipsterusername/omarchy-blueridge-dark-theme) - Dark theme inspired by mountain ridge aesthetics.
 - [omarchy-cobalt2-theme](https://github.com/hoblin/omarchy-cobalt2-theme) - Cobalt2 theme inspired by the iconic VSCode theme.
 - [omarchy-crimson-gold-theme](https://github.com/knappkevin/omarchy-crimson-gold-theme) - Luxurious crimson and gold color combination.
@@ -56,6 +58,7 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-forest-green-theme](https://github.com/abhijeet-swami/omarchy-forest-green-theme) - Nature-inspired forest green color scheme.
 - [omarchy-futurism-theme](https://github.com/bjarneo/omarchy-futurism-theme) - Futuristic theme with modern aesthetics.
 - [omarchy-gold-rush-theme](https://github.com/tahayvr/omarchy-gold-rush-theme) - Luxurious gold-themed color scheme.
+- [omarchy-green-garden-theme](https://github.com/kalk-ak/omarchy-green-garden-theme) - Fresh and calming theme inspired by nature with vibrant yet soothing green tones.
 - [omarchy-hakker-green-theme](https://github.com/joaquinmeza/omarchy-hakker-green-theme) - Hacker-style green terminal theme.
 - [omarchy-hollow-knight-theme](https://github.com/bjarneo/omarchy-hollow-knight-theme) - Hollow Knight inspired theme with gaming aesthetics.
 - [omarchy-kimiko-theme](https://github.com/krymzonn/omarchy-kimiko-theme) - Elegant theme with Japanese-inspired aesthetics.
@@ -65,10 +68,13 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-milkmatcha-light-theme](https://github.com/hipsterusername/omarchy-milkmatcha-light-theme) - Light theme with soft matcha green and creamy colors.
 - [omarchy-monochrome-theme](https://github.com/Swarnim114/omarchy-monochrome-theme) - Clean monochrome design.
 - [omarchy-nes-theme](https://github.com/bjarneo/omarchy-nes-theme) - Retro NES theme with nostalgic gaming aesthetics.
+- [omarchy-nagai-twilight-theme](https://github.com/somerocketeer/omarchy-nagai-twilight-theme) - Twilight-inspired theme with elegant color transitions.
 - [omarchy-one-dark-pro-theme](https://github.com/sc0ttman/omarchy-one-dark-pro) - One Dark Pro color scheme adaptation.
 - [omarchy-osaka-jade-theme](https://github.com/Justikun/omarchy-osaka-jade-theme) - Elegant jade-colored theme inspired by Osaka aesthetics.
 - [omarchy-pretty-cvnt-theme](https://github.com/WalkerMillgress/omarchy-pretty-cvnt-theme) - Vibrant theme with bold color contrasts.
+- [omarchy-purplewave-theme](https://github.com/dotsilva/omarchy-purplewave-theme) - Purple wave-inspired theme with elegant purple tones.
 - [omarchy-retropc-theme](https://github.com/rondilley/omarchy-retropc-theme) - Nostalgic retro PC theme with vintage computing aesthetics.
+- [omarchy-retro-fallout-theme](https://github.com/zdravkodanailov7/omarchy-retro-fallout-theme) - Post-apocalyptic theme with Vault-inspired colors and Fallout-themed styling.
 - [omarchy-rose-pine-dark](https://github.com/guilhermetk/omarchy-rose-pine-dark) - Rose Pine inspired dark theme.
 - [omarchy-serenity-theme](https://github.com/bjarneo/omarchy-serenity-theme) - Serenity theme with calm and peaceful color scheme.
 - [omarchy-snow-theme](https://github.com/bjarneo/omarchy-snow-theme) - Snow theme with clean winter-inspired aesthetics.
@@ -77,8 +83,8 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-solarized-theme](https://github.com/Gazler/omarchy-solarized-theme) - Classic Solarized color scheme adaptation.
 - [omarchy-space-monkey-theme](https://github.com/TyRichards/omarchy-space-monkey-theme) - Space-inspired theme with cosmic elements.
 - [omarchy-synthwave84-theme](https://github.com/omacom-io/omarchy-synthwave84-theme) - Synthwave 84 inspired theme with retro aesthetics.
-- [omarchy-tekk-o-ween-theme](https://github.com/joaquinmeza/omarchy-tekk-o-ween-theme) - Halloween-themed design with technical elements.
 - [omarchy-velocity-theme](https://github.com/perfektnacht/omarchy-velocity-theme) - Dynamic theme with speed-inspired design elements.
+- [omarchy-vhs80-theme](https://github.com/tahayvr/omarchy-vhs80-theme) - Retro VHS-inspired theme with 80s aesthetics and neon colors.
 - [omarchy-void-theme](https://github.com/vyrx-dev/omarchy-void-theme.git) - Void – Low-contrast purple theme with soft accents for a calm UI.
 - [omarchy-wasteland-theme](https://github.com/perfektnacht/omarchy-wasteland-theme) - Post-apocalyptic wasteland-inspired color scheme.
 - [omarchy-waveform-dark-theme](https://github.com/hipsterusername/omarchy-waveform-dark-theme) - Dark theme with waveform-inspired design patterns.
