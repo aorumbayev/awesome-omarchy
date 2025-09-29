@@ -32,7 +32,6 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [pomarchy](https://github.com/pgagnidze/pomarchy) - Opinionated Omarchy setup with additional customizations.
 - [typecraft-dev/omarchy-supplement](https://github.com/typecraft-dev/omarchy-supplement) - Additional packages, dotfiles, and overrides to be used after installing Omarchy.
 - [harilvfs/omarchy](https://github.com/harilvfs/omarchy) - Opinionated Arch/Hyprland Setup.
-- [omarchy-minimal](https://github.com/Ashmin-Bhujel/omarchy-minimal) - Opinionated Arch/Hyprland Minimal Setup.
 - [omarchy-hub](https://github.com/deepakness/omarchy-hub) - A comprehensive resource library for Omarchy Linux.
 
 ## Themes
@@ -84,7 +83,6 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-solarized-theme](https://github.com/Gazler/omarchy-solarized-theme) - Classic Solarized color scheme adaptation.
 - [omarchy-space-monkey-theme](https://github.com/TyRichards/omarchy-space-monkey-theme) - Space-inspired theme with cosmic elements.
 - [omarchy-synthwave84-theme](https://github.com/omacom-io/omarchy-synthwave84-theme) - Synthwave 84 inspired theme with retro aesthetics.
-- [omarchy-tekk-o-ween-theme](https://github.com/joaquinmeza/omarchy-tekk-o-ween-theme) - Halloween-themed design with technical elements.
 - [omarchy-velocity-theme](https://github.com/perfektnacht/omarchy-velocity-theme) - Dynamic theme with speed-inspired design elements.
 - [omarchy-vhs80-theme](https://github.com/tahayvr/omarchy-vhs80-theme) - Retro VHS-inspired theme with 80s aesthetics and neon colors.
 - [omarchy-void-theme](https://github.com/vyrx-dev/omarchy-void-theme.git) - Void – Low-contrast purple theme with soft accents for a calm UI.
