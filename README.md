@@ -46,6 +46,7 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-bauhaus-theme](https://github.com/somerocketeer/omarchy-bauhaus-theme) - Minimalist theme inspired by Bauhaus design principles.
 - [omarchy-blackturq-theme](https://github.com/HANCORE-linux/omarchy-blackturq-theme) - Black turquoise theme based on Evo80 keyboard color pattern.
 - [omarchy-blueridge-dark-theme](https://github.com/hipsterusername/omarchy-blueridge-dark-theme) - Dark theme inspired by mountain ridge aesthetics.
+- [omarchy-c64-theme](https://github.com/scar45/omarchy-c64-theme) - Nostalgic double-blue theme inspired by the Commodore 64.
 - [omarchy-cobalt2-theme](https://github.com/hoblin/omarchy-cobalt2-theme) - Cobalt2 theme inspired by the iconic VSCode theme.
 - [omarchy-crimson-gold-theme](https://github.com/knappkevin/omarchy-crimson-gold-theme) - Luxurious crimson and gold color combination.
 - [omarchy-dracula-theme](https://github.com/catlee/omarchy-dracula-theme) - Popular Dracula theme adaptation.
