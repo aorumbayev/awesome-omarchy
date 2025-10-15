@@ -3,29 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover the best Omarchy themes, tools and resources for Arch Linux with Hyprland. Curated collection of themes, configurations, and utilities for modern Linux desktop setups.">
-    <meta name="keywords" content="omarchy, arch linux, hyprland, themes, tools, awesome list, tokyo night">
+    <meta name="description" content="Discover standout Omarchy themes, curated Hyprland setups, and developer tooling for modern Arch Linux desktops.">
+    <meta name="keywords" content="omarchy, arch linux, hyprland, arch linux themes, hyprland themes, omarchy tools, omarchy resources, hyprland configuration, arch linux hyprland">
     <meta name="author" content="Awesome Omarchy Community">
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="application-name" content="Awesome Omarchy">
     <link rel="canonical" href="https://awesome-omarchy.com/">
     <meta name="theme-color" content="#0a0a0a">
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Awesome Omarchy - Curated Arch Linux/Hyprland Themes & Tools">
-    <meta property="og:description" content="Discover the best Omarchy themes, tools and resources for Arch Linux with Hyprland. Curated collection of themes, configurations, and utilities for modern Linux desktop setups.">
+    <meta property="og:description" content="Explore the best Omarchy themes, Hyprland configurations, and productivity tools for a polished Arch Linux desktop.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://awesome-omarchy.com/">
-    <meta property="og:image" content="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230a0a0a'/><text y='60' x='50' font-size='40' text-anchor='middle' fill='white'>💻</text></svg>">
+    <meta property="og:site_name" content="Awesome Omarchy">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://awesome-omarchy.com/opengraph-image.svg">
+    <meta property="og:image:secure_url" content="https://awesome-omarchy.com/opengraph-image.svg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/svg+xml">
+    <meta property="og:image:alt" content="Awesome Omarchy - curated Omarchy themes and tools banner">
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Awesome Omarchy - Curated Arch Linux/Hyprland Themes & Tools">
-    <meta name="twitter:description" content="Discover the best Omarchy themes, tools and resources for Arch Linux with Hyprland. Curated collection of themes, configurations, and utilities for modern Linux desktop setups.">
-    <meta name="twitter:image" content="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%230a0a0a'/><text y='60' x='50' font-size='40' text-anchor='middle' fill='white'>💻</text></svg>">
+    <meta name="twitter:description" content="Explore the best Omarchy themes, Hyprland configurations, and productivity tools for a polished Arch Linux desktop.">
+    <meta name="twitter:image" content="https://awesome-omarchy.com/opengraph-image.svg">
+    <meta name="twitter:image:alt" content="Awesome Omarchy - curated Omarchy themes and tools banner">
+    <meta name="twitter:site" content="@aorumbayev">
+    <meta name="twitter:creator" content="@aorumbayev">
+    <meta name="twitter:url" content="https://awesome-omarchy.com/">
 
     <title>Awesome Omarchy - Curated Arch Linux/Hyprland Themes & Tools</title>
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="alternate icon" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="/favicon.svg">
 
     <!-- Schema.org structured data -->
     <script type="application/ld+json">
@@ -33,8 +47,20 @@
         "@context": "https://schema.org",
         "@type": "WebSite",
         "name": "Awesome Omarchy",
-        "description": "Discover the best Omarchy themes, tools and resources for Arch Linux with Hyprland. Curated collection of themes, configurations, and utilities for modern Linux desktop setups.",
+        "description": "Discover standout Omarchy themes, curated Hyprland setups, and developer tooling for modern Arch Linux desktops.",
         "url": "https://awesome-omarchy.com/",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://awesome-omarchy.com/?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        },
+        "keywords": [
+            "Omarchy themes",
+            "Hyprland configuration",
+            "Arch Linux setup",
+            "Omarchy tools",
+            "Hyprland resources"
+        ],
         "author": {
             "@type": "Organization",
             "name": "Awesome Omarchy Community"
@@ -52,6 +78,15 @@
                     "description": "Themes for Hyprland desktop environment"
                 }
             ]
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Awesome Omarchy",
+            "url": "https://awesome-omarchy.com/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://awesome-omarchy.com/favicon.svg"
+            }
         }
     }
     </script>
@@ -938,12 +973,35 @@
     <script>
         // --- Configuration ---
         const CONFIG = {
-            GITHUB_API_URL: 'https://api.github.com/repos/aorumbayev/awesome-omarchy/contents/README.md',
+            README_SOURCES: [
+                {
+                    url: 'https://raw.githubusercontent.com/aorumbayev/awesome-omarchy/main/README.md',
+                    type: 'text',
+                    options: {
+                        headers: { 'Accept': 'text/plain; charset=utf-8' }
+                    }
+                },
+                {
+                    url: 'https://cdn.jsdelivr.net/gh/aorumbayev/awesome-omarchy@main/README.md',
+                    type: 'text',
+                    options: {
+                        headers: { 'Accept': 'text/plain; charset=utf-8' }
+                    }
+                },
+                {
+                    url: 'https://api.github.com/repos/aorumbayev/awesome-omarchy/contents/README.md',
+                    type: 'json',
+                    options: {
+                        headers: { 'Accept': 'application/vnd.github.v3+json' }
+                    }
+                }
+            ],
             CACHE_KEY: 'awesome-omarchy-content',
             CACHE_TIMESTAMP_KEY: 'awesome-omarchy-timestamp',
-            CACHE_DURATION: 10 * 60 * 1000, // 10 minutes
+            CACHE_DURATION: 30 * 60 * 1000, // 30 minutes
             RETRY_ATTEMPTS: 3,
-            RETRY_DELAY: 1000 // 1 second
+            RETRY_DELAY: 1000, // 1 second
+            USER_AGENT: 'awesome-omarchy-site/1.1'
         };
 
         // --- DOM Elements ---
@@ -1033,15 +1091,17 @@
 
         // --- API Functions ---
         async function fetchWithRetry(url, options = {}) {
+            const { headers = {}, ...restOptions } = options;
+            const mergedHeaders = {
+                'User-Agent': CONFIG.USER_AGENT,
+                ...headers
+            };
+
             for (let i = 0; i < CONFIG.RETRY_ATTEMPTS; i++) {
                 try {
                     const response = await fetch(url, {
-                        ...options,
-                        headers: {
-                            'Accept': 'application/vnd.github.v3+json',
-                            'User-Agent': 'awesome-omarchy-site/1.0',
-                            ...options.headers
-                        }
+                        ...restOptions,
+                        headers: mergedHeaders
                     });
                     if (!response.ok) throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                     return response;
@@ -1053,18 +1113,33 @@
         }
 
         async function fetchReadmeContent() {
-            try {
-                const response = await fetchWithRetry(CONFIG.GITHUB_API_URL);
-                const data = await response.json();
-                if (!data.content) throw new Error('No content field in API response');
-                return atob(data.content);
-            } catch (error) {
-                console.error('Fetch error:', error);
-                if (error.message.includes('HTTP 403')) throw new Error('API rate limit exceeded.');
-                if (error.message.includes('HTTP 404')) throw new Error('Repository or README not found.');
-                if (!navigator.onLine) throw new Error('No internet connection detected.');
-                throw new Error(`Failed to fetch content: ${error.message}`);
+            let lastError = null;
+
+            for (const source of CONFIG.README_SOURCES) {
+                try {
+                    const response = await fetchWithRetry(source.url, source.options);
+
+                    if (source.type === 'json') {
+                        const data = await response.json();
+                        if (!data.content) throw new Error('No content field in API response');
+                        return atob(data.content);
+                    }
+
+                    const text = await response.text();
+                    if (!text || !text.trim()) throw new Error('Empty response body.');
+                    return text;
+                } catch (error) {
+                    lastError = error;
+                    console.warn(`Source failed (${source.url}):`, error);
+                }
             }
+
+            const message = lastError ? lastError.message : 'Unable to fetch README content.';
+            console.error('Fetch error:', lastError);
+            if (message.includes('HTTP 403')) throw new Error('API rate limit exceeded.');
+            if (message.includes('HTTP 404')) throw new Error('Repository or README not found.');
+            if (!navigator.onLine) throw new Error('No internet connection detected.');
+            throw new Error(`Failed to fetch content: ${message}`);
         }
 
         // --- Content Rendering ---
@@ -1171,25 +1246,21 @@
         // --- Main Application Logic ---
         async function loadContent() {
             if (isLoading) return;
-            showLoading();
 
             const cachedContent = getCachedContent();
             if (cachedContent) {
                 displayContent(cachedContent);
+                return;
             }
 
+            showLoading();
             try {
                 const freshContent = await fetchReadmeContent();
                 setCachedContent(freshContent);
-                // Only re-render if content is new or wasn't cached
-                if (!cachedContent || cachedContent !== freshContent) {
-                    displayContent(freshContent);
-                }
+                displayContent(freshContent);
             } catch (error) {
                 console.error('Load error:', error);
-                if (!cachedContent) {
-                    showError(error.message);
-                }
+                showError(error.message);
             }
         }
 
