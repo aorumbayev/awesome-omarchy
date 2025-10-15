@@ -37,6 +37,7 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 ## Themes
 
 - [omarchy-alabaster-theme](https://github.com/grierson/omarchy-alabaster-theme) - Alabaster theme with clean, minimalist design.
+- [omarchy-akane-theme](https://github.com/Grenish/omarchy-akane-theme) - Akane theme with Japanese-inspired colors.
 - [omarchy-all-hallows-eve-theme](https://github.com/guilhermetk/omarchy-all-hallows-eve-theme) - Dark Halloween-inspired theme with spooky aesthetics.
 - [omarchy-ash-theme](https://github.com/bjarneo/omarchy-ash-theme) - Subtle ash-gray color scheme.
 - [omarchy-aura-theme](https://github.com/bjarneo/omarchy-aura-theme) - Aura theme providing visually appealing configuration set.
@@ -51,6 +52,7 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-dracula-theme](https://github.com/catlee/omarchy-dracula-theme) - Popular Dracula theme adaptation.
 - [omarchy-ember-n-ash-theme](https://github.com/Hydradevx/omarchy-ember-n-ash-theme) - Warm ember orange and ash gray color combination.
 - [omarchy-everblush-theme](https://github.com/Swarnim114/omarchy-everblush-theme) - Everblush color scheme adaptation.
+- [omarchy-evergarden-theme](https://github.com/celsobenedetti/omarchy-evergarden) - Evergarden theme with lush greens and soft pastels.
 - [omarchy-felix-theme](https://github.com/TyRichards/omarchy-felix-theme) - Clean theme with balanced colors and modern design.
 - [omarchy-fiery-ocean-theme](https://github.com/bjarneo/omarchy-fiery-ocean-theme) - Fiery Ocean theme with vibrant aquatic colors.
 - [omarchy-flexoki-dark-theme](https://github.com/euandeas/omarchy-flexoki-dark-theme) - Flexoki color palette adaptation.
@@ -58,6 +60,7 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-forest-green-theme](https://github.com/abhijeet-swami/omarchy-forest-green-theme) - Nature-inspired forest green color scheme.
 - [omarchy-futurism-theme](https://github.com/bjarneo/omarchy-futurism-theme) - Futuristic theme with modern aesthetics.
 - [omarchy-gold-rush-theme](https://github.com/tahayvr/omarchy-gold-rush-theme) - Luxurious gold-themed color scheme.
+- [omarchy-gtk-theme](https://github.com/bjarneo/omarchy-gtk-theme) - Universal GTK styling to match Omarchy across applications.
 - [omarchy-green-garden-theme](https://github.com/kalk-ak/omarchy-green-garden-theme) - Fresh and calming theme inspired by nature with vibrant yet soothing green tones.
 - [omarchy-hakker-green-theme](https://github.com/joaquinmeza/omarchy-hakker-green-theme) - Hacker-style green terminal theme.
 - [omarchy-hollow-knight-theme](https://github.com/bjarneo/omarchy-hollow-knight-theme) - Hollow Knight inspired theme with gaming aesthetics.
@@ -84,12 +87,14 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-space-monkey-theme](https://github.com/TyRichards/omarchy-space-monkey-theme) - Space-inspired theme with cosmic elements.
 - [omarchy-synthwave84-theme](https://github.com/omacom-io/omarchy-synthwave84-theme) - Synthwave 84 inspired theme with retro aesthetics.
 - [omarchy-velocity-theme](https://github.com/perfektnacht/omarchy-velocity-theme) - Dynamic theme with speed-inspired design elements.
+- [omarchy-vesper-theme](https://github.com/thmoee/omarchy-vesper-theme) - Dark theme with warm vesper-orange highlights.
 - [omarchy-vhs80-theme](https://github.com/tahayvr/omarchy-vhs80-theme) - Retro VHS-inspired theme with 80s aesthetics and neon colors.
 - [omarchy-void-theme](https://github.com/vyrx-dev/omarchy-void-theme.git) - Low-contrast purple theme with soft accents for a calm UI.
 - [omarchy-wasteland-theme](https://github.com/perfektnacht/omarchy-wasteland-theme) - Post-apocalyptic wasteland-inspired color scheme.
 - [omarchy-waveform-dark-theme](https://github.com/hipsterusername/omarchy-waveform-dark-theme) - Dark theme with waveform-inspired design patterns.
 - [omarchy-motivator-theme](https://github.com/rondilley/omarchy-motivator-theme) - Omarchy Theme for maximum motivation.
 - [omarchy-archriot-theme](https://github.com/CyphrRiot/omarchy-archriot-theme) - ArchRiot theme for Omarchy by CyphrRiot.
+- [omarchy-arc-blueberry](https://github.com/vale-c/omarchy-arc-blueberry) - Arc Blueberry inspired colors tailored for Omarchy.
 - [omarchy-ayu-dark-theme](https://github.com/fdidron/omarchy-ayu-dark-theme) - Omarchy Ayu Dark Theme.
 - [omarchy-ayu-light-theme](https://github.com/fdidron/omarchy-ayu-light-theme) - Omarchy Ayu Light Theme.
 - [omarchy-fairyfloss-theme](https://github.com/jackdbai/omarchy-fairyfloss-theme) - Fairyfloss theme for Omarchy.
@@ -99,6 +104,7 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-catppuccin-mocha-theme](https://github.com/KidDogDad/omarchy-catppuccin-mocha-theme) - Catppuccin Mocha theme for Omarchy.
 - [omarchy-kanagawa-dragon-theme](https://github.com/MrTrigger/omarchy-kanagawa-dragon-theme) - Kanagawa Dragon theme adaptation.
 - [omarchy-monokai-dark-theme](https://github.com/ericrswanny/omarchy-monokai-dark-theme) - Monokai inspired dark theme.
+- [omarchy-monokai-theme](https://github.com/bjarneo/omarchy-monokai-theme) - High-contrast Monokai Pro inspired variant.
 - [omarchy-obsidian-theme](https://github.com/Hydradevx/omarchy-obsidian-theme) - Obsidian-inspired dark theme.
 - [omarchy-rose-pine-dawn-theme](https://github.com/ryanyogan/omarchy-rose-pine-dawn-theme) - Rose Pine Dawn light theme.
 - [omarchy-rose-pine](https://github.com/guilhermetk/omarchy-rose-pine) - Rose Pine theme for Omarchy.
@@ -106,12 +112,14 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-firesky-theme](https://github.com/bjarneo/omarchy-firesky-theme) - Fire-lit sky inspired theme for deep focus.
 - [omarchy-wood-theme](https://github.com/bjarneo/omarchy-wood-theme) - Natural wood-inspired theme.
 - [omarchy-pulsar-theme](https://github.com/bjarneo/omarchy-pulsar-theme) - Vibrant, cosmic-inspired dark theme for Omarchy that captures the brilliant energy of neutron stars.
+- [omarchy-pina-theme](https://github.com/bjarneo/omarchy-pina-theme) - Tropical pineapple-inspired palette with warm accents.
 - [omarchy-reverie-theme](https://github.com/bjarneo/omarchy-reverie-theme) - Simple, elegant, dark theme for Omarchy designed for deep focus.
 - [omarchy-sakura-theme](https://github.com/bjarneo/omarchy-sakura-theme) - Elegant, high-contrast theme inspired by the delicate beauty of cherry blossoms.
 - [omarchy-fireside-theme](https://github.com/bjarneo/omarchy-fireside-theme) - Warm, cozy theme inspired by the gentle glow of a crackling fire.
 - [omarchy-frost-theme](https://github.com/bjarneo/omarchy-frost-theme) - Simple, elegant theme inspired by the serene beauty of frost patterns.
 - [omarchy-pure-latin-theme](https://github.com/daurydicaprio/omarchy-pure-latin-theme) - Custom theme for Omarchy Linux.
 - [omarchy-c64-theme](https://github.com/scar45/omarchy-c64-theme) - C64-inspired retro theme for Omarchy.
+- [F1-omarchy](https://github.com/999Gabriel/F1-omarchy) - Formula 1 inspired Omarchy layout with racing telemetry flair.
 - [dracula/omarchy](https://github.com/dracula/omarchy) - Official Dracula theme for Omarchy.
 
 ## Development Tools
@@ -125,8 +133,12 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-installer](https://github.com/omacom-io/omarchy-installer) - Enhanced installation utilities and scripts for Omarchy setup.
 - [omarchy-themes-generator](https://github.com/hipsterusername/omarchy-themes-generator) - Tool for generating custom Omarchy themes.
 - [omarchy-theme-generator](https://github.com/maxberggren/omarchy-theme-generator) - Alternative theme generation utility.
+- [aether](https://github.com/bjarneo/aether) - Desktop theming toolkit that streamlines crafting Omarchy themes.
+- [tema](https://github.com/bjarneo/tema) - Modern Omarchy theming UI with live previews and presets.
+- [omarchy-tmux](https://github.com/joaofelipegalvao/omarchy-tmux) - Tmux status bar themes styled to match Omarchy.
 - [omarchy-migrate](https://github.com/CyphrRiot/Migrate) - Stunningly beautiful terminal backup and restore tool written in Pure Go.
 - [omarchy-monitor-settings](https://github.com/ryanyogan/omarchy-monitor-settings) - Omarchy Monitor Settings TUI.
+- [Pacsea](https://github.com/Firstp1ck/Pacsea) - Rust TUI for browsing and queueing pacman/AUR packages, inspired by Omarchy's installer.
 - [omarchy-waybar](https://github.com/timmo001/omarchy-waybar) - Omarchy Waybar configuration and customizations.
 - [omarchy-hypr](https://github.com/timmo001/omarchy-hypr) - Omarchy Hyprland configuration files and settings.
 - [OMARCHY-VM-UTM](https://github.com/hjanuschka/OMARCHY-VM-UTM) - OMARCHY VM for UTM - Pre-configured Arch Linux virtual machine.
@@ -143,9 +155,14 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [Adsovetzky-Omarchy-s-Waybar](https://github.com/adsovetzky/Adsovetzky-Omarchy-s-Waybar) - Custom Waybar configurations for Omarchy.
 - [omarchy-gui](https://github.com/amanat361/omarchy-gui) - GUI tools for Omarchy configuration.
 - [hyprmon](https://github.com/erans/hyprmon) - TUI monitor configuration tool for Hyprland with visual layout, drag-and-drop, and profile management.
+- [hyprmarker](https://github.com/devmobasa/hyprmarker) - ZoomIt-inspired annotation overlay tailored for Hyprland/Omarchy.
 - [omarchy-cleaner](https://github.com/maxart/omarchy-cleaner) - Quickly and easily remove pre-installed apps and webapps.
+- [omarchy-speech-to-text](https://github.com/michabbb/omarchy-speech-to-text) - Whisper-backed speech-to-text integrations for Omarchy.
 - [live-wallpaper-for-omarchy-linux](https://github.com/daurydicaprio/live-wallpaper-for-omarchy-linux) - A robust script to manage and cycle through live video wallpapers on Omarchy/Hyprland.
+- [omarchy-calculator](https://github.com/aloisdeniel/omarchy_calculator) - Official Omarchy calculator application built with Flutter.
 - [manual-nas-backup-tool](https://github.com/daurydicaprio/manual-nas-backup-tool) - A simple script to make incremental copies, encrypted or not.
+- [omarchy-monitor-toggle](https://github.com/daurydicaprio/omarchy-monitor-toggle) - Tools for automating monitor power management within Omarchy.
+- [hyprBluetooth](https://github.com/magudb/hyprBluetooth) - Bluetoothctl-powered TUI for quickly pairing devices on Omarchy.
 
 ## Related Projects
 
@@ -156,8 +173,10 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-site](https://github.com/omacom-io/omarchy-site) - Official Omarchy website source code.
 - [omarchy-mirror](https://github.com/omacom-io/omarchy-mirror) - Dedicated mirror of Arch repositories for Omarchy hosted on Cloudflare R2.
 - [marcelohmdias/dotfiles](https://github.com/marcelohmdias/dotfiles) - Personal dotfiles and post-install setup based on Omarchy.
+- [pixincreate/configs](https://github.com/pixincreate/configs) - Cross-platform dotfiles and setup scripts with Omarchy/Omaforge profiles.
 - [jehrhardt/dotfiles](https://github.com/jehrhardt/dotfiles) - Dotfiles based on Omarchy.
 - [sheikhlimon/dotfiles](https://github.com/sheikhlimon/dotfiles) - Personal Omarchy dotfiles configuration.
+- [donotfeedthevirus/dotfiles](https://github.com/donotfeedthevirus/dotfiles) - Curated Omarchy dotfiles for Hyprland, Kitty, Neovim, and Tmux.
 
 ## Alternative Curated Lists
 
