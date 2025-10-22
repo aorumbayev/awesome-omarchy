@@ -23,6 +23,7 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 ## Alternative Implementations
 
 - [armarchy](https://github.com/nilszeilon/armarchy) - ARM architecture-optimized fork of Omarchy.
+- [armarchy](https://github.com/nilszeilon/armarchy) - ARM architecture-optimized fork of Omarchy.
 - [deckarchy](https://github.com/aorumbayev/deckarchy) - Steam Deck hardware fixes and optimizations for Omarchy installation.
 - [hyprwhspr](https://github.com/goodroot/hyprwhspr) - Native speech-to-text for Arch / Omarchy - Fast, accurate and easy system-wide Whisper dictation.
 - [omadora](https://github.com/elpritchos/omadora) - Minimal Fedora install based on Omarchy.
@@ -36,6 +37,7 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 
 ## Themes
 
+- [omarchy-aamis-theme](https://github.com/vyrx-dev/omarchy-aamis-theme) Near‑black canvas, creamy text.
 - [omarchy-alabaster-theme](https://github.com/grierson/omarchy-alabaster-theme) - Alabaster theme with clean, minimalist design.
 - [omarchy-akane-theme](https://github.com/Grenish/omarchy-akane-theme) - Akane theme with Japanese-inspired colors.
 - [omarchy-all-hallows-eve-theme](https://github.com/guilhermetk/omarchy-all-hallows-eve-theme) - Dark Halloween-inspired theme with spooky aesthetics.
