@@ -36,6 +36,7 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 
 ## Themes
 
+- [omarchy-aamis-theme](https://github.com/vyrx-dev/omarchy-aamis-theme) - Near‑black canvas, creamy text.
 - [omarchy-alabaster-theme](https://github.com/grierson/omarchy-alabaster-theme) - Alabaster theme with clean, minimalist design.
 - [omarchy-akane-theme](https://github.com/Grenish/omarchy-akane-theme) - Akane theme with Japanese-inspired colors.
 - [omarchy-all-hallows-eve-theme](https://github.com/guilhermetk/omarchy-all-hallows-eve-theme) - Dark Halloween-inspired theme with spooky aesthetics.
