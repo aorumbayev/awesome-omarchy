@@ -100,7 +100,6 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 - [omarchy-ayu-light-theme](https://github.com/fdidron/omarchy-ayu-light-theme) - Omarchy Ayu Light Theme.
 - [omarchy-fairyfloss-theme](https://github.com/jackdbai/omarchy-fairyfloss-theme) - Fairyfloss theme for Omarchy.
 - [omarchy-github-light-theme](https://github.com/ryanyogan/omarchy-github-light-theme) - GitHub Light theme adaptation.
-- [omarchy-vague-theme](https://github.com/Rnedlose/omarchy-vague-theme) - Theme based on the Vague Neovim theme.
 - [omarchy-night-owl-theme](https://github.com/maxberggren/omarchy-night-owl-theme) - Dark blue night owl theme for Omarchy.
 - [omarchy-catppuccin-mocha-theme](https://github.com/KidDogDad/omarchy-catppuccin-mocha-theme) - Catppuccin Mocha theme for Omarchy.
 - [omarchy-kanagawa-dragon-theme](https://github.com/MrTrigger/omarchy-kanagawa-dragon-theme) - Kanagawa Dragon theme adaptation.
