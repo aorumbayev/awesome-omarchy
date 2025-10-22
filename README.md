@@ -23,7 +23,6 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 ## Alternative Implementations
 
 - [armarchy](https://github.com/nilszeilon/armarchy) - ARM architecture-optimized fork of Omarchy.
-- [armarchy](https://github.com/nilszeilon/armarchy) - ARM architecture-optimized fork of Omarchy.
 - [deckarchy](https://github.com/aorumbayev/deckarchy) - Steam Deck hardware fixes and optimizations for Omarchy installation.
 - [hyprwhspr](https://github.com/goodroot/hyprwhspr) - Native speech-to-text for Arch / Omarchy - Fast, accurate and easy system-wide Whisper dictation.
 - [omadora](https://github.com/elpritchos/omadora) - Minimal Fedora install based on Omarchy.
