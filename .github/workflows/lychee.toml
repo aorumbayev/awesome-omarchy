@@ -20,5 +20,6 @@ exclude_loopback = true
 # Additional excludes for localhost patterns
 exclude = [
     "^http://localhost.*",
-    "^https://localhost.*"
+    "^https://localhost.*",
+    "https://learn.omacom.io/2/the-omarchy-manual"
 ]
