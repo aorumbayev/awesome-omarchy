@@ -223,9 +223,6 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 
 - [Installing Omarchy via Arch Linux on macOS](https://deepakness.com/raw/installing-arch-omarchy-on-mac/) - Guide for installing on Mac hardware.
 - [Configuring Omarchy on Beelink](https://www.dennisokeeffe.com/blog/2025-07-17-configuring-arch-linux-omarchy-via-mac) - Configuration guide for Beelink mini PCs.
-- [Giving Omarchy a Shot](https://chambers.io/blog/2025/08/28/omarchy.html) - Personal experience documenting the switch to Omarchy from Mac and Windows.
-- [Omarchy Linux - A Fresh Take on Arch](https://axisofbozz.com/posts/2025_09_30_omarchy/) - Comprehensive review of Omarchy 2.0 examining hardware compatibility and developer workflow.
-- [Omarchy: The Linux Distro That Thinks It's Smarter](https://fahid.dev/blogs/omarchy-the-linux-distro-that-thinks-its-smarter-than-you-and-it-might-be-right) - Analysis of Omarchy as a gateway to productive Linux desktop use.
 
 ## Contributing
 
