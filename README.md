@@ -18,7 +18,7 @@
 ## Official Resources
 
 - [Omarchy](https://github.com/basecamp/omarchy) - The main Omarchy project by Basecamp.
-- [Omarchy Documentation](https://omarchy.org) - Official website with installation guides and documentation.
+- [Omarchy Documentation](https://learn.omacom.io/2/the-omarchy-manual) - Official website with installation guides and documentation.
 
 ## Alternative Implementations
 
