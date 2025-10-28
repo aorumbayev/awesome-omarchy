@@ -2,7 +2,7 @@
 
 > A curated list of awesome Omarchy themes, resources, and tools for the modern Arch Linux/Hyprland setup.
 
-Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fresh Arch installation into a fully-configured, beautiful, and modern desktop environment with a single command.
+[Omarchy](https://omarchy.org/) is an opinionated Arch Linux/Hyprland configuration that transforms a fresh Arch installation into a fully-configured, beautiful, and modern desktop environment with a single command.
 
 ## Contents
 
@@ -18,7 +18,7 @@ Omarchy is an opinionated Arch Linux/Hyprland configuration that transforms a fr
 ## Official Resources
 
 - [Omarchy](https://github.com/basecamp/omarchy) - The main Omarchy project by Basecamp.
-- [Omarchy Documentation](https://omarchy.org) - Official website with installation guides and documentation.
+- [Omarchy Documentation](https://learn.omacom.io/2/the-omarchy-manual) - Official website with installation guides and documentation.
 
 ## Alternative Implementations
 
