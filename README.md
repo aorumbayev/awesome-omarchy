@@ -72,7 +72,6 @@
 - [omarchy-green-garden-theme](https://github.com/kalk-ak/omarchy-green-garden-theme) - Fresh and calming theme inspired by nature with vibrant yet soothing green tones.
 - [omarchy-hakker-green-theme](https://github.com/joaquinmeza/omarchy-hakker-green-theme) - Hacker-style green terminal theme.
 - [omarchy-hollow-knight-theme](https://github.com/bjarneo/omarchy-hollow-knight-theme) - Hollow Knight inspired theme with gaming aesthetics.
-- [omarchy-hook-theme-set-ex](https://github.com/imbypass/omarchy-hook-theme-set-ex) - Modular interpretation of the Omarchy theme-set hook.
 - [omarchy-kimiko-theme](https://github.com/krymzonn/omarchy-kimiko-theme) - Elegant theme with Japanese-inspired aesthetics.
 - [omarchy-mars-theme](https://github.com/steve-lohmeyer/omarchy-mars-theme) - Mars-inspired red theme.
 - [omarchy-matte-black](https://github.com/tahayvr/omarchy-matte-black) - Sleek matte black theme for minimalists.
@@ -144,6 +143,7 @@
 - [omarchy-box](https://github.com/dylanbr/omarchy-box) - Containerized Omarchy environment.
 - [omarchy-chromium](https://github.com/omacom-io/omarchy-chromium) - Chromium browser integration and optimizations for Omarchy.
 - [omarchy-configurator](https://github.com/omacom-io/omarchy-configurator) - Configuration management tool for Omarchy.
+- [omarchy-hook-theme-set-ex](https://github.com/imbypass/omarchy-hook-theme-set-ex) - A clean solution to extend your Omarchy theme to other apps.
 - [omarchy-installer](https://github.com/omacom-io/omarchy-installer) - Enhanced installation utilities and scripts for Omarchy setup.
 - [omarchy-themes-generator](https://github.com/hipsterusername/omarchy-themes-generator) - Tool for generating custom Omarchy themes.
 - [omarchy-theme-generator](https://github.com/maxberggren/omarchy-theme-generator) - Alternative theme generation utility.
