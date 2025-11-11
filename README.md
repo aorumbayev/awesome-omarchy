@@ -160,6 +160,7 @@
 - [omarchy-monitor-settings](https://github.com/ryanyogan/omarchy-monitor-settings) - Omarchy Monitor Settings TUI.
 - [Pacsea](https://github.com/Firstp1ck/Pacsea) - Rust TUI for browsing and queueing pacman/AUR packages, inspired by Omarchy's installer.
 - [omarchy-waybar](https://github.com/timmo001/omarchy-waybar) - Omarchy Waybar configuration and customizations.
+- [waybar-themes](https://github.com/HANCORE-linux/waybar-themes) - Collection of Waybar themes with various styles and combinations for Omarchy.
 - [omarchy-hypr](https://github.com/timmo001/omarchy-hypr) - Omarchy Hyprland configuration files and settings.
 - [OMARCHY-VM-UTM](https://github.com/hjanuschka/OMARCHY-VM-UTM) - OMARCHY VM for UTM - Pre-configured Arch Linux virtual machine.
 - [omarchy-workspace-mover](https://github.com/jonashan/omarchy-workspace-mover) - A Omarchy plugin for moving workspaces between monitors.
