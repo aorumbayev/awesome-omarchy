@@ -183,6 +183,7 @@
 - [manual-nas-backup-tool](https://github.com/daurydicaprio/manual-nas-backup-tool) - A simple script to make incremental copies, encrypted or not.
 - [omarchy-monitor-toggle](https://github.com/daurydicaprio/omarchy-monitor-toggle) - Tools for automating monitor power management within Omarchy.
 - [hyprBluetooth](https://github.com/magudb/hyprBluetooth) - Bluetoothctl-powered TUI for quickly pairing devices on Omarchy.
+- [omarchpods](https://github.com/tomycostantino/omarchpods) - TUI for monitoring AirPods and other Bluetooth headphones with battery status and device info.
 - [wayscriber](https://github.com/devmobasa/wayscriber) - Instant on-screen annotations and markup for Wayland, ZoomIt-inspired.
 
 ## Related Projects
