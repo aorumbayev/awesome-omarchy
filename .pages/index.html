@@ -1,563 +1,551 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover standout Omarchy themes, curated Hyprland setups, and developer tooling for modern Arch Linux desktops.">
-    <meta name="keywords" content="omarchy, arch linux, hyprland, arch linux themes, hyprland themes, omarchy tools, omarchy resources, hyprland configuration, arch linux hyprland">
-    <meta name="author" content="Awesome Omarchy Community">
-    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="application-name" content="Awesome Omarchy">
-    <link rel="canonical" href="https://awesome-omarchy.com/">
-    <meta name="theme-color" content="#0a0a0a">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover standout Omarchy themes, curated Hyprland setups, and developer tooling for modern Arch Linux desktops.">
+  <meta name="keywords" content="omarchy, arch linux, hyprland, arch linux themes, hyprland themes, omarchy tools, omarchy resources, hyprland configuration, arch linux hyprland">
+  <meta name="author" content="Awesome Omarchy Community">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="application-name" content="Awesome Omarchy">
+  <link rel="canonical" href="https://awesome-omarchy.com/">
+  <meta name="theme-color" content="#0a0a0a">
 
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Awesome Omarchy - Curated Arch Linux/Hyprland Themes & Tools">
-    <meta property="og:description" content="Explore the best Omarchy themes, Hyprland configurations, and productivity tools for a polished Arch Linux desktop.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://awesome-omarchy.com/">
-    <meta property="og:site_name" content="Awesome Omarchy">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:image" content="https://awesome-omarchy.com/opengraph-image.svg">
-    <meta property="og:image:secure_url" content="https://awesome-omarchy.com/opengraph-image.svg">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="og:image:type" content="image/svg+xml">
-    <meta property="og:image:alt" content="Awesome Omarchy - curated Omarchy themes and tools banner">
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Awesome Omarchy - Curated Arch Linux/Hyprland Themes & Tools">
+  <meta property="og:description" content="Explore the best Omarchy themes, Hyprland configurations, and productivity tools for a polished Arch Linux desktop.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://awesome-omarchy.com/">
+  <meta property="og:site_name" content="Awesome Omarchy">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image" content="https://awesome-omarchy.com/opengraph-image.svg">
+  <meta property="og:image:secure_url" content="https://awesome-omarchy.com/opengraph-image.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:type" content="image/svg+xml">
+  <meta property="og:image:alt" content="Awesome Omarchy - curated Omarchy themes and tools banner">
 
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Awesome Omarchy - Curated Arch Linux/Hyprland Themes & Tools">
-    <meta name="twitter:description" content="Explore the best Omarchy themes, Hyprland configurations, and productivity tools for a polished Arch Linux desktop.">
-    <meta name="twitter:image" content="https://awesome-omarchy.com/opengraph-image.svg">
-    <meta name="twitter:image:alt" content="Awesome Omarchy - curated Omarchy themes and tools banner">
-    <meta name="twitter:site" content="@aorumbayev">
-    <meta name="twitter:creator" content="@aorumbayev">
-    <meta name="twitter:url" content="https://awesome-omarchy.com/">
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Awesome Omarchy - Curated Arch Linux/Hyprland Themes & Tools">
+  <meta name="twitter:description" content="Explore the best Omarchy themes, Hyprland configurations, and productivity tools for a polished Arch Linux desktop.">
+  <meta name="twitter:image" content="https://awesome-omarchy.com/opengraph-image.svg">
+  <meta name="twitter:image:alt" content="Awesome Omarchy - curated Omarchy themes and tools banner">
+  <meta name="twitter:site" content="@aorumbayev">
+  <meta name="twitter:creator" content="@aorumbayev">
+  <meta name="twitter:url" content="https://awesome-omarchy.com/">
 
-    <title>Awesome Omarchy - Curated Arch Linux/Hyprland Themes & Tools</title>
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="alternate icon" href="/favicon.svg">
-    <link rel="apple-touch-icon" href="/favicon.svg">
+  <title>Awesome Omarchy - Curated Arch Linux/Hyprland Themes & Tools</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="alternate icon" href="favicon.svg">
+  <link rel="apple-touch-icon" href="favicon.svg">
 
-    <!-- Schema.org structured data -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Awesome Omarchy",
-        "description": "Discover standout Omarchy themes, curated Hyprland setups, and developer tooling for modern Arch Linux desktops.",
-        "url": "https://awesome-omarchy.com/",
-        "potentialAction": {
-            "@type": "SearchAction",
-            "target": "https://awesome-omarchy.com/?q={search_term_string}",
-            "query-input": "required name=search_term_string"
-        },
-        "keywords": ["Omarchy themes", "Hyprland configuration", "Arch Linux setup", "Omarchy tools", "Hyprland resources"],
-        "author": { "@type": "Organization", "name": "Awesome Omarchy Community" },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Awesome Omarchy",
-            "url": "https://awesome-omarchy.com/",
-            "logo": { "@type": "ImageObject", "url": "https://awesome-omarchy.com/favicon.svg" }
-        }
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Awesome Omarchy",
+    "description": "Discover standout Omarchy themes, curated Hyprland setups, and developer tooling for modern Arch Linux desktops.",
+    "url": "https://awesome-omarchy.com/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://awesome-omarchy.com/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    },
+    "keywords": ["Omarchy themes", "Hyprland configuration", "Arch Linux setup", "Omarchy tools", "Hyprland resources"],
+    "author": { "@type": "Organization", "name": "Awesome Omarchy Community" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Awesome Omarchy",
+      "url": "https://awesome-omarchy.com/",
+      "logo": { "@type": "ImageObject", "url": "https://awesome-omarchy.com/favicon.svg" }
     }
-    </script>
-
-    <style>
-        :root {
-            --bg: #0a0a0a;
-            --bg-secondary: #111111;
-            --bg-tertiary: #1a1a1a;
-            --bg-card: #151515;
-            --text: #e8e8e8;
-            --text-muted: #6e6e6e;
-            --text-dim: #4a4a4a;
-            --accent: #ffffff;
-            --green: #50fa7b;
-            --green-dim: rgba(80, 250, 123, 0.15);
-            --border: #252525;
-            --border-hover: #3a3a3a;
-            --shadow: rgba(0,0,0,0.8);
-            --sidebar-width: 260px;
-        }
-
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
-            background: var(--bg);
-            color: var(--text);
-            min-height: 100vh;
-            overflow-x: hidden;
-        }
-
-        /* Matrix Canvas */
-        #matrix {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: 0;
-            opacity: 0.04;
-        }
-
-        /* Layout */
-        .layout { display: flex; position: relative; z-index: 1; }
-
-        /* Sidebar */
-        .sidebar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: var(--sidebar-width);
-            height: 100vh;
-            background: var(--bg-secondary);
-            border-right: 1px solid var(--border);
-            display: flex;
-            flex-direction: column;
-            z-index: 100;
-            transition: transform 0.3s ease;
-        }
-
-        .sidebar-header {
-            padding: 1.5rem;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .sidebar-logo {
-            font-family: 'Courier New', monospace;
-            font-size: 0.7rem;
-            line-height: 1.1;
-            letter-spacing: -0.05em;
-            white-space: pre;
-            color: var(--green);
-            text-shadow: 0 0 10px rgba(80, 250, 123, 0.3);
-        }
-
-        .sidebar-nav {
-            flex: 1;
-            overflow-y: auto;
-            padding: 1rem 0;
-        }
-
-        .nav-section {
-            padding: 0.5rem 1.5rem;
-            font-size: 0.7rem;
-            font-weight: 600;
-            color: var(--text-dim);
-            text-transform: uppercase;
-            letter-spacing: 0.1em;
-        }
-
-        .nav-item {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            padding: 0.6rem 1.5rem;
-            color: var(--text-muted);
-            text-decoration: none;
-            font-size: 0.875rem;
-            transition: all 0.2s;
-            cursor: pointer;
-            border-left: 2px solid transparent;
-        }
-
-        .nav-item:hover { color: var(--text); background: var(--bg-tertiary); }
-        .nav-item.active { color: var(--green); border-left-color: var(--green); background: var(--green-dim); }
-
-        .nav-icon { width: 16px; height: 16px; opacity: 0.7; }
-        .nav-count {
-            margin-left: auto;
-            font-size: 0.7rem;
-            color: var(--text-dim);
-            background: var(--bg);
-            padding: 0.1rem 0.4rem;
-            border-radius: 0.25rem;
-        }
-
-        /* Main Content */
-        .main { flex: 1; margin-left: var(--sidebar-width); min-height: 100vh; }
-        .container { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
-
-        /* Header */
-        .header { text-align: center; padding: 3rem 0 2rem; }
-
-        .ascii-art {
-            font-family: 'Courier New', monospace;
-            font-size: clamp(0.25rem, 1.5vw, 0.65rem);
-            line-height: 1;
-            letter-spacing: -0.0425em;
-            white-space: pre;
-            margin-bottom: 1.5rem;
-            overflow-x: auto;
-            padding: 1rem;
-        }
-
-        .ascii-awesome { color: var(--accent); text-shadow: 0 0 20px rgba(255,255,255,0.1); }
-        .ascii-omarchy { color: var(--green); text-shadow: 0 0 20px rgba(80,250,123,0.3); }
-
-        .subtitle {
-            font-size: clamp(0.9rem, 2vw, 1.1rem);
-            color: #888;
-            margin-bottom: 1.5rem;
-            max-width: 550px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        /* Install Tabs */
-        .install-section { margin-bottom: 1.5rem; }
-        .tab-container { max-width: 550px; margin: 0 auto; }
-
-        .tab-buttons {
-            display: flex;
-            border-bottom: 1px solid var(--border);
-            margin-bottom: 0.75rem;
-        }
-
-        .tab-btn {
-            flex: 1;
-            background: transparent;
-            border: none;
-            padding: 0.5rem;
-            color: var(--text-muted);
-            font-size: 0.85rem;
-            cursor: pointer;
-            transition: color 0.3s;
-            position: relative;
-        }
-
-        .tab-btn.active { color: var(--accent); }
-        .tab-btn.active::after {
-            content: '';
-            position: absolute;
-            bottom: -1px;
-            left: 0;
-            right: 0;
-            height: 1px;
-            background: var(--accent);
-        }
-        .tab-btn:hover { color: var(--text); }
-
-        .tab-pane { display: none; }
-        .tab-pane.active { display: block; }
-
-        .install-code {
-            background: var(--bg);
-            border: 1px solid var(--border);
-            border-radius: 0.375rem;
-            padding: 0.65rem 0.75rem;
-            position: relative;
-            cursor: pointer;
-            transition: border-color 0.3s;
-        }
-
-        .install-code:hover { border-color: var(--green); }
-        .install-code code { color: var(--green); font-family: 'Courier New', monospace; font-size: 0.8rem; }
-
-        .install-code::after {
-            content: 'copy';
-            position: absolute;
-            top: 50%;
-            right: 0.5rem;
-            transform: translateY(-50%);
-            background: var(--bg-secondary);
-            color: var(--text-muted);
-            padding: 0.15rem 0.4rem;
-            border-radius: 0.2rem;
-            font-size: 0.6rem;
-            border: 1px solid var(--border);
-            transition: all 0.3s;
-        }
-
-        .install-code:hover::after { background: var(--green); color: var(--bg); border-color: var(--green); }
-        .install-code.copied::after { content: 'copied!'; }
-
-        .install-note { text-align: center; font-size: 0.75rem; color: var(--text-muted); margin-top: 0.5rem; }
-
-        /* Top Icons */
-        .top-icons {
-            position: fixed;
-            top: 1.25rem;
-            right: 1.25rem;
-            display: flex;
-            gap: 0.5rem;
-            z-index: 1000;
-        }
-
-        .icon-btn {
-            width: 2.25rem;
-            height: 2.25rem;
-            background: var(--bg-secondary);
-            border: 1px solid var(--border);
-            border-radius: 0.375rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: var(--text);
-            text-decoration: none;
-            transition: all 0.3s;
-            cursor: pointer;
-            backdrop-filter: blur(8px);
-        }
-
-        .icon-btn:hover { background: var(--green); color: var(--bg); transform: translateY(-2px); border-color: var(--green); }
-
-        .menu-toggle { display: none; position: fixed; top: 1.25rem; left: 1.25rem; z-index: 1001; }
-
-        /* Search Popup */
-        .search-popup {
-            position: fixed;
-            inset: 0;
-            background: rgba(10,10,10,0.98);
-            backdrop-filter: blur(12px);
-            display: none;
-            align-items: flex-start;
-            justify-content: center;
-            padding-top: 15vh;
-            z-index: 2000;
-        }
-
-        .search-popup.visible { display: flex; }
-
-        .search-box {
-            background: var(--bg-secondary);
-            border: 1px solid var(--border);
-            border-radius: 0.75rem;
-            padding: 1.25rem;
-            max-width: 550px;
-            width: 90%;
-            max-height: 70vh;
-            overflow: hidden;
-        }
-
-        .search-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; }
-        .search-title { font-size: 1rem; color: var(--accent); }
-
-        .search-close {
-            background: none;
-            border: none;
-            color: var(--text-muted);
-            font-size: 1.5rem;
-            cursor: pointer;
-            width: 2rem;
-            height: 2rem;
-            border-radius: 50%;
-            transition: all 0.3s;
-        }
-
-        .search-close:hover { background: var(--bg-tertiary); color: var(--text); }
-
-        .search-input {
-            width: 100%;
-            padding: 0.65rem;
-            background: var(--bg);
-            border: 1px solid var(--border);
-            border-radius: 0.5rem;
-            color: var(--text);
-            font-size: 0.9rem;
-            outline: none;
-            margin-bottom: 0.75rem;
-        }
-
-        .search-input:focus { border-color: var(--green); }
-        .search-input::placeholder { color: var(--text-muted); }
-
-        .search-info { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.5rem; }
-        .search-results { max-height: 350px; overflow-y: auto; }
-
-        .search-item {
-            padding: 0.65rem;
-            border-radius: 0.5rem;
-            margin-bottom: 0.4rem;
-            background: var(--bg);
-            border: 1px solid transparent;
-            cursor: pointer;
-            transition: all 0.3s;
-        }
-
-        .search-item:hover { border-color: var(--green); background: var(--bg-tertiary); }
-        .search-item-title { color: var(--green); font-weight: 600; font-size: 0.9rem; margin-bottom: 0.15rem; }
-        .search-item-desc { color: #888; font-size: 0.8rem; }
-        .search-item-cat { font-size: 0.65rem; color: var(--text-dim); margin-top: 0.25rem; }
-        .search-hl { background: rgba(80, 250, 123, 0.2); padding: 0 0.15rem; border-radius: 0.15rem; }
-
-        /* Category Sections */
-        .categories-container { padding: 1rem 0 3rem; }
-        .category-section { margin-bottom: 1.5rem; }
-
-        .category-header {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-            padding: 0.85rem 1rem;
-            background: var(--bg-secondary);
-            border: 1px solid var(--border);
-            border-radius: 0.5rem;
-            cursor: pointer;
-            transition: all 0.2s;
-            user-select: none;
-        }
-
-        .category-header:hover { border-color: var(--border-hover); background: var(--bg-tertiary); }
-        .category-header.active { border-color: var(--green); border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
-
-        .category-icon { width: 20px; height: 20px; color: var(--green); }
-        .category-title { font-size: 0.95rem; font-weight: 600; color: var(--text); flex: 1; }
-        .category-count { font-size: 0.75rem; color: var(--text-muted); background: var(--bg); padding: 0.15rem 0.5rem; border-radius: 0.25rem; }
-        .category-toggle { color: var(--text-muted); transition: transform 0.3s; }
-        .category-header.active .category-toggle { transform: rotate(180deg); }
-
-        .category-content {
-            display: none;
-            background: var(--bg-secondary);
-            border: 1px solid var(--border);
-            border-top: none;
-            border-bottom-left-radius: 0.5rem;
-            border-bottom-right-radius: 0.5rem;
-            padding: 1rem;
-        }
-
-        .category-content.active { display: block; border-color: var(--green); }
-
-        .category-desc {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-            margin-bottom: 1rem;
-            padding-bottom: 0.75rem;
-            border-bottom: 1px solid var(--border);
-        }
-
-        /* Resource Cards */
-        .resources-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-            gap: 0.75rem;
-        }
-
-        .resource-card {
-            background: var(--bg-card);
-            border: 1px solid var(--border);
-            border-radius: 0.5rem;
-            padding: 0.85rem;
-            transition: all 0.2s;
-            cursor: pointer;
-            text-decoration: none;
-            display: block;
-        }
-
-        .resource-card:hover { border-color: var(--green); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); }
-
-        .resource-name {
-            font-size: 0.9rem;
-            font-weight: 600;
-            color: var(--green);
-            margin-bottom: 0.35rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .resource-name svg { width: 14px; height: 14px; opacity: 0.5; }
-        .resource-desc { font-size: 0.8rem; color: #888; line-height: 1.4; }
-
-        /* Footer */
-        .footer {
-            text-align: center;
-            padding: 1.5rem 0;
-            color: var(--text-muted);
-            border-top: 1px solid var(--border);
-            font-size: 0.85rem;
-        }
-
-        .footer a { color: var(--green); text-decoration: none; }
-        .footer a:hover { text-decoration: underline; }
-
-        /* Loading/Error */
-        .loading { text-align: center; padding: 3rem; color: #888; }
-        .spinner {
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            border: 2px solid var(--border);
-            border-radius: 50%;
-            border-top-color: var(--green);
-            animation: spin 1s linear infinite;
-            margin-bottom: 1rem;
-        }
-        @keyframes spin { to { transform: rotate(360deg); } }
-
-        .error {
-            background: rgba(255,85,85,0.1);
-            border: 1px solid #ff5555;
-            border-radius: 0.5rem;
-            padding: 1rem;
-            color: #ff5555;
-            text-align: center;
-        }
-
-        /* Scrollbar */
-        ::-webkit-scrollbar { width: 6px; }
-        ::-webkit-scrollbar-track { background: var(--bg); }
-        ::-webkit-scrollbar-thumb { background: var(--bg-tertiary); border-radius: 3px; }
-        ::-webkit-scrollbar-thumb:hover { background: var(--green); }
-
-        /* Responsive */
-        @media (max-width: 900px) {
-            .sidebar { transform: translateX(-100%); }
-            .sidebar.open { transform: translateX(0); }
-            .main { margin-left: 0; }
-            .menu-toggle { display: flex; }
-            .container { padding: 0 1rem; }
-            .header { padding: 2rem 0 1rem; padding-top: 4rem; }
-        }
-
-        @media (max-width: 600px) {
-            .ascii-art { font-size: clamp(0.18rem, 1.2vw, 0.35rem); padding: 0.5rem; }
-            .resources-grid { grid-template-columns: 1fr; }
-            .top-icons { top: 0.75rem; right: 0.75rem; }
-            .icon-btn { width: 2rem; height: 2rem; }
-        }
-
-        html { scroll-behavior: smooth; }
-
-        .sidebar-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.6); z-index: 99; }
-        .sidebar-overlay.active { display: block; }
-    </style>
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --bg-secondary: #111;
+      --bg-tertiary: #1a1a1a;
+      --bg-card: #151515;
+      --text: #e8e8e8;
+      --text-muted: #6e6e6e;
+      --text-dim: #4a4a4a;
+      --accent: #fff;
+      --green: #50fa7b;
+      --green-dim: rgba(80, 250, 123, 0.15);
+      --border: #252525;
+      --border-hover: #3a3a3a;
+      --sidebar-width: 260px;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* Layout */
+    .layout { display: flex; }
+
+    /* Sidebar */
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: var(--sidebar-width);
+      height: 100vh;
+      background: var(--bg-secondary);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      z-index: 100;
+      transition: transform 0.3s ease;
+    }
+
+    .sidebar-header {
+      padding: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .sidebar-nav {
+      flex: 1;
+      overflow-y: auto;
+      padding: 1rem 0;
+    }
+
+    .nav-section {
+      padding: 0.5rem 1.5rem;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .nav-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.6rem 1.5rem;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.875rem;
+      transition: all 0.2s;
+      cursor: pointer;
+      border-left: 2px solid transparent;
+    }
+
+    .nav-item:hover { color: var(--text); background: var(--bg-tertiary); }
+    .nav-item.active { color: var(--green); border-left-color: var(--green); background: var(--green-dim); }
+
+    .nav-icon { width: 16px; height: 16px; opacity: 0.7; }
+
+    .nav-count {
+      margin-left: auto;
+      font-size: 0.7rem;
+      color: var(--text-dim);
+      background: var(--bg);
+      padding: 0.1rem 0.4rem;
+      border-radius: 0.25rem;
+    }
+
+    /* Main Content */
+    .main { flex: 1; margin-left: var(--sidebar-width); min-height: 100vh; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+
+    /* Header */
+    .header { text-align: center; padding: 3rem 0 2rem; }
+
+    .ascii-art {
+      font-family: 'Courier New', monospace;
+      font-size: clamp(0.25rem, 1.5vw, 0.65rem);
+      line-height: 1;
+      letter-spacing: -0.0425em;
+      white-space: pre;
+      margin-bottom: 1.5rem;
+      overflow-x: auto;
+      padding: 1rem;
+    }
+
+    .ascii-awesome { color: var(--accent); }
+    .ascii-omarchy { color: var(--green); }
+
+    /* Animated ASCII letter styling */
+    .ascii-letter {
+      transition: color 1.5s ease-in-out;
+    }
+
+    .subtitle {
+      font-size: clamp(0.9rem, 2vw, 1.1rem);
+      color: #888;
+      margin-bottom: 1.5rem;
+      max-width: 550px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* Install Tabs */
+    .install-section { margin-bottom: 1.5rem; }
+    .tab-container { max-width: 550px; margin: 0 auto; }
+
+    .tab-buttons {
+      display: flex;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 0.75rem;
+    }
+
+    .tab-btn {
+      flex: 1;
+      background: transparent;
+      border: none;
+      padding: 0.5rem;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: color 0.3s;
+      position: relative;
+    }
+
+    .tab-btn.active { color: var(--accent); }
+    .tab-btn.active::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: var(--accent);
+    }
+    .tab-btn:hover { color: var(--text); }
+
+    .tab-pane { display: none; }
+    .tab-pane.active { display: block; }
+
+    .install-code {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 0.375rem;
+      padding: 0.65rem 0.75rem;
+      position: relative;
+      cursor: pointer;
+      transition: border-color 0.3s;
+    }
+
+    .install-code:hover { border-color: var(--green); }
+    .install-code code { color: var(--green); font-family: 'Courier New', monospace; font-size: 0.8rem; }
+
+    .install-code::after {
+      content: 'copy';
+      position: absolute;
+      top: 50%;
+      right: 0.5rem;
+      transform: translateY(-50%);
+      background: var(--bg-secondary);
+      color: var(--text-muted);
+      padding: 0.15rem 0.4rem;
+      border-radius: 0.2rem;
+      font-size: 0.6rem;
+      border: 1px solid var(--border);
+      transition: all 0.3s;
+    }
+
+    .install-code:hover::after { background: var(--green); color: var(--bg); border-color: var(--green); }
+    .install-code.copied::after { content: 'copied!'; }
+
+    .install-note { text-align: center; font-size: 0.75rem; color: var(--text-muted); margin-top: 0.5rem; }
+
+    /* Top Icons */
+    .top-icons {
+      position: fixed;
+      top: 1.25rem;
+      right: 1.25rem;
+      display: flex;
+      gap: 0.5rem;
+      z-index: 1000;
+    }
+
+    .icon-btn {
+      width: 2.25rem;
+      height: 2.25rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 0.375rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text);
+      text-decoration: none;
+      transition: all 0.3s;
+      cursor: pointer;
+    }
+
+    .icon-btn:hover { background: var(--green); color: var(--bg); transform: translateY(-2px); border-color: var(--green); }
+
+    .menu-toggle { display: none; position: fixed; top: 1.25rem; left: 1.25rem; z-index: 101; }
+
+    /* Search Modal */
+    .search-modal {
+      position: fixed;
+      inset: 0;
+      background: rgba(10,10,10,0.98);
+      display: none;
+      align-items: flex-start;
+      justify-content: center;
+      padding-top: 15vh;
+      z-index: 2000;
+    }
+
+    .search-modal.visible { display: flex; }
+
+    .search-box {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 0.75rem;
+      padding: 1.25rem;
+      max-width: 550px;
+      width: 90%;
+      max-height: 70vh;
+      overflow: hidden;
+    }
+
+    .search-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; }
+    .search-title { font-size: 1rem; color: var(--accent); }
+
+    .search-close {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      font-size: 1.5rem;
+      cursor: pointer;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+      transition: all 0.3s;
+    }
+
+    .search-close:hover { background: var(--bg-tertiary); color: var(--text); }
+
+    .search-input {
+      width: 100%;
+      padding: 0.65rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      color: var(--text);
+      font-size: 0.9rem;
+      outline: none;
+      margin-bottom: 0.75rem;
+    }
+
+    .search-input:focus { border-color: var(--green); }
+    .search-input::placeholder { color: var(--text-muted); }
+
+    .search-info { font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0.5rem; }
+    .search-results { max-height: 350px; overflow-y: auto; }
+
+    .search-item {
+      padding: 0.65rem;
+      border-radius: 0.5rem;
+      margin-bottom: 0.4rem;
+      background: var(--bg);
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+
+    .search-item:hover { border-color: var(--green); background: var(--bg-tertiary); }
+    .search-item-title { color: var(--green); font-weight: 600; font-size: 0.9rem; margin-bottom: 0.15rem; }
+    .search-item-desc { color: #888; font-size: 0.8rem; }
+    .search-item-cat { font-size: 0.65rem; color: var(--text-dim); margin-top: 0.25rem; }
+    .search-hl { background: rgba(80, 250, 123, 0.2); padding: 0 0.15rem; border-radius: 0.15rem; }
+
+    /* Category Sections */
+    .categories { padding: 1rem 0 3rem; }
+    .category { margin-bottom: 1.5rem; }
+
+    .category-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.85rem 1rem;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      user-select: none;
+    }
+
+    .category-header:hover { border-color: var(--border-hover); background: var(--bg-tertiary); }
+    .category-header.active { border-color: var(--green); border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+
+    .category-icon { width: 20px; height: 20px; color: var(--green); }
+    .category-title { font-size: 0.95rem; font-weight: 600; color: var(--text); flex: 1; }
+    .category-count { font-size: 0.75rem; color: var(--text-muted); background: var(--bg); padding: 0.15rem 0.5rem; border-radius: 0.25rem; }
+    .category-toggle { color: var(--text-muted); transition: transform 0.3s; }
+    .category-header.active .category-toggle { transform: rotate(180deg); }
+
+    .category-content {
+      display: none;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-top: none;
+      border-bottom-left-radius: 0.5rem;
+      border-bottom-right-radius: 0.5rem;
+      padding: 1rem;
+    }
+
+    .category-content.active { display: block; border-color: var(--green); }
+
+    .category-desc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* Resource Cards */
+    .resources-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .resource-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      padding: 0.85rem;
+      transition: all 0.2s;
+      cursor: pointer;
+      text-decoration: none;
+      display: block;
+    }
+
+    .resource-card:hover { border-color: var(--green); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); }
+
+    .resource-name {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--green);
+      margin-bottom: 0.35rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .resource-name svg { width: 14px; height: 14px; opacity: 0.5; }
+    .resource-desc { font-size: 0.8rem; color: #888; line-height: 1.4; }
+
+    /* Footer */
+    .footer {
+      text-align: center;
+      padding: 1.5rem 0;
+      color: var(--text-muted);
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+    }
+
+    .footer a { color: var(--green); text-decoration: none; }
+    .footer a:hover { text-decoration: underline; }
+
+    /* Loading/Error States */
+    .loading { text-align: center; padding: 3rem; color: #888; }
+    .spinner {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 2px solid var(--border);
+      border-radius: 50%;
+      border-top-color: var(--green);
+      animation: spin 1s linear infinite;
+      margin-bottom: 1rem;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .error {
+      background: rgba(255,85,85,0.1);
+      border: 1px solid #ff5555;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      color: #ff5555;
+      text-align: center;
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--bg-tertiary); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--green); }
+
+    /* Sidebar Overlay - only darkens the main content, not the sidebar */
+    .sidebar-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: var(--sidebar-width);
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 99;
+    }
+
+    .sidebar-overlay.active { display: block; }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .sidebar { transform: translateX(-100%); }
+      .sidebar.open { transform: translateX(0); }
+      .sidebar-overlay { left: 0; }
+      .sidebar-overlay.active { left: var(--sidebar-width); }
+      .main { margin-left: 0; }
+      .menu-toggle { display: flex; }
+      .container { padding: 0 1rem; }
+      .header { padding: 2rem 0 1rem; padding-top: 4rem; }
+    }
+
+    @media (max-width: 600px) {
+      .ascii-art { font-size: clamp(0.18rem, 1.2vw, 0.35rem); padding: 0.5rem; }
+      .resources-grid { grid-template-columns: 1fr; }
+      .top-icons { top: 0.75rem; right: 0.75rem; }
+      .icon-btn { width: 2rem; height: 2rem; }
+    }
+
+    html { scroll-behavior: smooth; }
+  </style>
 </head>
 <body>
-    <canvas id="matrix"></canvas>
-    <div class="sidebar-overlay" id="sidebarOverlay" onclick="toggleSidebar()"></div>
+  <div class="sidebar-overlay" id="sidebarOverlay"></div>
 
-    <div class="layout">
-        <aside class="sidebar" id="sidebar">
-            <div class="sidebar-header">
-                <div class="sidebar-logo">+-----------------------+
-|   AWESOME OMARCHY     |
-|   [ RESOURCES ]       |
-+-----------------------+</div>
-            </div>
-            <nav class="sidebar-nav" id="sidebarNav">
-                <div class="nav-section">Categories</div>
-            </nav>
-        </aside>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <br/>
+      <br/>
+      <nav class="sidebar-nav" id="sidebarNav">
+        <div class="nav-section">Categories</div>
+      </nav>
+    </aside>
 
-        <main class="main">
-            <button class="icon-btn menu-toggle" onclick="toggleSidebar()" title="Menu">
-                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
-                    <path d="M1 2.75h14v1.5H1zm0 5h14v1.5H1zm0 5h14v1.5H1z"/>
-                </svg>
-            </button>
+    <main class="main">
+      <button class="icon-btn menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+          <path d="M1 2.75h14v1.5H1zm0 5h14v1.5H1zm0 5h14v1.5H1z"/>
+        </svg>
+      </button>
 
-            <div class="container">
-                <header class="header">
-                    <div class="ascii-art">
-<span class="ascii-awesome">
+      <div class="container">
+        <header class="header">
+          <div class="ascii-art"><span class="ascii-awesome">
    ▄████████  ▄█     █▄     ████████     ▄████████   ▄██████▄    ▄▄▄▄███▄▄▄▄      ████████   
   ███    ███ ███     ███   ███    ███   ███    ███  ███    ███ ▄██▀▀▀███▀▀▀██▄   ███    ███ 
   ███    ███ ███     ███   ███    █▀    ███    █▀   ███    ███ ███   ███   ███   ███    █▀  
@@ -566,8 +554,7 @@
   ███    ███ ███     ███   ███    █▄           ███  ███    ███ ███   ███   ███   ███    █▄  
   ███    ███ ███ ▄█▄ ███   ███    ███    ▄█    ███  ███    ███ ███   ███   ███   ███    ███ 
   ███    █▀   ▀███▀███▀    ██████████  ▄█████████▀   ▀██████▀   ▀█   ███   █▀    ██████████ 
-</span>
-<span class="ascii-omarchy">                 ▄▄▄
+</span><span class="ascii-omarchy">                 ▄▄▄
  ▄█████▄    ▄███████████▄    ▄███████   ▄███████   ▄███████   ▄█   █▄    ▄█   █▄
 ███   ███  ███   ███   ███  ███   ███  ███   ███  ███   ███  ███   ███  ███   ███
 ███   ███  ███   ███   ███  ███   ███  ███   ███  ███   █▀   ███   ███  ███   ███
@@ -579,345 +566,604 @@
                                        ███   █▀
 </span></div>
 
-                    <p class="subtitle">A curated list of awesome Omarchy themes, resources, and tools for the modern Arch Linux/Hyprland setup</p>
+          <p class="subtitle">A curated list of awesome Omarchy themes, resources, and tools for the modern Arch Linux/Hyprland setup</p>
 
-                    <div class="install-section">
-                        <div class="tab-container">
-                            <div class="tab-buttons">
-                                <button class="tab-btn active" data-tab="aur">AUR</button>
-                                <button class="tab-btn" data-tab="unix">Unix</button>
-                                <button class="tab-btn" data-tab="cargo">Cargo</button>
-                                <button class="tab-btn" data-tab="win">Windows</button>
-                            </div>
-                            <div id="aur" class="tab-pane active">
-                                <pre class="install-code"><code>yay -Sy awesome-omarchy-tui-bin</code></pre>
-                            </div>
-                            <div id="unix" class="tab-pane">
-                                <pre class="install-code"><code>curl -fsSL https://tui.awesome-omarchy.com/install.sh | bash</code></pre>
-                            </div>
-                            <div id="cargo" class="tab-pane">
-                                <pre class="install-code"><code>cargo install awesome-omarchy-tui</code></pre>
-                            </div>
-                            <div id="win" class="tab-pane">
-                                <pre class="install-code"><code>iwr https://tui.awesome-omarchy.com/install.ps1 | iex</code></pre>
-                            </div>
-                        </div>
-                        <p class="install-note">After installation - use 'awsomarchy' alias to run the executable</p>
-                    </div>
-                </header>
-
-                <div class="top-icons">
-                    <button class="icon-btn" onclick="toggleSearch()" title="Search (/)">
-                        <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor">
-                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                        </svg>
-                    </button>
-                    <a href="https://github.com/aorumbayev/awesome-omarchy" class="icon-btn" target="_blank" rel="noopener" title="GitHub">
-                        <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
-                        </svg>
-                    </a>
-                </div>
-
-                <div class="search-popup" id="searchPopup">
-                    <div class="search-box">
-                        <div class="search-header">
-                            <span class="search-title">Search Resources</span>
-                            <button class="search-close" onclick="toggleSearch()">&times;</button>
-                        </div>
-                        <input type="text" class="search-input" id="searchInput" placeholder="Search themes, tools, projects..." autocomplete="off">
-                        <div class="search-info" id="searchInfo">Type to search across all categories</div>
-                        <div class="search-results" id="searchResults"></div>
-                    </div>
-                </div>
-
-                <div class="categories-container" id="categoriesContainer">
-                    <div class="loading">
-                        <div class="spinner"></div>
-                        <p>Loading resources...</p>
-                    </div>
-                </div>
-
-                <footer class="footer">
-                    <p>Built with care for the Omarchy community · <a href="https://github.com/aorumbayev/awesome-omarchy" target="_blank" rel="noopener">Contribute on GitHub</a></p>
-                    <p style="margin-top: 0.35rem; font-size: 0.75rem;">Crafted by <a href="https://github.com/aorumbayev" target="_blank" rel="noopener">@aorumbayev</a></p>
-                </footer>
+          <div class="install-section">
+            <div class="tab-container">
+              <div class="tab-buttons" role="tablist">
+                <button class="tab-btn active" data-tab="aur" role="tab" aria-selected="true">AUR</button>
+                <button class="tab-btn" data-tab="unix" role="tab" aria-selected="false">Unix</button>
+                <button class="tab-btn" data-tab="cargo" role="tab" aria-selected="false">Cargo</button>
+                <button class="tab-btn" data-tab="win" role="tab" aria-selected="false">Windows</button>
+              </div>
+              <div id="aur" class="tab-pane active" role="tabpanel">
+                <pre class="install-code"><code>yay -Sy awesome-omarchy-tui-bin</code></pre>
+              </div>
+              <div id="unix" class="tab-pane" role="tabpanel">
+                <pre class="install-code"><code>curl -fsSL https://tui.awesome-omarchy.com/install.sh | bash</code></pre>
+              </div>
+              <div id="cargo" class="tab-pane" role="tabpanel">
+                <pre class="install-code"><code>cargo install awesome-omarchy-tui</code></pre>
+              </div>
+              <div id="win" class="tab-pane" role="tabpanel">
+                <pre class="install-code"><code>iwr https://tui.awesome-omarchy.com/install.ps1 | iex</code></pre>
+              </div>
             </div>
-        </main>
-    </div>
+            <p class="install-note">After installation - use 'awsomarchy' alias to run the executable</p>
+          </div>
+        </header>
 
-    <script>
-        const README_CONTENT = '__README_CONTENT__';
+        <div class="top-icons">
+          <button class="icon-btn" id="searchBtn" aria-label="Search (/)">
+            <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+          </button>
+          <a href="https://github.com/aorumbayev/awesome-omarchy" class="icon-btn" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg width="15" height="15" viewBox="0 0 16 16" fill="currentColor">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+          </a>
+        </div>
 
-        const CATEGORIES = {
-            'official-resources': {
-                title: 'Official Resources',
-                icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/></svg>',
-                desc: 'Core Omarchy project and official documentation from Basecamp'
-            },
-            'alternative-implementations': {
-                title: 'Alternative Implementations',
-                icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M6 1v3H1V1h5zM1 0a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm14 12v3h-5v-3h5zm-5-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5zM6 8v7H1V8h5zM1 7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H1zm14-6v7h-5V1h5zm-5-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1h-5z"/></svg>',
-                desc: 'Forks and adaptations for different distros and hardware'
-            },
-            'themes': {
-                title: 'Themes',
-                icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/><path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8zm-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.033-.353-.053-.537-.096-.868-.2-1.783.108-2.557.368-.922 1.201-1.07 1.87-1.19.636-.112 1.165-.206 1.467-.594.26-.335.133-.792-.018-1.299-.165-.557-.395-1.332-.235-2.108.159-.77.64-1.368 1.155-1.942.493-.549.99-1.103.99-1.955a7 7 0 1 0-6.009 6.944z"/></svg>',
-                desc: 'Color schemes and visual customizations for your desktop'
-            },
-            'development-tools': {
-                title: 'Development Tools',
-                icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M4.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zM3 4.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H2z"/></svg>',
-                desc: 'Theme generators, configuration tools, and utilities'
-            },
-            'related-projects': {
-                title: 'Related Projects',
-                icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/></svg>',
-                desc: 'Dotfiles, configurations, and community projects'
-            },
-            'alternative-curated-lists': {
-                title: 'Alternative Curated Lists',
-                icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2zm3.5 4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>',
-                desc: 'Other awesome lists and theme collections'
-            },
-            'community-resources': {
-                title: 'Community Resources',
-                icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/><path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg>',
-                desc: 'Discussions, issues, and community hubs'
-            },
-            'articles-and-tutorials': {
-                title: 'Articles and Tutorials',
-                icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z"/><path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/></svg>',
-                desc: 'Guides, blog posts, and installation tutorials'
-            }
-        };
+        <div class="search-modal" id="searchModal">
+          <div class="search-box">
+            <div class="search-header">
+              <span class="search-title">Search Resources</span>
+              <button class="search-close" id="searchClose" aria-label="Close search">&times;</button>
+            </div>
+            <input type="text" class="search-input" id="searchInput" placeholder="Search themes, tools, projects..." autocomplete="off">
+            <div class="search-info" id="searchInfo">Type to search across all categories</div>
+            <div class="search-results" id="searchResults"></div>
+          </div>
+        </div>
 
-        // Matrix Rain
-        (function initMatrix() {
-            const canvas = document.getElementById('matrix');
-            const ctx = canvas.getContext('2d');
-            function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
-            resize();
-            window.addEventListener('resize', resize);
-            const chars = 'アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン0123456789';
-            const fontSize = 14;
-            const columns = Math.floor(canvas.width / fontSize);
-            const drops = Array(columns).fill(1);
-            function draw() {
-                ctx.fillStyle = 'rgba(10, 10, 10, 0.05)';
-                ctx.fillRect(0, 0, canvas.width, canvas.height);
-                ctx.fillStyle = '#50fa7b';
-                ctx.font = fontSize + 'px monospace';
-                for (let i = 0; i < drops.length; i++) {
-                    const char = chars[Math.floor(Math.random() * chars.length)];
-                    ctx.fillText(char, i * fontSize, drops[i] * fontSize);
-                    if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) drops[i] = 0;
-                    drops[i]++;
-                }
-            }
-            setInterval(draw, 50);
-        })();
+        <div class="categories" id="categories">
+          <div class="loading">
+            <div class="spinner"></div>
+            <p>Loading resources...</p>
+          </div>
+        </div>
 
-        let parsedData = {}, allResources = [], searchOpen = false, sidebarOpen = false;
-        const categoriesContainer = document.getElementById('categoriesContainer');
-        const sidebarNav = document.getElementById('sidebarNav');
-        const searchPopup = document.getElementById('searchPopup');
-        const searchInput = document.getElementById('searchInput');
-        const searchResults = document.getElementById('searchResults');
-        const searchInfo = document.getElementById('searchInfo');
+        <footer class="footer">
+          <p>Built with care for the Omarchy community · <a href="https://github.com/aorumbayev/awesome-omarchy" target="_blank" rel="noopener">Contribute on GitHub</a></p>
+          <p style="margin-top: 0.35rem; font-size: 0.75rem;">Crafted by <a href="https://github.com/aorumbayev" target="_blank" rel="noopener">@aorumbayev</a></p>
+        </footer>
+      </div>
+    </main>
+  </div>
 
-        const debounce = (fn, ms) => { let t; return (...a) => { clearTimeout(t); t = setTimeout(() => fn(...a), ms); }; };
+  <script>
+    // README content placeholder (replaced by GitHub Actions)
+    const README_CONTENT = '__README_CONTENT__';
 
-        function parseReadme(md) {
-            const data = {};
-            allResources = [];
-            let currentSection = null;
-            for (const line of md.split('\n')) {
-                const headerMatch = line.match(/^## (.+)$/);
-                if (headerMatch) {
-                    const title = headerMatch[1].trim();
-                    const slug = title.toLowerCase().replace(/\s+/g, '-');
-                    currentSection = slug;
-                    data[slug] = { title, items: [] };
-                    continue;
-                }
-                if (currentSection && line.startsWith('- [')) {
-                    const match = line.match(/- \[([^\]]+)\]\(([^)]+)\)(?: - (.+))?/);
-                    if (match) {
-                        const item = { name: match[1].trim(), url: match[2].trim(), desc: match[3]?.trim() || '', category: currentSection };
-                        data[currentSection].items.push(item);
-                        allResources.push(item);
-                    }
-                }
-            }
-            return data;
+    // Category definitions
+    const CATEGORIES = {
+      'official-resources': {
+        title: 'Official Resources',
+        icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/></svg>',
+        desc: 'Core Omarchy project and official documentation from Basecamp'
+      },
+      'alternative-implementations': {
+        title: 'Alternative Implementations',
+        icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M6 1v3H1V1h5zM1 0a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1H1zm14 12v3h-5v-3h5zm-5-1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5zM6 8v7H1V8h5zM1 7a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H1zm14-6v7h-5V1h5zm-5-1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1h-5z"/></svg>',
+        desc: 'Forks and adaptations for different distros and hardware'
+      },
+      'themes': {
+        title: 'Themes',
+        icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/><path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8zm-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.033-.353-.053-.537-.096-.868-.2-1.783.108-2.557.368-.922 1.201-1.07 1.87-1.19.636-.112 1.165-.206 1.467-.594.26-.335.133-.792-.018-1.299-.165-.557-.395-1.332-.235-2.108.159-.77.64-1.368 1.155-1.942.493-.549.99-1.103.99-1.955a7 7 0 1 0-6.009 6.944z"/></svg>',
+        desc: 'Color schemes and visual customizations for your desktop'
+      },
+      'development-tools': {
+        title: 'Development Tools',
+        icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M4.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zM3 4.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H2z"/></svg>',
+        desc: 'Theme generators, configuration tools, and utilities'
+      },
+      'related-projects': {
+        title: 'Related Projects',
+        icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"/></svg>',
+        desc: 'Dotfiles, configurations, and community projects'
+      },
+      'alternative-curated-lists': {
+        title: 'Alternative Curated Lists',
+        icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M2 2a1 1 0 0 1 1-1h4.586a1 1 0 0 1 .707.293l7 7a1 1 0 0 1 0 1.414l-4.586 4.586a1 1 0 0 1-1.414 0l-7-7A1 1 0 0 1 2 6.586V2zm3.5 4a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>',
+        desc: 'Other awesome lists and theme collections'
+      },
+      'community-resources': {
+        title: 'Community Resources',
+        icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/><path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/><path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg>',
+        desc: 'Discussions, issues, and community hubs'
+      },
+      'articles-and-tutorials': {
+        title: 'Articles and Tutorials',
+        icon: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M5 4a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm-.5 2.5A.5.5 0 0 1 5 6h6a.5.5 0 0 1 0 1H5a.5.5 0 0 1-.5-.5zM5 8a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1H5zm0 2a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1H5z"/><path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm10-1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1z"/></svg>',
+        desc: 'Guides, blog posts, and installation tutorials'
+      }
+    };
+
+    // DOM elements
+    const elements = {
+      categories: document.getElementById('categories'),
+      sidebarNav: document.getElementById('sidebarNav'),
+      sidebar: document.getElementById('sidebar'),
+      sidebarOverlay: document.getElementById('sidebarOverlay'),
+      searchModal: document.getElementById('searchModal'),
+      searchInput: document.getElementById('searchInput'),
+      searchResults: document.getElementById('searchResults'),
+      searchInfo: document.getElementById('searchInfo'),
+      menuToggle: document.getElementById('menuToggle'),
+      searchBtn: document.getElementById('searchBtn'),
+      searchClose: document.getElementById('searchClose')
+    };
+
+    // State
+    let parsedData = {};
+    let allResources = [];
+
+    // Utility: debounce
+    const debounce = (fn, ms) => {
+      let timeout;
+      return (...args) => {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => fn(...args), ms);
+      };
+    };
+
+    // Parse README markdown
+    function parseReadme(md) {
+      const data = {};
+      allResources = [];
+      let currentSection = null;
+
+      for (const line of md.split('\n')) {
+        const headerMatch = line.match(/^## (.+)$/);
+        if (headerMatch) {
+          const title = headerMatch[1].trim();
+          const slug = title.toLowerCase().replace(/\s+/g, '-');
+          currentSection = slug;
+          data[slug] = { title, items: [] };
+          continue;
         }
 
-        function renderSidebar() {
-            let navHtml = '<div class="nav-section">Categories</div>';
-            for (const [slug, cat] of Object.entries(CATEGORIES)) {
-                const data = parsedData[slug];
-                const count = data?.items?.length || 0;
-                if (count === 0) continue;
-                navHtml += `<a class="nav-item" href="#${slug}" onclick="scrollToCategory('${slug}')"><span class="nav-icon">${cat.icon}</span>${cat.title}<span class="nav-count">${count}</span></a>`;
-            }
-            sidebarNav.innerHTML = navHtml;
+        if (currentSection && line.startsWith('- [')) {
+          const match = line.match(/- \[([^\]]+)\]\(([^)]+)\)(?: - (.+))?/);
+          if (match) {
+            const item = {
+              name: match[1].trim(),
+              url: match[2].trim(),
+              desc: match[3]?.trim() || '',
+              category: currentSection
+            };
+            data[currentSection].items.push(item);
+            allResources.push(item);
+          }
         }
+      }
+      return data;
+    }
 
-        function renderCategories() {
-            let html = '';
-            for (const [slug, cat] of Object.entries(CATEGORIES)) {
-                const data = parsedData[slug];
-                if (!data || data.items.length === 0) continue;
-                const isOpen = slug === 'themes';
-                html += `<section class="category-section" id="${slug}">
-                    <div class="category-header ${isOpen ? 'active' : ''}" onclick="toggleCategory('${slug}')">
-                        <span class="category-icon">${cat.icon}</span>
-                        <span class="category-title">${cat.title}</span>
-                        <span class="category-count">${data.items.length}</span>
-                        <span class="category-toggle"><svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor"><path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/></svg></span>
-                    </div>
-                    <div class="category-content ${isOpen ? 'active' : ''}">
-                        <p class="category-desc">${cat.desc}</p>
-                        <div class="resources-grid">${data.items.map(item => `
-                            <a href="${item.url}" class="resource-card" target="_blank" rel="noopener">
-                                <div class="resource-name">${item.name}<svg viewBox="0 0 16 16" fill="currentColor"><path d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/><path d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/></svg></div>
-                                <div class="resource-desc">${item.desc || 'No description available'}</div>
-                            </a>`).join('')}
-                        </div>
-                    </div>
-                </section>`;
-            }
-            categoriesContainer.innerHTML = html;
-        }
+    // Render sidebar navigation
+    function renderSidebar() {
+      let html = '<div class="nav-section">Categories</div>';
 
-        function toggleCategory(slug) {
-            const section = document.getElementById(slug);
-            section.querySelector('.category-header').classList.toggle('active');
-            section.querySelector('.category-content').classList.toggle('active');
-        }
+      for (const [slug, cat] of Object.entries(CATEGORIES)) {
+        const data = parsedData[slug];
+        const count = data?.items?.length || 0;
+        if (count === 0) continue;
 
-        function scrollToCategory(slug) {
-            const section = document.getElementById(slug);
-            if (section) {
-                const header = section.querySelector('.category-header');
-                const content = section.querySelector('.category-content');
-                if (!content.classList.contains('active')) { header.classList.add('active'); content.classList.add('active'); }
-                section.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                if (window.innerWidth <= 900) toggleSidebar();
-            }
-        }
+        html += `
+          <a class="nav-item" href="#${slug}" data-category="${slug}">
+            <span class="nav-icon">${cat.icon}</span>
+            ${cat.title}
+            <span class="nav-count">${count}</span>
+          </a>`;
+      }
 
-        function toggleSidebar() {
-            sidebarOpen = !sidebarOpen;
-            document.getElementById('sidebar').classList.toggle('open', sidebarOpen);
-            document.getElementById('sidebarOverlay').classList.toggle('active', sidebarOpen);
-        }
+      elements.sidebarNav.innerHTML = html;
 
-        function toggleSearch() {
-            searchOpen = !searchOpen;
-            searchPopup.classList.toggle('visible', searchOpen);
-            document.body.style.overflow = searchOpen ? 'hidden' : '';
-            if (searchOpen) searchInput.focus();
-            else { searchInput.value = ''; searchResults.innerHTML = ''; searchInfo.textContent = 'Type to search across all categories'; }
-        }
-
-        function highlight(text, q) {
-            if (!text || !q) return text || '';
-            return text.replace(new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi'), '<span class="search-hl">$1</span>');
-        }
-
-        function getCategoryTitle(slug) { return CATEGORIES[slug]?.title || slug; }
-
-        function search(q) {
-            if (!q.trim()) { searchResults.innerHTML = ''; searchInfo.textContent = 'Type to search across all categories'; return; }
-            const lq = q.toLowerCase();
-            const matches = allResources.filter(r => r.name.toLowerCase().includes(lq) || r.desc.toLowerCase().includes(lq));
-            searchInfo.textContent = matches.length ? `Found ${matches.length} result${matches.length > 1 ? 's' : ''}` : 'No results found';
-            searchResults.innerHTML = matches.slice(0, 50).map(r => `
-                <div class="search-item" onclick="window.open('${r.url}','_blank')">
-                    <div class="search-item-title">${highlight(r.name, q)}</div>
-                    <div class="search-item-desc">${highlight(r.desc, q) || 'No description'}</div>
-                    <div class="search-item-cat">${getCategoryTitle(r.category)}</div>
-                </div>
-            `).join('');
-        }
-
-        async function load() {
-            if (README_CONTENT && README_CONTENT !== '__README_CONTENT__') {
-                try {
-                    const md = atob(README_CONTENT);
-                    parsedData = parseReadme(md);
-                    renderSidebar();
-                    renderCategories();
-                    return;
-                } catch (e) { console.warn('Failed to decode bundled content:', e); }
-            }
-            try {
-                const res = await fetch('https://raw.githubusercontent.com/aorumbayev/awesome-omarchy/main/README.md');
-                if (!res.ok) throw new Error('Failed to fetch');
-                const md = await res.text();
-                parsedData = parseReadme(md);
-                renderSidebar();
-                renderCategories();
-            } catch (e) {
-                categoriesContainer.innerHTML = '<div class="error">Failed to load content. <button onclick="location.reload()" style="background:var(--green);color:var(--bg);border:none;padding:0.5rem 1rem;border-radius:0.375rem;cursor:pointer;margin-top:1rem;">Retry</button></div>';
-            }
-        }
-
-        function initTabs() {
-            document.querySelectorAll('.tab-btn').forEach(btn => {
-                btn.addEventListener('click', () => {
-                    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-                    document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
-                    btn.classList.add('active');
-                    document.getElementById(btn.dataset.tab).classList.add('active');
-                });
-            });
-        }
-
-        function initCopy() {
-            document.querySelectorAll('.install-code').forEach(el => {
-                el.addEventListener('click', async () => {
-                    try {
-                        await navigator.clipboard.writeText(el.querySelector('code').textContent);
-                        el.classList.add('copied');
-                        setTimeout(() => el.classList.remove('copied'), 1500);
-                    } catch (e) {}
-                });
-            });
-        }
-
-        function initKeyboard() {
-            document.addEventListener('keydown', e => {
-                if (e.key === 'Escape' && searchOpen) toggleSearch();
-                if (e.key === '/' && !searchOpen && document.activeElement.tagName !== 'INPUT') { e.preventDefault(); toggleSearch(); }
-            });
-        }
-
-        function initScrollSpy() {
-            const observer = new IntersectionObserver(entries => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        const id = entry.target.id;
-                        document.querySelectorAll('.nav-item').forEach(item => {
-                            item.classList.toggle('active', item.getAttribute('href') === `#${id}`);
-                        });
-                    }
-                });
-            }, { threshold: 0.3, rootMargin: '-100px 0px -50% 0px' });
-            setTimeout(() => { document.querySelectorAll('.category-section').forEach(section => observer.observe(section)); }, 500);
-        }
-
-        document.addEventListener('DOMContentLoaded', () => {
-            load();
-            initTabs();
-            initCopy();
-            initKeyboard();
-            initScrollSpy();
-            searchInput.addEventListener('input', debounce(e => search(e.target.value), 200));
-            searchPopup.addEventListener('click', e => { if (e.target === searchPopup) toggleSearch(); });
+      // Add click handlers
+      elements.sidebarNav.querySelectorAll('.nav-item').forEach(item => {
+        item.addEventListener('click', (e) => {
+          e.preventDefault();
+          scrollToCategory(item.dataset.category);
         });
-    </script>
+      });
+    }
+
+    // Render categories - all collapsed by default
+    function renderCategories() {
+      let html = '';
+
+      for (const [slug, cat] of Object.entries(CATEGORIES)) {
+        const data = parsedData[slug];
+        if (!data || data.items.length === 0) continue;
+
+        const cardsHtml = data.items.map(item => `
+          <a href="${item.url}" class="resource-card" target="_blank" rel="noopener">
+            <div class="resource-name">
+              ${item.name}
+              <svg viewBox="0 0 16 16" fill="currentColor"><path d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/><path d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/></svg>
+            </div>
+            <div class="resource-desc">${item.desc || 'No description available'}</div>
+          </a>
+        `).join('');
+
+        html += `
+          <section class="category" id="${slug}">
+            <div class="category-header" data-category="${slug}">
+              <span class="category-icon">${cat.icon}</span>
+              <span class="category-title">${cat.title}</span>
+              <span class="category-count">${data.items.length}</span>
+              <span class="category-toggle">
+                <svg width="12" height="12" viewBox="0 0 16 16" fill="currentColor">
+                  <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                </svg>
+              </span>
+            </div>
+            <div class="category-content">
+              <p class="category-desc">${cat.desc}</p>
+              <div class="resources-grid">${cardsHtml}</div>
+            </div>
+          </section>`;
+      }
+
+      elements.categories.innerHTML = html;
+
+      // Add click handlers for category headers
+      elements.categories.querySelectorAll('.category-header').forEach(header => {
+        header.addEventListener('click', () => toggleCategory(header.dataset.category));
+      });
+    }
+
+    // Toggle category open/closed
+    function toggleCategory(slug) {
+      const section = document.getElementById(slug);
+      if (!section) return;
+
+      const header = section.querySelector('.category-header');
+      const content = section.querySelector('.category-content');
+
+      header.classList.toggle('active');
+      content.classList.toggle('active');
+    }
+
+    // Scroll to category and expand it
+    function scrollToCategory(slug) {
+      const section = document.getElementById(slug);
+      if (!section) return;
+
+      const header = section.querySelector('.category-header');
+      const content = section.querySelector('.category-content');
+
+      if (!content.classList.contains('active')) {
+        header.classList.add('active');
+        content.classList.add('active');
+      }
+
+      section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+      if (window.innerWidth <= 900) {
+        closeSidebar();
+      }
+    }
+
+    // Sidebar toggle
+    function openSidebar() {
+      elements.sidebar.classList.add('open');
+      elements.sidebarOverlay.classList.add('active');
+    }
+
+    function closeSidebar() {
+      elements.sidebar.classList.remove('open');
+      elements.sidebarOverlay.classList.remove('active');
+    }
+
+    function toggleSidebar() {
+      if (elements.sidebar.classList.contains('open')) {
+        closeSidebar();
+      } else {
+        openSidebar();
+      }
+    }
+
+    // Search modal
+    function openSearch() {
+      elements.searchModal.classList.add('visible');
+      document.body.style.overflow = 'hidden';
+      elements.searchInput.focus();
+    }
+
+    function closeSearch() {
+      elements.searchModal.classList.remove('visible');
+      document.body.style.overflow = '';
+      elements.searchInput.value = '';
+      elements.searchResults.innerHTML = '';
+      elements.searchInfo.textContent = 'Type to search across all categories';
+    }
+
+    // Highlight search matches
+    function highlight(text, query) {
+      if (!text || !query) return text || '';
+      const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      return text.replace(new RegExp(`(${escaped})`, 'gi'), '<span class="search-hl">$1</span>');
+    }
+
+    // Search functionality
+    function search(query) {
+      if (!query.trim()) {
+        elements.searchResults.innerHTML = '';
+        elements.searchInfo.textContent = 'Type to search across all categories';
+        return;
+      }
+
+      const lowerQuery = query.toLowerCase();
+      const matches = allResources.filter(r =>
+        r.name.toLowerCase().includes(lowerQuery) ||
+        r.desc.toLowerCase().includes(lowerQuery)
+      );
+
+      elements.searchInfo.textContent = matches.length
+        ? `Found ${matches.length} result${matches.length > 1 ? 's' : ''}`
+        : 'No results found';
+
+      elements.searchResults.innerHTML = matches.slice(0, 50).map(r => `
+        <div class="search-item" data-url="${r.url}">
+          <div class="search-item-title">${highlight(r.name, query)}</div>
+          <div class="search-item-desc">${highlight(r.desc, query) || 'No description'}</div>
+          <div class="search-item-cat">${CATEGORIES[r.category]?.title || r.category}</div>
+        </div>
+      `).join('');
+
+      // Add click handlers
+      elements.searchResults.querySelectorAll('.search-item').forEach(item => {
+        item.addEventListener('click', () => window.open(item.dataset.url, '_blank'));
+      });
+    }
+
+    // Load content
+    async function loadContent() {
+      // Try bundled content first
+      if (README_CONTENT && README_CONTENT !== '__README_CONTENT__') {
+        try {
+          const md = atob(README_CONTENT);
+          parsedData = parseReadme(md);
+          renderSidebar();
+          renderCategories();
+          return;
+        } catch (e) {
+          console.warn('Failed to decode bundled content:', e);
+        }
+      }
+
+      // Fallback to fetching from GitHub
+      try {
+        const res = await fetch('https://raw.githubusercontent.com/aorumbayev/awesome-omarchy/main/README.md');
+        if (!res.ok) throw new Error('Failed to fetch');
+
+        const md = await res.text();
+        parsedData = parseReadme(md);
+        renderSidebar();
+        renderCategories();
+      } catch (e) {
+        elements.categories.innerHTML = `
+          <div class="error">
+            Failed to load content.
+            <button onclick="location.reload()" style="background:var(--green);color:var(--bg);border:none;padding:0.5rem 1rem;border-radius:0.375rem;cursor:pointer;margin-top:1rem;">
+              Retry
+            </button>
+          </div>`;
+      }
+    }
+
+    // Initialize tabs
+    function initTabs() {
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.tab-btn').forEach(b => {
+            b.classList.remove('active');
+            b.setAttribute('aria-selected', 'false');
+          });
+          document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+
+          btn.classList.add('active');
+          btn.setAttribute('aria-selected', 'true');
+          document.getElementById(btn.dataset.tab).classList.add('active');
+        });
+      });
+    }
+
+    // Initialize copy functionality
+    function initCopy() {
+      document.querySelectorAll('.install-code').forEach(el => {
+        el.addEventListener('click', async () => {
+          try {
+            await navigator.clipboard.writeText(el.querySelector('code').textContent);
+            el.classList.add('copied');
+            setTimeout(() => el.classList.remove('copied'), 1500);
+          } catch (e) {
+            console.warn('Copy failed:', e);
+          }
+        });
+      });
+    }
+
+    // Initialize keyboard shortcuts
+    function initKeyboard() {
+      document.addEventListener('keydown', e => {
+        if (e.key === 'Escape') {
+          if (elements.searchModal.classList.contains('visible')) {
+            closeSearch();
+          }
+        }
+        if (e.key === '/' && document.activeElement.tagName !== 'INPUT') {
+          e.preventDefault();
+          openSearch();
+        }
+      });
+    }
+
+    // Initialize scroll spy for sidebar
+    function initScrollSpy() {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const id = entry.target.id;
+            document.querySelectorAll('.nav-item').forEach(item => {
+              item.classList.toggle('active', item.getAttribute('href') === `#${id}`);
+            });
+          }
+        });
+      }, { threshold: 0.3, rootMargin: '-100px 0px -50% 0px' });
+
+      setTimeout(() => {
+        document.querySelectorAll('.category').forEach(section => observer.observe(section));
+      }, 500);
+    }
+
+    // Initialize event listeners
+    function initEventListeners() {
+      elements.menuToggle.addEventListener('click', toggleSidebar);
+      elements.sidebarOverlay.addEventListener('click', closeSidebar);
+      elements.searchBtn.addEventListener('click', openSearch);
+      elements.searchClose.addEventListener('click', closeSearch);
+      elements.searchModal.addEventListener('click', e => {
+        if (e.target === elements.searchModal) closeSearch();
+      });
+      elements.searchInput.addEventListener('input', debounce(e => search(e.target.value), 200));
+    }
+
+    // Initialize app
+    document.addEventListener('DOMContentLoaded', () => {
+      loadContent();
+      initTabs();
+      initCopy();
+      initKeyboard();
+      initScrollSpy();
+      initEventListeners();
+      initAsciiAnimation();
+    });
+
+    // ASCII Logo Animation
+    // AWESOME: white→green→white, animates right-to-left (letter by letter: E,M,O,S,E,W,A)
+    // OMARCHY: green→white→green, animates left-to-right (letter by letter: O,M,A,R,C,H,Y)
+    function initAsciiAnimation() {
+      const asciiArt = document.querySelector('.ascii-art');
+      if (!asciiArt) return;
+
+      // Get the two span elements
+      const awesomeSpan = asciiArt.querySelector('.ascii-awesome');
+      const omarchySpan = asciiArt.querySelector('.ascii-omarchy');
+      if (!awesomeSpan || !omarchySpan) return;
+
+      // Split each line into letter segments for animation
+      // AWESOME has 8 letters: A, W, E, S, O, M, E (with spaces)
+      // OMARCHY has 7 letters: O, M, A, R, C, H, Y
+
+      // Letter column boundaries (approximate character positions for each letter in AWESOME)
+      // Each letter in the ASCII art spans roughly 12-14 characters
+      const awesomeLetterWidths = [11, 14, 12, 11, 12, 14, 15, 12]; // A,W,E,S,O,M,E,  (trailing spaces)
+      const omarchyLetterWidths = [10, 15, 12, 11, 12, 11, 11]; // O,M,A,R,C,H,Y
+
+      // Wrap letters in spans for AWESOME
+      const awesomeLines = awesomeSpan.textContent.split('\n');
+      const wrappedAwesome = wrapLettersInSpans(awesomeLines, awesomeLetterWidths, 'awesome');
+      awesomeSpan.innerHTML = wrappedAwesome;
+
+      // Wrap letters in spans for OMARCHY  
+      const omarchyLines = omarchySpan.textContent.split('\n');
+      const wrappedOmarchy = wrapLettersInSpans(omarchyLines, omarchyLetterWidths, 'omarchy');
+      omarchySpan.innerHTML = wrappedOmarchy;
+
+      // Start the animation loop
+      startLetterAnimation();
+    }
+
+    function wrapLettersInSpans(lines, letterWidths, prefix) {
+      const totalLetters = letterWidths.length;
+      
+      return lines.map(line => {
+        let result = '';
+        let pos = 0;
+        
+        for (let i = 0; i < totalLetters && pos < line.length; i++) {
+          const width = letterWidths[i];
+          const segment = line.substring(pos, pos + width);
+          result += `<span class="ascii-letter ${prefix}-letter-${i}">${escapeHtml(segment)}</span>`;
+          pos += width;
+        }
+        
+        // Add any remaining characters
+        if (pos < line.length) {
+          result += escapeHtml(line.substring(pos));
+        }
+        
+        return result;
+      }).join('\n');
+    }
+
+    function escapeHtml(text) {
+      return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+    }
+
+    function startLetterAnimation() {
+      const awesomeLetterCount = 8;
+      const omarchyLetterCount = 7;
+      const letterDelay = 800; // ms between each letter animation
+      const cyclePause = 2000; // ms pause before reversing
+      const animationDuration = 1500; // matches CSS transition
+
+      // Colors
+      const white = '#e8e8e8';
+      const green = '#50fa7b';
+
+      let currentAwesomeLetter = awesomeLetterCount - 1; // Start from right (E)
+      let currentOmarchyLetter = 0; // Start from left (O)
+      let awesomeDirection = -1; // Going left
+      let omarchyDirection = 1; // Going right
+      let awesomeTargetColor = green; // white→green
+      let omarchyTargetColor = white; // green→white
+
+      function animateStep() {
+        // Animate current AWESOME letter (right to left)
+        const awesomeLetters = document.querySelectorAll(`.awesome-letter-${currentAwesomeLetter}`);
+        awesomeLetters.forEach(el => el.style.color = awesomeTargetColor);
+
+        // Animate current OMARCHY letter (left to right)
+        const omarchyLetters = document.querySelectorAll(`.omarchy-letter-${currentOmarchyLetter}`);
+        omarchyLetters.forEach(el => el.style.color = omarchyTargetColor);
+
+        // Move to next letter
+        currentAwesomeLetter += awesomeDirection;
+        currentOmarchyLetter += omarchyDirection;
+
+        // Check if we've completed a sweep
+        const awesomeDone = (awesomeDirection === -1 && currentAwesomeLetter < 0) || 
+                           (awesomeDirection === 1 && currentAwesomeLetter >= awesomeLetterCount);
+        const omarchyDone = (omarchyDirection === 1 && currentOmarchyLetter >= omarchyLetterCount) ||
+                           (omarchyDirection === -1 && currentOmarchyLetter < 0);
+
+        if (awesomeDone && omarchyDone) {
+          // Reverse direction and swap target colors after a pause
+          setTimeout(() => {
+            awesomeDirection *= -1;
+            omarchyDirection *= -1;
+            awesomeTargetColor = awesomeTargetColor === green ? white : green;
+            omarchyTargetColor = omarchyTargetColor === white ? green : white;
+            currentAwesomeLetter = awesomeDirection === -1 ? awesomeLetterCount - 1 : 0;
+            currentOmarchyLetter = omarchyDirection === 1 ? 0 : omarchyLetterCount - 1;
+            setTimeout(animateStep, letterDelay);
+          }, cyclePause);
+        } else {
+          setTimeout(animateStep, letterDelay);
+        }
+      }
+
+      // Start the animation
+      setTimeout(animateStep, 1000);
+    }
+  </script>
 </body>
 </html>
