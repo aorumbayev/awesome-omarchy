@@ -21,5 +21,6 @@ exclude_loopback = true
 exclude = [
     "^http://localhost.*",
     "^https://localhost.*",
-    "https://learn.omacom.io/2/the-omarchy-manual"
+    "https://learn.omacom.io/2/the-omarchy-manual",
+    "https://medium.com/@prathamgundikere/why-i-switched-to-omarchy-and-why-you-might-too-617d84ac63ce",
 ]
