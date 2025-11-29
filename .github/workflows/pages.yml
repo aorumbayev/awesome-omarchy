@@ -2,11 +2,12 @@
 name: Deploy GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch, specifically .pages directory
+  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
     paths:
       - '.pages/**'
+      - 'README.md'  # Rebuild when resources change
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -17,15 +18,13 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+# Allow only one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying static files
-  deploy:
+  build-and-deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -35,13 +34,22 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Bundle README into HTML
+        run: |
+          # Encode README.md as base64
+          README_BASE64=$(base64 -w 0 README.md)
+          
+          # Replace placeholder in index.html with bundled content
+          sed -i "s|__README_CONTENT__|${README_BASE64}|g" .pages/index.html
+          
+          echo "README bundled successfully ($(echo $README_BASE64 | wc -c) bytes)"
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload only the .pages directory contents
           path: '.pages'
 
       - name: Deploy to GitHub Pages
