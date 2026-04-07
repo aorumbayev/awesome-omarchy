@@ -184,6 +184,7 @@
 - [omarchy-gui](https://github.com/amanat361/omarchy-gui) - GUI tools for Omarchy configuration.
 - [hyprmon](https://github.com/erans/hyprmon) - TUI monitor configuration tool for Hyprland with visual layout, drag-and-drop, and profile management.
 - [hyprmarker](https://github.com/devmobasa/hyprmarker) - ZoomIt-inspired annotation overlay tailored for Hyprland/Omarchy.
+- [hypruler](https://github.com/t4t5/hypruler) - Measure anything on your screen. Inspired by PixelSnap for Mac.
 - [omarchy-cleaner](https://github.com/maxart/omarchy-cleaner) - Quickly and easily remove pre-installed apps and webapps.
 - [clipboard-manager](https://github.com/Grenish/clipboard-manager) - Windows-like clipboard manager for Omarchy.
 - [edit](https://github.com/mirarr-app/editt) - Beautiful image viewer and editor with Omarchy styling support.
@@ -197,7 +198,6 @@
 - [omarchpods](https://github.com/tomycostantino/omarchpods) - TUI for monitoring AirPods and other Bluetooth headphones with battery status and device info.
 - [wayscriber](https://github.com/devmobasa/wayscriber) - Instant on-screen annotations and markup for Wayland, ZoomIt-inspired.
 - [lazyVPN-for-Omarchy](https://github.com/blank-query/lazyVPN-for-Omarchy) - A WireGuard VPN manager with Walker menu integration, killswitch protection, and dynamic server browsing.
-- [hypruler](https://github.com/t4t5/hypruler) - Measure anything on your screen. Inspired by PixelSnap for Mac.
 
 ## Related Projects
 
