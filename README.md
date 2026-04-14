@@ -184,6 +184,7 @@
 - [omarchy-gui](https://github.com/amanat361/omarchy-gui) - GUI tools for Omarchy configuration.
 - [hyprmon](https://github.com/erans/hyprmon) - TUI monitor configuration tool for Hyprland with visual layout, drag-and-drop, and profile management.
 - [hyprmarker](https://github.com/devmobasa/hyprmarker) - ZoomIt-inspired annotation overlay tailored for Hyprland/Omarchy.
+- [hypruler](https://github.com/t4t5/hypruler) - Measure anything on your screen. Inspired by PixelSnap for Mac.
 - [omarchy-cleaner](https://github.com/maxart/omarchy-cleaner) - Quickly and easily remove pre-installed apps and webapps.
 - [clipboard-manager](https://github.com/Grenish/clipboard-manager) - Windows-like clipboard manager for Omarchy.
 - [edit](https://github.com/mirarr-app/editt) - Beautiful image viewer and editor with Omarchy styling support.
