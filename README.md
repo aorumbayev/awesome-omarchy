@@ -148,6 +148,7 @@
 ## Development Tools
 
 - [awesome-omarchy-tui](https://github.com/aorumbayev/awesome-omarchy-tui) - Terminal UI for browsing awesome-omarchy repository content.
+- [omaclip](https://github.com/rhemvi/omaclip) - A clipboard manager with cross-device sync and hot theme reloading.
 - [omarchy-ai](https://github.com/mitkox/omarchy-ai) - AI-powered enhancements and tools for Omarchy.
 - [omarchy-iso](https://github.com/omacom-io/omarchy-iso) - Custom ISO builder for Omarchy installations.
 - [omarchy-box](https://github.com/dylanbr/omarchy-box) - Containerized Omarchy environment.
