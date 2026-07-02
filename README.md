@@ -38,6 +38,7 @@
 
 ## Themes
 
+- [omarchy-pissarro-theme](https://github.com/mattbbia/pissarro-omarchy) - A light Omarchy theme inspired by Camille Pissarro.
 - [aetheria](https://github.com/JJDizz1L/aetheria) - Ethereal and modern theme with balanced aesthetics.
 - [omarchy-aamis-theme](https://github.com/vyrx-dev/omarchy-aamis-theme) - Near‑black canvas, creamy text.
 - [omarchy-alabaster-theme](https://github.com/grierson/omarchy-alabaster-theme) - Alabaster theme with clean, minimalist design.
