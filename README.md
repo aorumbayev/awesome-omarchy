@@ -56,6 +56,7 @@
 - [omarchy-blackmoney-theme](https://github.com/HANCORE-linux/omarchy-blackmoney-theme) - Bold midnight theme with rich green-gold accents.
 - [omarchy-blackturq-theme](https://github.com/HANCORE-linux/omarchy-blackturq-theme) - Black turquoise theme based on Evo80 keyboard color pattern.
 - [omarchy-blueridge-dark-theme](https://github.com/hipsterusername/omarchy-blueridge-dark-theme) - Dark theme inspired by mountain ridge aesthetics.
+- [omarchy-bulwer](https://github.com/mattbbia/bulwer-omarchy) - A light Omarchy theme inspired by the paintings of James Bulwer.
 - [omarchy-cobalt2-theme](https://github.com/hoblin/omarchy-cobalt2-theme) - Cobalt2 theme inspired by the iconic VSCode theme.
 - [omarchy-crimson-gold-theme](https://github.com/knappkevin/omarchy-crimson-gold-theme) - Luxurious crimson and gold color combination.
 - [omarchy-doom-theme](https://github.com/AX200M/omarchy-doom-theme) - Material theme inspired by MF DOOM wallpaper.
@@ -77,6 +78,7 @@
 - [omarchy-green-garden-theme](https://github.com/kalk-ak/omarchy-green-garden-theme) - Fresh and calming theme inspired by nature with vibrant yet soothing green tones.
 - [omarchy-harbor-theme](https://github.com/HANCORE-linux/omarchy-harbor-theme) - Calm, paper-light color scheme with cool ink accents inspired by Nordic tones.
 - [omarchy-harbordark-theme](https://github.com/HANCORE-linux/omarchy-harbordark-theme) - Dark version of Harbor theme with deep tones and cool accents.
+- [omarchy-heritage-palette](https://github.com/mattbbia/heritage-palette-omarchy) - A light Omarchy theme inspired by the paintings of Perkins Harnly.
 - [omarchy-hollow-knight-theme](https://github.com/bjarneo/omarchy-hollow-knight-theme) - Hollow Knight inspired theme with gaming aesthetics.
 - [omarchy-hook-theme-set-ex](https://github.com/imbypass/omarchy-hook-theme-set-ex) - Modular interpretation of the Omarchy theme-set hook.
 - [omarchy-inkypinky-theme](https://github.com/HANCORE-linux/omarchy-inkypinky-theme) - Bold meets blush in a swirl of creative elegance.
@@ -94,6 +96,7 @@
 - [omarchy-osaka-jade-theme](https://github.com/Justikun/omarchy-osaka-jade-theme) - Elegant jade-colored theme inspired by Osaka aesthetics.
 - [omarchy-pissarro-theme](https://github.com/mattbbia/pissarro-omarchy) - A light Omarchy theme inspired by Camille Pissarro.
 - [omarchy-purplewave-theme](https://github.com/dotsilva/omarchy-purplewave-theme) - Purple wave-inspired theme with elegant purple tones.
+- [omarchy-railroad-visions](https://github.com/mattbbia/railroad-visions-omarchy) - A dark Omarchy theme inspired by the early photography of Anthony J. Russell.
 - [omarchy-retropc-theme](https://github.com/rondilley/omarchy-retropc-theme) - Nostalgic retro PC theme with vintage computing aesthetics.
 - [omarchy-retro-fallout-theme](https://github.com/zdravkodanailov7/omarchy-retro-fallout-theme) - Post-apocalyptic theme with Vault-inspired colors and Fallout-themed styling.
 - [omarchy-rose-pine-dark](https://github.com/guilhermetk/omarchy-rose-pine-dark) - Rose Pine inspired dark theme.
@@ -105,11 +108,13 @@
 - [omarchy-solarized-theme](https://github.com/Gazler/omarchy-solarized-theme) - Classic Solarized color scheme adaptation.
 - [omarchy-space-monkey-theme](https://github.com/TyRichards/omarchy-space-monkey-theme) - Space-inspired theme with cosmic elements.
 - [omarchy-spectra-theme](https://github.com/abhijeet-swami/omarchy-spectra-theme) - Blur and transparency theme that adapts to any wallpaper.
+- [omarchy-stills-in-motion](https://github.com/mattbbia/stills-in-motion-omarchy) - A dark Omarchy theme inspired by the photography of Eadweard Muybridge.
 - [omarchy-sunset-drive-theme](https://github.com/tahayvr/omarchy-sunset-drive-theme) - Sunset-inspired theme with warm gradients.
 - [omarchy-synthwave84-theme](https://github.com/omacom-io/omarchy-synthwave84-theme) - Synthwave 84 inspired theme with retro aesthetics.
 - [omarchy-thegreek-theme](https://github.com/HANCORE-linux/omarchy-thegreek-theme) - Sleek, strategic spy theme blending classic espionage with modern intrigue.
 - [omarchy-velocity-theme](https://github.com/perfektnacht/omarchy-velocity-theme) - Dynamic theme with speed-inspired design elements.
 - [omarchy-velvetnight-theme](https://github.com/HANCORE-linux/omarchy-velvetnight-theme) - Dark, night-inspired theme with soft contrasts and subtle glimmers.
+- [omarchy-venice-from-above](https://github.com/mattbbia/venice-from-above-omarchy) - A light Omarchy theme inspired by the 15th century bird's eye view mapping of Venice.
 - [omarchy-vesper-theme](https://github.com/thmoee/omarchy-vesper-theme) - Dark theme with warm vesper-orange highlights.
 - [omarchy-vhs80-theme](https://github.com/tahayvr/omarchy-vhs80-theme) - Retro VHS-inspired theme with 80s aesthetics and neon colors.
 - [omarchy-void-theme](https://github.com/vyrx-dev/omarchy-void-theme.git) - Low-contrast purple theme with soft accents for a calm UI.
