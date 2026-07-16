@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
   <defs>
     <linearGradient id="bg" x1="0" y1="128" x2="128" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#080808"/>
-      <stop offset="1" stop-color="#1a1a1a"/>
+      <stop offset="0" stop-color="#16161e"/>
+      <stop offset="1" stop-color="#1a1b26"/>
     </linearGradient>
   </defs>
   <rect width="128" height="128" rx="20" fill="url(#bg)"/>
   <g font-family="JetBrains Mono, Fira Code, 'Courier New', monospace"
      font-size="13"
-     fill="#50fa7b"
+     fill="#7aa2f7"
      xml:space="preserve"
      text-anchor="middle">
     <text x="64" y="36">  ▄█████▄  </text>
