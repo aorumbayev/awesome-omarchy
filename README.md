@@ -83,6 +83,7 @@
 - [omarchy-hook-theme-set-ex](https://github.com/imbypass/omarchy-hook-theme-set-ex) - Modular interpretation of the Omarchy theme-set hook.
 - [omarchy-inkypinky-theme](https://github.com/HANCORE-linux/omarchy-inkypinky-theme) - Bold meets blush in a swirl of creative elegance.
 - [omarchy-kimiko-theme](https://github.com/krymzonn/omarchy-kimiko-theme) - Elegant theme with Japanese-inspired aesthetics.
+- [omarchy-lakes-and-light-theme](https://github.com/mattbbia/lakes-and-light) - Based on the paintings of Joseph Wright with a subtle color palette theme.
 - [omarchy-mars-theme](https://github.com/steve-lohmeyer/omarchy-mars-theme) - Mars-inspired red theme.
 - [omarchy-mechanoonna-theme](https://github.com/HANCORE-linux/omarchy-mechanoonna-theme) - Mecha no Onna (メカの女) the "Metal Woman" theme.
 - [omarchy-matte-black](https://github.com/tahayvr/omarchy-matte-black) - Sleek matte black theme for minimalists.
@@ -136,6 +137,7 @@
 - [omarchy-rose-pine-dawn-theme](https://github.com/ryanyogan/omarchy-rose-pine-dawn-theme) - Rose Pine Dawn light theme.
 - [omarchy-rose-pine](https://github.com/guilhermetk/omarchy-rose-pine) - Rose Pine theme for Omarchy.
 - [omarchy-anonymous-theme](https://github.com/j4v3l/omarchy-anonymous-theme) - Minimalist monochrome modern theme.
+- [omarchy-fire-and-shadow-theme](https://github.com/mattbbia/fire-and-shadow) - A moody, somber theme base on the paintings of Joseph Wright.
 - [omarchy-firesky-theme](https://github.com/bjarneo/omarchy-firesky-theme) - Fire-lit sky inspired theme for deep focus.
 - [omarchy-wood-theme](https://github.com/bjarneo/omarchy-wood-theme) - Natural wood-inspired theme.
 - [omarchy-pulsar-theme](https://github.com/bjarneo/omarchy-pulsar-theme) - Vibrant, cosmic-inspired dark theme for Omarchy that captures the brilliant energy of neutron stars.
