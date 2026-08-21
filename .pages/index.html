@@ -10,7 +10,14 @@
   <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="application-name" content="Awesome Omarchy">
   <link rel="canonical" href="https://awesome-omarchy.com/">
-  <meta name="theme-color" content="#1a1b26">
+  <meta name="theme-color" content="#1a1b26" id="themeColorMeta">
+  <script>
+    // Restore saved theme before first paint; unknown values just fall back to :root
+    (function () {
+      var t = localStorage.getItem('theme');
+      if (t) document.documentElement.dataset.theme = t;
+    })();
+  </script>
 
   <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="Awesome Omarchy - Curated Arch Linux/Hyprland Themes & Tools">
@@ -70,7 +77,7 @@
 
   <style>
     :root {
-      /* Tokyo Night */
+      /* Tokyo Night (omarchy themes/tokyo-night/colors.toml) */
       --bg: #1a1b26;
       --panel: #24283b;
       --panel2: #292e42;
@@ -85,6 +92,61 @@
       --green: #9ece6a;
       --yellow: #e0af68;
       --red: #f7768e;
+      --backdrop: rgba(20, 24, 33, 0.8);
+    }
+    [data-theme="dracula"] {
+      /* Dracula spec palette (draculatheme.com) */
+      --bg: #282a36;
+      --panel: #343746;
+      --panel2: #44475a;
+      --line: #44475a;
+      --selection: #44475a;
+      --fg: #f8f8f2;
+      --fg-dim: #d8d8d2;
+      --muted: #6272a4;
+      --blue: #bd93f9;
+      --teal: #8be9fd;
+      --magenta: #ff79c6;
+      --green: #50fa7b;
+      --yellow: #f1fa8c;
+      --red: #ff5555;
+      --backdrop: rgba(16, 17, 22, 0.8);
+    }
+    [data-theme="nord"] {
+      /* Nord (omarchy themes/nord/colors.toml) */
+      --bg: #2e3440;
+      --panel: #3b4252;
+      --panel2: #434c5e;
+      --line: #4c566a;
+      --selection: #434c5e;
+      --fg: #d8dee9;
+      --fg-dim: #adb5c4;
+      --muted: #616e88;
+      --blue: #81a1c1;
+      --teal: #88c0d0;
+      --magenta: #b48ead;
+      --green: #a3be8c;
+      --yellow: #ebcb8b;
+      --red: #bf616a;
+      --backdrop: rgba(25, 28, 35, 0.8);
+    }
+    [data-theme="osaka-jade"] {
+      /* Osaka Jade (omarchy themes/osaka-jade/colors.toml) */
+      --bg: #111c18;
+      --panel: #23372b;
+      --panel2: #32473b;
+      --line: #53685b;
+      --selection: #32473b;
+      --fg: #f7e8b2;
+      --fg-dim: #c1c497;
+      --muted: #81b8a8;
+      --blue: #2dd5b7;
+      --teal: #8cd3cb;
+      --magenta: #d2689c;
+      --green: #63b07a;
+      --yellow: #e5c736;
+      --red: #ff5345;
+      --backdrop: rgba(9, 15, 13, 0.8);
     }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     ::selection { background: var(--selection); }
@@ -95,6 +157,7 @@
       font-family: 'JetBrains Mono', ui-monospace, 'Courier New', monospace;
       font-size: 14px;
       line-height: 1.7;
+      transition: background-color 0.25s, color 0.25s;
     }
     a { color: var(--blue); }
     :focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; border-radius: 2px; }
@@ -116,7 +179,7 @@
     /* top actions */
     .top-actions { display: flex; justify-content: flex-end; gap: 0.5rem; margin-bottom: 2.5rem; }
     @media (max-width: 480px) {
-      .top-actions { justify-content: space-between; gap: 0.35rem; }
+      .top-actions { justify-content: space-between; gap: 0.35rem; flex-wrap: wrap; }
       .btn { font-size: 11px; padding: 0.3rem 0.6rem; gap: 0.3rem; }
     }
     .btn {
@@ -236,7 +299,8 @@
     section ul { list-style: none; }
     section li { padding: 0.3rem 0; display: flex; align-items: baseline; gap: 0.75rem; }
     section li a {
-      color: var(--fg-dim);
+      color: var(--fg);
+      font-weight: 500;
       text-decoration: none;
       overflow-wrap: anywhere;
       flex-shrink: 0;
@@ -266,7 +330,7 @@
       width: min(560px, calc(100vw - 2rem));
       margin: 12vh auto auto;
     }
-    dialog::backdrop { background: rgba(20, 24, 33, 0.8); }
+    dialog::backdrop { background: var(--backdrop); }
     .search-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; }
     .search-header h2 { color: var(--fg); margin: 0; }
     .search-header h2::before { content: '/'; color: var(--blue); }
@@ -337,6 +401,7 @@
     <header>
       <nav class="top-actions" aria-label="Site actions">
         <button class="btn" id="searchBtn">search <kbd>/</kbd></button>
+        <button class="btn" id="themeBtn"><span id="themeName">tokyo night</span> <kbd>t</kbd></button>
         <a class="btn" href="https://github.com/aorumbayev/awesome-omarchy" target="_blank" rel="noopener">github ↗<span class="stars" id="starCount" hidden></span></a>
       </nav>
 
@@ -457,6 +522,31 @@
       }
     }
 
+    // Theme picker: cycle through palettes emulating Omarchy default themes
+    const THEMES = [
+      ['tokyo-night', 'tokyo night', '#1a1b26'],
+      ['dracula', 'dracula', '#282a36'],
+      ['nord', 'nord', '#2e3440'],
+      ['osaka-jade', 'osaka jade', '#111c18'],
+    ];
+
+    function setTheme(id) {
+      const theme = THEMES.find(t => t[0] === id) || THEMES[0];
+      document.documentElement.dataset.theme = theme[0] === 'tokyo-night' ? '' : theme[0];
+      $('themeName').textContent = theme[1];
+      $('themeColorMeta').content = theme[2];
+      localStorage.setItem('theme', theme[0]);
+    }
+
+    function cycleTheme() {
+      const current = localStorage.getItem('theme') || 'tokyo-night';
+      const next = THEMES[(THEMES.findIndex(t => t[0] === current) + 1) % THEMES.length];
+      setTheme(next[0]);
+    }
+
+    setTheme(localStorage.getItem('theme') || 'tokyo-night');
+    $('themeBtn').addEventListener('click', cycleTheme);
+
     // Tabs (ARIA tabs pattern: arrow keys move + activate)
     const tabs = [...document.querySelectorAll('.tab-btn')];
     function selectTab(tab) {
@@ -525,10 +615,9 @@
     dialog.addEventListener('close', () => { input.value = ''; search(''); });
 
     document.addEventListener('keydown', e => {
-      if (e.key === '/' && !dialog.open && document.activeElement.tagName !== 'INPUT') {
-        e.preventDefault();
-        openSearch();
-      }
+      if (dialog.open || document.activeElement.tagName === 'INPUT') return;
+      if (e.key === '/') { e.preventDefault(); openSearch(); }
+      else if (e.key === 't') cycleTheme();
     });
 
     fetch('https://api.github.com/repos/aorumbayev/awesome-omarchy')
