@@ -1,8 +1,8 @@
 # Awesome Omarchy [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of awesome Omarchy themes, resources, and tools for the modern Arch Linux/Hyprland setup.
+> [Omarchy](https://omarchy.org/) is an opinionated Arch Linux/Hyprland configuration that transforms a fresh Arch installation into a fully-configured, beautiful, and modern desktop environment with a single command.
 
-[Omarchy](https://omarchy.org/) is an opinionated Arch Linux/Hyprland configuration that transforms a fresh Arch installation into a fully-configured, beautiful, and modern desktop environment with a single command.
+A curated list of Omarchy themes, resources, and tools.
 
 ## Contents
 
@@ -25,7 +25,7 @@
 - [armarchy](https://github.com/nilszeilon/armarchy) - ARM architecture-optimized fork of Omarchy.
 - [deckarchy](https://github.com/aorumbayev/deckarchy) - Steam Deck hardware fixes and optimizations for Omarchy installation.
 - [Fedpunk](https://github.com/hinriksnaer/Fedpunk) - Omarchy-based desktop configuration and modular theming engine for Fedora.
-- [hyprwhspr](https://github.com/goodroot/hyprwhspr) - Native speech-to-text for Arch / Omarchy - Fast, accurate and easy system-wide Whisper dictation.
+- [hyprwhspr](https://github.com/goodroot/hyprwhspr) - Native speech-to-text for Arch / Omarchy. Fast, accurate and easy system-wide Whisper dictation.
 - [Okimarchy](https://github.com/cristian-fleischer/okimarchy) - An Omarchy fork that adds support for niri window manager alongside Hyprland, with runtime switching and unified theming.
 - [omadora](https://github.com/elpritchos/omadora) - Minimal Fedora install based on Omarchy.
 - [omarchy-cachyos](https://github.com/lentra0/omarchy-cachyos) - Opinionated CachyOS/Hyprland Setup.
@@ -118,15 +118,15 @@
 - [omarchy-venice-from-above](https://github.com/mattbbia/venice-from-above-omarchy) - A light Omarchy theme inspired by the 15th century bird's eye view mapping of Venice.
 - [omarchy-vesper-theme](https://github.com/thmoee/omarchy-vesper-theme) - Dark theme with warm vesper-orange highlights.
 - [omarchy-vhs80-theme](https://github.com/tahayvr/omarchy-vhs80-theme) - Retro VHS-inspired theme with 80s aesthetics and neon colors.
-- [omarchy-void-theme](https://github.com/vyrx-dev/omarchy-void-theme.git) - Low-contrast purple theme with soft accents for a calm UI.
+- [omarchy-void-theme](https://github.com/vyrx-dev/omarchy-void-theme) - Low-contrast purple theme with soft accents for a calm UI.
 - [omarchy-wasteland-theme](https://github.com/perfektnacht/omarchy-wasteland-theme) - Post-apocalyptic wasteland-inspired color scheme.
 - [omarchy-whitegold-theme](https://github.com/HANCORE-linux/omarchy-whitegold-theme) - Light and elegance intertwined with gold accents.
 - [omarchy-waveform-dark-theme](https://github.com/hipsterusername/omarchy-waveform-dark-theme) - Dark theme with waveform-inspired design patterns.
-- [omarchy-motivator-theme](https://github.com/rondilley/omarchy-motivator-theme) - Omarchy Theme for maximum motivation.
+- [omarchy-motivator-theme](https://github.com/rondilley/omarchy-motivator-theme) - Theme for maximum motivation.
 - [omarchy-archriot-theme](https://github.com/CyphrRiot/omarchy-archriot-theme) - ArchRiot theme for Omarchy by CyphrRiot.
 - [omarchy-arc-blueberry](https://github.com/vale-c/omarchy-arc-blueberry) - Arc Blueberry inspired colors tailored for Omarchy.
-- [omarchy-ayu-dark-theme](https://github.com/fdidron/omarchy-ayu-dark-theme) - Omarchy Ayu Dark Theme.
-- [omarchy-ayu-light-theme](https://github.com/fdidron/omarchy-ayu-light-theme) - Omarchy Ayu Light Theme.
+- [omarchy-ayu-dark-theme](https://github.com/fdidron/omarchy-ayu-dark-theme) - Ayu Dark color scheme adaptation.
+- [omarchy-ayu-light-theme](https://github.com/fdidron/omarchy-ayu-light-theme) - Ayu Light color scheme adaptation.
 - [omarchy-github-light-theme](https://github.com/ryanyogan/omarchy-github-light-theme) - GitHub Light theme adaptation.
 - [omarchy-night-owl-theme](https://github.com/maxberggren/omarchy-night-owl-theme) - Dark blue night owl theme for Omarchy.
 - [omarchy-catppuccin-mocha-theme](https://github.com/KidDogDad/omarchy-catppuccin-mocha-theme) - Catppuccin Mocha theme for Omarchy.
@@ -137,7 +137,7 @@
 - [omarchy-rose-pine-dawn-theme](https://github.com/ryanyogan/omarchy-rose-pine-dawn-theme) - Rose Pine Dawn light theme.
 - [omarchy-rose-pine](https://github.com/guilhermetk/omarchy-rose-pine) - Rose Pine theme for Omarchy.
 - [omarchy-anonymous-theme](https://github.com/j4v3l/omarchy-anonymous-theme) - Minimalist monochrome modern theme.
-- [omarchy-fire-and-shadow-theme](https://github.com/mattbbia/fire-and-shadow) - A moody, somber theme base on the paintings of Joseph Wright.
+- [omarchy-fire-and-shadow-theme](https://github.com/mattbbia/fire-and-shadow) - A moody, somber theme based on the paintings of Joseph Wright.
 - [omarchy-firesky-theme](https://github.com/bjarneo/omarchy-firesky-theme) - Fire-lit sky inspired theme for deep focus.
 - [omarchy-wood-theme](https://github.com/bjarneo/omarchy-wood-theme) - Natural wood-inspired theme.
 - [omarchy-pulsar-theme](https://github.com/bjarneo/omarchy-pulsar-theme) - Vibrant, cosmic-inspired dark theme for Omarchy that captures the brilliant energy of neutron stars.
@@ -177,8 +177,8 @@
 - [omarchy-waybar](https://github.com/timmo001/omarchy-waybar) - Omarchy Waybar configuration and customizations.
 - [waybar-themes](https://github.com/HANCORE-linux/waybar-themes) - Collection of Waybar themes with various styles and combinations for Omarchy.
 - [omarchy-hypr](https://github.com/timmo001/omarchy-hypr) - Omarchy Hyprland configuration files and settings.
-- [OMARCHY-VM-UTM](https://github.com/hjanuschka/OMARCHY-VM-UTM) - OMARCHY VM for UTM - Pre-configured Arch Linux virtual machine.
-- [omarchy-workspace-mover](https://github.com/jonashan/omarchy-workspace-mover) - A Omarchy plugin for moving workspaces between monitors.
+- [OMARCHY-VM-UTM](https://github.com/hjanuschka/OMARCHY-VM-UTM) - Pre-configured Arch Linux virtual machine for UTM.
+- [omarchy-workspace-mover](https://github.com/jonashan/omarchy-workspace-mover) - An Omarchy plugin for moving workspaces between monitors.
 - [omarchy-wireguard-vpn-toggle](https://github.com/JacobusXIII/omarchy-wireguard-vpn-toggle) - WireGuard VPN toggle for Omarchy's Waybar.
 - [omarchy-vpn](https://github.com/limehawk/omarchy-vpn) - WireGuard VPN manager TUI with live connection stats, inline config import/rename, and optional Waybar module.
 - [omazed](https://github.com/APS6/omazed) - Live theme switching for Zed editor in Omarchy.
@@ -244,7 +244,6 @@
 - [Why I Switched to Omarchy (and Why You Might Too)](https://medium.com/@prathamgundikere/why-i-switched-to-omarchy-and-why-you-might-too-617d84ac63ce) - Medium article about discovering and adopting Omarchy.
 - [This One Command Turned My Arch Install Into a Beautiful Hyprland Setup](https://news.itsfoss.com/omarchy/) - It's FOSS review of Omarchy installation and features.
 - [Installing Omarchy on Arch - iFixit Repair Guide](https://www.ifixit.com/Guide/Installing+Omarchy+on+Arch/190367) - Step-by-step installation guide on iFixit.
-
 - [Installing Omarchy via Arch Linux on macOS](https://deepakness.com/raw/installing-arch-omarchy-on-mac/) - Guide for installing on Mac hardware.
 - [Configuring Omarchy on Beelink](https://www.dennisokeeffe.com/blog/2025-07-17-configuring-arch-linux-omarchy-via-mac) - Configuration guide for Beelink mini PCs.
 - [Sudomarchy](https://sudomarchy.com) - PO Martel's blog offering Omarchy & Hyprland tips and tweaks.
