@@ -209,6 +209,7 @@ A curated list of Omarchy themes, resources, and tools.
 - [omarchpods](https://github.com/tomycostantino/omarchpods) - TUI for monitoring AirPods and other Bluetooth headphones with battery status and device info.
 - [wayscriber](https://github.com/devmobasa/wayscriber) - Instant on-screen annotations and markup for Wayland, ZoomIt-inspired.
 - [lazyVPN-for-Omarchy](https://github.com/blank-query/lazyVPN-for-Omarchy) - A WireGuard VPN manager with Walker menu integration, killswitch protection, and dynamic server browsing.
+- [omarchy-nook](https://github.com/achevalier-dev/omarchy-nook) - Bar widget and menu for a home server on your tailnet, showing whether it answers, how it is doing, and what it is running.
 
 ## Related Projects
 
