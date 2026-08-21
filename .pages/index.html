@@ -389,6 +389,79 @@
     footer a { color: var(--magenta); text-decoration: none; }
     footer a:hover { color: var(--blue); text-decoration: underline; }
 
+    /* desktop: emulate an Omarchy/Hyprland desktop (quattro: square corners,
+       2px accent border, 10px outer gaps, opaque 26px bar, no shadows) */
+    .waybar, .statusline { display: none; }
+    .desktop-shell, .window, .pane { display: contents; }
+    @media (min-width: 1024px) {
+      body {
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        background:
+          radial-gradient(1100px 700px at 75% 115%, color-mix(in srgb, var(--magenta) 16%, transparent), transparent 62%),
+          radial-gradient(900px 650px at 10% -15%, color-mix(in srgb, var(--blue) 12%, transparent), transparent 55%),
+          var(--bg);
+      }
+      .waybar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 30px;
+        padding: 0 10px;
+        background: var(--bg);
+        color: var(--fg-dim);
+        font-size: 12px;
+        position: relative;
+        flex-shrink: 0;
+      }
+      .wb-left, .wb-right { display: flex; align-items: center; gap: 0.6rem; }
+      .wb-logo { color: var(--blue); }
+      .wb-title { color: var(--fg); font-weight: 500; }
+      .wb-center { position: absolute; left: 50%; transform: translateX(-50%); }
+      .wb-btn { font-size: 11px; padding: 0.15rem 0.7rem; }
+
+      .desktop-shell { display: flex; flex: 1; min-height: 0; padding: 10px; }
+      .window {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        min-height: 0;
+        background: var(--bg);
+        border: 2px solid var(--blue);
+        border-radius: 0;
+        overflow: hidden;
+      }
+      .pane { display: block; flex: 1; min-height: 0; overflow-y: auto; scroll-behavior: smooth; }
+      .top-actions { display: none; }
+      .wrap { max-width: 860px; padding: 2.5rem 2rem 3rem; }
+
+      section li { scroll-margin-block: 6rem; padding-left: 0.5rem; padding-right: 0.5rem; margin-left: -0.5rem; margin-right: -0.5rem; border-radius: 2px; }
+      section li.cursor { background: color-mix(in srgb, var(--fg) 8%, transparent); }
+
+      .statusline {
+        display: flex;
+        align-items: stretch;
+        font-size: 12px;
+        background: var(--panel);
+        color: var(--fg-dim);
+        border-top: 1px solid var(--line);
+        margin: 0;
+        padding: 0;
+        flex-shrink: 0;
+      }
+      .statusline > span { padding: 0.2rem 0.7rem; }
+      .sl-mode { background: var(--blue); color: var(--bg); font-weight: 700; }
+      .sl-file { color: var(--fg); }
+      .sl-spacer { flex: 1; padding: 0; }
+      .sl-theme { color: var(--magenta); }
+      .sl-pos, .sl-pct { color: var(--muted); }
+    }
+    @media (min-width: 1024px) and (prefers-reduced-motion: reduce) {
+      .pane { scroll-behavior: auto; }
+    }
+
     ::-webkit-scrollbar { width: 8px; }
     ::-webkit-scrollbar-track { background: var(--bg); }
     ::-webkit-scrollbar-thumb { background: var(--panel2); border-radius: 4px; }
@@ -397,50 +470,74 @@
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
 
-  <div class="wrap">
-    <header>
-      <nav class="top-actions" aria-label="Site actions">
-        <button class="btn" id="searchBtn">search <kbd>/</kbd></button>
-        <button class="btn" id="themeBtn"><span id="themeName">tokyo night</span> <kbd>t</kbd></button>
-        <a class="btn" href="https://github.com/aorumbayev/awesome-omarchy" target="_blank" rel="noopener">github ↗<span class="stars" id="starCount" hidden></span></a>
-      </nav>
+  <header class="waybar" aria-hidden="true">
+    <div class="wb-left"><span class="wb-logo">&#9684;</span><span class="wb-title">awesome-omarchy</span></div>
+    <div class="wb-center" id="clock"></div>
+    <div class="wb-right">
+      <button class="btn wb-btn js-search">search <kbd>/</kbd></button>
+      <button class="btn wb-btn js-theme"><span class="js-theme-name">tokyo night</span> <kbd>t</kbd></button>
+      <a class="btn wb-btn" href="https://github.com/aorumbayev/awesome-omarchy" target="_blank" rel="noopener">github ↗<span class="stars js-stars" hidden></span></a>
+    </div>
+  </header>
 
-      <p class="prompt" aria-hidden="true"><span class="user">omarchy@arch</span>:<span class="path">~/awesome</span>$ cat README.md</p>
-      <h1>awesome-omarchy<span class="cursor" aria-hidden="true"></span></h1>
-      <p class="tagline">A curated list of awesome <em>Omarchy</em> themes, resources, and tools for the modern Arch Linux / Hyprland setup.</p>
+  <div class="desktop-shell">
+    <div class="window">
+      <div class="pane" id="pane">
+        <div class="wrap">
+          <header>
+            <nav class="top-actions" aria-label="Site actions">
+              <button class="btn js-search" id="searchBtn">search <kbd>/</kbd></button>
+              <button class="btn js-theme" id="themeBtn"><span class="js-theme-name" id="themeName">tokyo night</span> <kbd>t</kbd></button>
+              <a class="btn" href="https://github.com/aorumbayev/awesome-omarchy" target="_blank" rel="noopener">github ↗<span class="stars js-stars" id="starCount" hidden></span></a>
+            </nav>
 
-      <div class="tabs" role="tablist" aria-label="Install method">
-        <button class="tab-btn" role="tab" id="tab-aur" aria-controls="pane-aur" aria-selected="true">aur</button>
-        <button class="tab-btn" role="tab" id="tab-unix" aria-controls="pane-unix" aria-selected="false" tabindex="-1">curl</button>
-        <button class="tab-btn" role="tab" id="tab-cargo" aria-controls="pane-cargo" aria-selected="false" tabindex="-1">cargo</button>
-        <button class="tab-btn" role="tab" id="tab-win" aria-controls="pane-win" aria-selected="false" tabindex="-1">windows</button>
-      </div>
-      <div class="tab-pane" id="pane-aur" role="tabpanel" aria-labelledby="tab-aur">
-        <div class="install"><span class="dollar" aria-hidden="true">$</span><code>yay -Sy awesome-omarchy-tui-bin</code><button class="copy-btn" aria-label="Copy install command">[copy]</button></div>
-      </div>
-      <div class="tab-pane" id="pane-unix" role="tabpanel" aria-labelledby="tab-unix" hidden>
-        <div class="install"><span class="dollar" aria-hidden="true">$</span><code>curl -fsSL https://tui.awesome-omarchy.com/install.sh | bash</code><button class="copy-btn" aria-label="Copy install command">[copy]</button></div>
-      </div>
-      <div class="tab-pane" id="pane-cargo" role="tabpanel" aria-labelledby="tab-cargo" hidden>
-        <div class="install"><span class="dollar" aria-hidden="true">$</span><code>cargo install awesome-omarchy-tui</code><button class="copy-btn" aria-label="Copy install command">[copy]</button></div>
-      </div>
-      <div class="tab-pane" id="pane-win" role="tabpanel" aria-labelledby="tab-win" hidden>
-        <div class="install"><span class="dollar" aria-hidden="true">$</span><code>iwr https://tui.awesome-omarchy.com/install.ps1 | iex</code><button class="copy-btn" aria-label="Copy install command">[copy]</button></div>
-      </div>
-      <p class="install-note">after installation, run the TUI with <code>awsomarchy</code></p>
-    </header>
+            <p class="prompt" aria-hidden="true"><span class="user">omarchy@arch</span>:<span class="path">~/awesome</span>$ cat README.md</p>
+            <h1>awesome-omarchy<span class="cursor" aria-hidden="true"></span></h1>
+            <p class="tagline">A curated list of awesome <em>Omarchy</em> themes, resources, and tools for the modern Arch Linux / Hyprland setup.</p>
 
-    <main id="content">
-      <nav aria-label="Categories"><ul class="toc" id="toc"></ul></nav>
+            <div class="tabs" role="tablist" aria-label="Install method">
+              <button class="tab-btn" role="tab" id="tab-aur" aria-controls="pane-aur" aria-selected="true">aur</button>
+              <button class="tab-btn" role="tab" id="tab-unix" aria-controls="pane-unix" aria-selected="false" tabindex="-1">curl</button>
+              <button class="tab-btn" role="tab" id="tab-cargo" aria-controls="pane-cargo" aria-selected="false" tabindex="-1">cargo</button>
+              <button class="tab-btn" role="tab" id="tab-win" aria-controls="pane-win" aria-selected="false" tabindex="-1">windows</button>
+            </div>
+            <div class="tab-pane" id="pane-aur" role="tabpanel" aria-labelledby="tab-aur">
+              <div class="install"><span class="dollar" aria-hidden="true">$</span><code>yay -Sy awesome-omarchy-tui-bin</code><button class="copy-btn" aria-label="Copy install command">[copy]</button></div>
+            </div>
+            <div class="tab-pane" id="pane-unix" role="tabpanel" aria-labelledby="tab-unix" hidden>
+              <div class="install"><span class="dollar" aria-hidden="true">$</span><code>curl -fsSL https://tui.awesome-omarchy.com/install.sh | bash</code><button class="copy-btn" aria-label="Copy install command">[copy]</button></div>
+            </div>
+            <div class="tab-pane" id="pane-cargo" role="tabpanel" aria-labelledby="tab-cargo" hidden>
+              <div class="install"><span class="dollar" aria-hidden="true">$</span><code>cargo install awesome-omarchy-tui</code><button class="copy-btn" aria-label="Copy install command">[copy]</button></div>
+            </div>
+            <div class="tab-pane" id="pane-win" role="tabpanel" aria-labelledby="tab-win" hidden>
+              <div class="install"><span class="dollar" aria-hidden="true">$</span><code>iwr https://tui.awesome-omarchy.com/install.ps1 | iex</code><button class="copy-btn" aria-label="Copy install command">[copy]</button></div>
+            </div>
+            <p class="install-note">after installation, run the TUI with <code>awsomarchy</code></p>
+          </header>
 
-      <div id="categories">
-        <p class="loading" role="status">loading resources…</p>
+          <main id="content">
+            <nav aria-label="Categories"><ul class="toc" id="toc"></ul></nav>
+
+            <div id="categories">
+              <p class="loading" role="status">loading resources…</p>
+            </div>
+          </main>
+
+          <footer>
+            <p>built for the omarchy community · <a href="https://github.com/aorumbayev/awesome-omarchy" target="_blank" rel="noopener">contribute on github</a> · crafted by <a href="https://github.com/aorumbayev" target="_blank" rel="noopener">@aorumbayev</a></p>
+          </footer>
+        </div>
       </div>
-    </main>
-
-    <footer>
-      <p>built for the omarchy community · <a href="https://github.com/aorumbayev/awesome-omarchy" target="_blank" rel="noopener">contribute on github</a> · crafted by <a href="https://github.com/aorumbayev" target="_blank" rel="noopener">@aorumbayev</a></p>
-    </footer>
+      <footer class="statusline" aria-hidden="true">
+        <span class="sl-mode">NORMAL</span>
+        <span class="sl-file"> README.md</span>
+        <span class="sl-spacer"></span>
+        <span class="sl-theme"><span class="js-theme-name">tokyo night</span></span>
+        <span class="sl-pos" id="slPos">0/0</span>
+        <span class="sl-pct" id="slPct">0%</span>
+      </footer>
+    </div>
   </div>
 
   <dialog id="searchDialog" aria-label="Search resources">
@@ -506,6 +603,8 @@
             </li>`).join('')}
           </ul>
         </section>`).join('');
+
+      setCursor(0, { scroll: false });
     }
 
     async function loadContent() {
@@ -533,7 +632,7 @@
     function setTheme(id) {
       const theme = THEMES.find(t => t[0] === id) || THEMES[0];
       document.documentElement.dataset.theme = theme[0] === 'tokyo-night' ? '' : theme[0];
-      $('themeName').textContent = theme[1];
+      document.querySelectorAll('.js-theme-name').forEach(el => { el.textContent = theme[1]; });
       $('themeColorMeta').content = theme[2];
       localStorage.setItem('theme', theme[0]);
     }
@@ -545,7 +644,7 @@
     }
 
     setTheme(localStorage.getItem('theme') || 'tokyo-night');
-    $('themeBtn').addEventListener('click', cycleTheme);
+    document.querySelectorAll('.js-theme').forEach(b => b.addEventListener('click', cycleTheme));
 
     // Tabs (ARIA tabs pattern: arrow keys move + activate)
     const tabs = [...document.querySelectorAll('.tab-btn')];
@@ -609,23 +708,80 @@
     });
 
     function openSearch() { dialog.showModal(); input.focus(); }
-    $('searchBtn').addEventListener('click', openSearch);
+    document.querySelectorAll('.js-search').forEach(b => b.addEventListener('click', openSearch));
     $('searchClose').addEventListener('click', () => dialog.close());
     dialog.addEventListener('click', e => { if (e.target === dialog) dialog.close(); });
     dialog.addEventListener('close', () => { input.value = ''; search(''); });
 
+    // --- desktop chrome: waybar clock, lazyvim-style cursor (desktop only) ---
+    const desktopMq = matchMedia('(min-width: 1024px)');
+
+    function tickClock() {
+      const d = new Date();
+      $('clock').textContent = `${d.toLocaleDateString('en-US', { weekday: 'long' })} ${d.toTimeString().slice(0, 5)}`;
+    }
+    tickClock();
+    setInterval(tickClock, 10000);
+
+    // Lazyvim-style cursor over the records: j/k/arrows move it,
+    // Enter opens, gg/G jump, pane scrolls to keep it in view.
+    let cursor = 0;
+    let gPending = false;
+
+    function items() { return [...document.querySelectorAll('#categories section li')]; }
+
+    function setCursor(i, { scroll = true } = {}) {
+      const els = items();
+      if (!els.length) return;
+      cursor = Math.max(0, Math.min(i, els.length - 1));
+      els.forEach((el, j) => el.classList.toggle('cursor', j === cursor));
+      if (scroll) els[cursor].scrollIntoView({ block: 'nearest', behavior: 'instant' });
+      $('slPos').textContent = `${cursor + 1}/${els.length}`;
+      $('slPct').textContent = `${Math.round(((cursor + 1) / els.length) * 100)}%`;
+    }
+
+    $('categories').addEventListener('mouseover', e => {
+      if (!desktopMq.matches) return;
+      const li = e.target.closest('li');
+      if (!li) return;
+      const idx = items().indexOf(li);
+      if (idx >= 0 && idx !== cursor) setCursor(idx, { scroll: false });
+    });
+
+    // TOC jump: let the anchor scroll, then park the cursor on that section's first record
+    $('toc').addEventListener('click', e => {
+      const a = e.target.closest('a');
+      if (!a) return;
+      const section = document.getElementById(a.getAttribute('href').slice(1))?.closest('section');
+      const first = section?.querySelector('li');
+      if (first) setTimeout(() => setCursor(items().indexOf(first), { scroll: false }), 60);
+    });
+
     document.addEventListener('keydown', e => {
       if (dialog.open || document.activeElement.tagName === 'INPUT') return;
-      if (e.key === '/') { e.preventDefault(); openSearch(); }
-      else if (e.key === 't') cycleTheme();
+      const k = e.key;
+      if (k === '/') { e.preventDefault(); openSearch(); }
+      else if (k === 't') cycleTheme();
+      else if (k === 'j' || k === 'ArrowDown') { e.preventDefault(); setCursor(cursor + 1); }
+      else if (k === 'k' || k === 'ArrowUp') { e.preventDefault(); setCursor(cursor - 1); }
+      else if (k === 'G') setCursor(items().length - 1);
+      else if (k === 'g') {
+        if (gPending) { gPending = false; setCursor(0); }
+        else { gPending = true; setTimeout(() => { gPending = false; }, 500); }
+      }
+      else if (k === 'Enter') {
+        const ae = document.activeElement;
+        if (ae && (ae.tagName === 'A' || ae.tagName === 'BUTTON')) return;
+        const a = items()[cursor]?.querySelector('a');
+        if (a) { e.preventDefault(); window.open(a.href, '_blank', 'noopener'); }
+      }
     });
 
     fetch('https://api.github.com/repos/aorumbayev/awesome-omarchy')
       .then(r => r.ok ? r.json() : Promise.reject())
       .then(d => {
-        const el = $('starCount');
-        el.textContent = new Intl.NumberFormat('en', { notation: 'compact' }).format(d.stargazers_count);
-        el.hidden = false;
+        const text = new Intl.NumberFormat('en', { notation: 'compact' }).format(d.stargazers_count);
+        document.querySelectorAll('.js-stars').forEach(el => { el.textContent = text; el.hidden = false; });
       })
       .catch(() => {}); // badge stays hidden if rate-limited or offline
 
