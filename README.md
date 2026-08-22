@@ -153,6 +153,7 @@ A curated list of Omarchy themes, resources, and tools.
 - [omarchy-c64-theme](https://github.com/scar45/omarchy-c64-theme) - C64-inspired retro theme for Omarchy.
 - [F1-omarchy](https://github.com/999Gabriel/F1-omarchy) - Formula 1 inspired Omarchy layout with racing telemetry flair.
 - [dracula/omarchy](https://github.com/dracula/omarchy) - Official Dracula theme for Omarchy.
+- [Omarchy Velora](https://github.com/shoxjaxon-atabayev/omarchy-velora-theme) - Dark frosted-glass theme with strong Hyprland blur and translucent surfaces.
 
 ## Development Tools
 
