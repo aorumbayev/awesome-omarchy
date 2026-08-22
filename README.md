@@ -114,6 +114,7 @@ A curated list of Omarchy themes, resources, and tools.
 - [omarchy-synthwave84-theme](https://github.com/omacom-io/omarchy-synthwave84-theme) - Synthwave 84 inspired theme with retro aesthetics.
 - [omarchy-thegreek-theme](https://github.com/HANCORE-linux/omarchy-thegreek-theme) - Sleek, strategic spy theme blending classic espionage with modern intrigue.
 - [omarchy-velocity-theme](https://github.com/perfektnacht/omarchy-velocity-theme) - Dynamic theme with speed-inspired design elements.
+- [Omarchy Velora](https://github.com/shoxjaxon-atabayev/omarchy-velora-theme) - Dark frosted-glass theme with strong Hyprland blur and translucent surfaces.
 - [omarchy-velvetnight-theme](https://github.com/HANCORE-linux/omarchy-velvetnight-theme) - Dark, night-inspired theme with soft contrasts and subtle glimmers.
 - [omarchy-venice-from-above](https://github.com/mattbbia/venice-from-above-omarchy) - A light Omarchy theme inspired by the 15th century bird's eye view mapping of Venice.
 - [omarchy-vesper-theme](https://github.com/thmoee/omarchy-vesper-theme) - Dark theme with warm vesper-orange highlights.
