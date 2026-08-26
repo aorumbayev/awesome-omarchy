@@ -23,6 +23,14 @@ repos:
         description: "Require alphabetical resource lists in README.md"
         pass_filenames: false
         require_serial: true
+      - id: min-stars
+        name: README min GitHub stars
+        entry: python3 scripts/check-min-stars.py README.md
+        language: system
+        files: README\.md$
+        description: "Require 5+ stars on newly added GitHub listings"
+        pass_filenames: false
+        require_serial: true
 
   # Markdown Formatting and Linting
   - repo: local

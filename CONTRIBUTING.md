@@ -28,9 +28,10 @@ pip install pre-commit && pre-commit install
 pre-commit run --all-files  # Run all checks
 pre-commit run typos        # Check spelling
 python3 scripts/check-list-order.py --fix README.md  # Sort section lists
+python3 scripts/check-min-stars.py README.md         # 5+ stars on new GitHub listings
 ```
 
-This runs the same tools as CI: awesome-lint, markdown formatting, spell check, list order, and link validation.
+This runs the same tools as CI: awesome-lint, markdown formatting, spell check, list order, min stars, and link validation.
 
 ## Requirements
 
