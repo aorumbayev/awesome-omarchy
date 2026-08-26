@@ -15,6 +15,14 @@ repos:
         description: "Validate README.md against awesome list standards"
         pass_filenames: false
         require_serial: true
+      - id: list-order
+        name: README list order
+        entry: python3 scripts/check-list-order.py README.md
+        language: system
+        files: README\.md$
+        description: "Require alphabetical resource lists in README.md"
+        pass_filenames: false
+        require_serial: true
 
   # Markdown Formatting and Linting
   - repo: local

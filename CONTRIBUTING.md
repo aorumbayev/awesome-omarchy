@@ -4,15 +4,16 @@ Quick guide for contributing to this curated list of Omarchy resources.
 
 ## What to Include
 
-✅ **Yes:** High-quality Omarchy themes, tools, guides, and related projects (5+ stars, actively maintained)
+✅ **Yes:** High-quality Omarchy plugins, themes, tools, guides, and related projects (5+ stars, actively maintained)
 ❌ **No:** Broken links, duplicates, unrelated content, or low-quality resources
 
 ## How to Contribute
 
 1. Fork → Create branch → Add resource → Submit PR
 2. Use format: `- [Name](link) - Brief description.`
-3. Add to appropriate section (Official, Alternative, Themes, Tools, Related, Community)
-4. Ensure links work and descriptions end with periods
+3. Add to appropriate section (Official, Alternative, Plugins, Tools, Related, Community, Themes)
+4. Keep that section alphabetical by listing name
+5. Ensure links work and descriptions end with periods
 
 ## Local Validation
 
@@ -26,9 +27,10 @@ pip install pre-commit && pre-commit install
 ```bash
 pre-commit run --all-files  # Run all checks
 pre-commit run typos        # Check spelling
+python3 scripts/check-list-order.py --fix README.md  # Sort section lists
 ```
 
-This runs the same tools as CI: awesome-lint, markdown formatting, spell check, and link validation.
+This runs the same tools as CI: awesome-lint, markdown formatting, spell check, list order, and link validation.
 
 ## Requirements
 

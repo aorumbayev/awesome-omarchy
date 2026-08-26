@@ -177,10 +177,38 @@
     .wrap { max-width: 800px; margin: 0 auto; padding: 2rem 1.25rem 5rem; }
 
     /* top actions */
-    .top-actions { display: flex; justify-content: flex-end; gap: 0.5rem; margin-bottom: 2.5rem; }
-    @media (max-width: 480px) {
-      .top-actions { justify-content: space-between; gap: 0.35rem; flex-wrap: wrap; }
-      .btn { font-size: 11px; padding: 0.3rem 0.6rem; gap: 0.3rem; }
+    .top-actions {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 0.5rem;
+      margin-bottom: 2.5rem;
+    }
+    @media (max-width: 1023px) {
+      .top-actions {
+        justify-content: space-between;
+        gap: 0.3rem;
+      }
+      .top-actions .btn {
+        font-size: 11px;
+        padding: 0.22rem 0.5rem;
+        gap: 0.25rem;
+        flex: 0 1 auto;
+      }
+      .top-actions .js-theme {
+        min-width: 0;
+        flex: 0 1 auto;
+      }
+      .top-actions .btn kbd { padding: 0 0.22rem; }
+      .top-actions .js-theme-name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        min-width: 0;
+      }
+    }
+    @media (max-width: 360px) {
+      .top-actions .btn { font-size: 10px; padding: 0.18rem 0.4rem; }
     }
     .btn {
       font: inherit;
@@ -475,7 +503,7 @@
     <div class="wb-center" id="clock"></div>
     <div class="wb-right">
       <button class="btn wb-btn js-search">search <kbd>/</kbd></button>
-      <button class="btn wb-btn js-theme"><span class="js-theme-name">tokyo night</span> <kbd>t</kbd></button>
+      <button class="btn wb-btn js-theme"><span class="js-theme-name">tokyo</span> <kbd>t</kbd></button>
       <a class="btn wb-btn" href="https://github.com/aorumbayev/awesome-omarchy" target="_blank" rel="noopener">github ↗<span class="stars js-stars" hidden></span></a>
     </div>
   </header>
@@ -487,7 +515,7 @@
           <header>
             <nav class="top-actions" aria-label="Site actions">
               <button class="btn js-search" id="searchBtn">search <kbd>/</kbd></button>
-              <button class="btn js-theme" id="themeBtn"><span class="js-theme-name" id="themeName">tokyo night</span> <kbd>t</kbd></button>
+              <button class="btn js-theme" id="themeBtn"><span class="js-theme-name" id="themeName">tokyo</span> <kbd>t</kbd></button>
               <a class="btn" href="https://github.com/aorumbayev/awesome-omarchy" target="_blank" rel="noopener">github ↗<span class="stars js-stars" id="starCount" hidden></span></a>
             </nav>
 
@@ -533,7 +561,7 @@
         <span class="sl-mode">NORMAL</span>
         <span class="sl-file"> README.md</span>
         <span class="sl-spacer"></span>
-        <span class="sl-theme"><span class="js-theme-name">tokyo night</span></span>
+        <span class="sl-theme"><span class="js-theme-name">tokyo</span></span>
         <span class="sl-pos" id="slPos">0/0</span>
         <span class="sl-pct" id="slPct">0%</span>
       </footer>
@@ -623,10 +651,10 @@
 
     // Theme picker: cycle through palettes emulating Omarchy default themes
     const THEMES = [
-      ['tokyo-night', 'tokyo night', '#1a1b26'],
+      ['tokyo-night', 'tokyo', '#1a1b26'],
       ['dracula', 'dracula', '#282a36'],
       ['nord', 'nord', '#2e3440'],
-      ['osaka-jade', 'osaka jade', '#111c18'],
+      ['osaka-jade', 'jade', '#111c18'],
     ];
 
     function setTheme(id) {

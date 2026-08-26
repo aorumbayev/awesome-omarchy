@@ -53,3 +53,13 @@ jobs:
       uses: crate-ci/typos@v1.35.4
       with:
         files: '*.md'
+
+  list-order:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v5.0.0
+
+    - name: Check README list order
+      run: python3 scripts/check-list-order.py README.md
