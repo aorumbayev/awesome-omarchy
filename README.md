@@ -90,6 +90,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [lazyVPN-for-Omarchy](https://github.com/blank-query/lazyVPN-for-Omarchy) - A WireGuard VPN manager with Walker menu integration, killswitch protection, and dynamic server browsing.
 - [live-wallpaper-for-omarchy-linux](https://github.com/daurydicaprio/live-wallpaper-for-omarchy-linux) - A robust script to manage and cycle through live video wallpapers on Omarchy/Hyprland.
 - [Neovim-theme-switcher](https://github.com/HectorBjernersjo/Neovim-theme-switcher) - Lightweight theme switcher for Neovim compatible with Omarchy.
+- [omacal](https://github.com/x3me/omacal) - Desktop calendar for Google, iCloud and CalDAV with live Omarchy theming, a bar widget, and a CLI for terminals and agents.
 - [omaclip](https://github.com/rhemvi/omaclip) - A clipboard manager with cross-device sync and hot theme reloading.
 - [omarchist](https://github.com/tahayvr/omarchist) - GUI app for Omarchy with visual theme designer built with Tauri/Rust/Svelte.
 - [omarchpods](https://github.com/tomycostantino/omarchpods) - TUI for monitoring AirPods and other Bluetooth headphones with battery status and device info.
