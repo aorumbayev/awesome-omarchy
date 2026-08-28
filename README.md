@@ -94,6 +94,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [omarchist](https://github.com/tahayvr/omarchist) - GUI app for Omarchy with visual theme designer built with Tauri/Rust/Svelte.
 - [omarchpods](https://github.com/tomycostantino/omarchpods) - TUI for monitoring AirPods and other Bluetooth headphones with battery status and device info.
 - [omarchy-ai](https://github.com/mitkox/omarchy-ai) - AI-powered enhancements and tools for Omarchy.
+- [omarchy-auto-theme](https://github.com/AccursedGalaxy/omarchy-auto-theme) - Wallpaper-based dynamic theming: matugen renders a Material You palette into a native Omarchy theme on every wallpaper change.
 - [omarchy-box](https://github.com/dylanbr/omarchy-box) - Containerized Omarchy environment.
 - [omarchy-calculator](https://github.com/aloisdeniel/omarchy_calculator) - Official Omarchy calculator application built with Flutter.
 - [omarchy-cheat-sheet](https://github.com/acrogenesis/omarchy-cheat-sheet) - Quick reference guide for Omarchy commands and shortcuts.
