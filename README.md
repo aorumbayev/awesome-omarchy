@@ -64,6 +64,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [omaplug](https://github.com/fross100/omaplug) - Standalone manager to enable, update, install, and remove Omarchy plugins.
 - [Omarchy Power Manager](https://github.com/onlyVishesh/omarchy-power-manager) - Advanced battery controller with dynamic profile switching, smart thresholds, and native hibernation support.
 - [Omarchy Spotify](https://github.com/stappmus/Omarchy-Spotify) - Native Quickshell Spotify client themed for Omarchy.
+- [Omarchy Stage](https://github.com/zzwong/omarchy-stage) - Mission Control for Omarchy with carousel and grid views of live workspace previews, pane zoom, and now-playing pills.
 - [omarchy-shell-plugins](https://github.com/bjarneo/omarchy-shell-plugins) - Omni command palette plus QuickApps HUD and cliamp now-playing plugins.
 - [omarchy-vpn](https://github.com/jkoestinger/omarchy-vpn) - VPN status and switching in the Omarchy bar across installed VPN tools.
 - [Prayer Times](https://github.com/husamemadH/omarchy-quattro-prayer-times) - Next prayer countdown and today's prayer times in the Omarchy bar.
