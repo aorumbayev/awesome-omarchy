@@ -41,6 +41,7 @@ A curated list of Omarchy plugins, themes, resources, and tools.
 Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree/quattro).
 
 - [Activity Monitor](https://github.com/stappmus/omarchy-activity-monitor) - Lightweight CPU, memory, GPU, storage, and process glance for Omarchy Quattro.
+- [Agent Workspaces](https://github.com/YotamPeled/omarchy-agent-workspaces) - Shows the name of the Claude Code session in each workspace and whether it is working, idle, or waiting on you.
 - [AI Usage](https://github.com/akitaonrails/ai-usagebar) - Multi-provider AI plan usage and balances in a native Omarchy Quattro panel.
 - [AirPods](https://github.com/thisisgm/omarchy-pods) - Battery, listening mode, and noise-control widgets for connected AirPods.
 - [Calendar](https://github.com/tmn73/omarchy-calendar) - Next Google Calendar event in the Omarchy bar with one-click meeting join.
