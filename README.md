@@ -126,6 +126,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [omarchy-enhanced-bindings](https://github.com/nemuiyarou/omarchy-enhanced-bindings) - Enhanced keyboard bindings for Omarchy.
 - [omarchy-gui](https://github.com/amanat361/omarchy-gui) - GUI tools for Omarchy configuration.
 - [omarchy-iso](https://github.com/omacom-io/omarchy-iso) - Custom ISO builder for Omarchy installations.
+- [omarchy-jetbrains-theme](https://github.com/londospark/omarchy-jetbrains-theme) - Syncs the active Omarchy theme and font, including Islands UI support, to every installed JetBrains IDE.
 - [omarchy-material-waybar](https://github.com/thatmechguy/omarchy-material-waybar) - Material design style Waybar configuration for Hyprland.
 - [omarchy-migrate](https://github.com/CyphrRiot/Migrate) - Stunningly beautiful terminal backup and restore tool written in Pure Go.
 - [omarchy-monitor-settings](https://github.com/ryanyogan/omarchy-monitor-settings) - Omarchy Monitor Settings TUI.
