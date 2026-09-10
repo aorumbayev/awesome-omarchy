@@ -44,6 +44,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [AI Usage](https://github.com/akitaonrails/ai-usagebar) - Multi-provider AI plan usage and balances in a native Omarchy Quattro panel.
 - [AirPods](https://github.com/thisisgm/omarchy-pods) - Battery, listening mode, and noise-control widgets for connected AirPods.
 - [Calendar](https://github.com/tmn73/omarchy-calendar) - Next Google Calendar event in the Omarchy bar with one-click meeting join.
+- [Calendar Sync Clock](https://github.com/promaaa/sync-calendar-omarchy) - Clock and calendar for the Omarchy bar with two-way sync for Google, iCloud, Proton, Outlook, Fastmail JMAP, Nextcloud, and any iCalendar feed.
 - [Claude Usage](https://github.com/mryll/claudebar) - Claude Code session, weekly, and per-model usage limits in the Omarchy bar.
 - [Dock](https://github.com/rosakodu/omarchy-dock) - Animated application dock for Omarchy Quattro with Hyprland window tracking.
 - [GitHub](https://github.com/robzolkos/omarchy-github) - Keyboard-friendly GitHub inbox for notifications, reviews, PRs, and Actions.
