@@ -160,7 +160,7 @@ def api(
     if raw:
         args.extend(["-H", "Accept: application/vnd.github.raw"])
     result = (
-        gh(args + ["--input"], token=token, input_text=json.dumps(fields or {}), check=check)
+        gh(args + ["--input", "-"], token=token, input_text=json.dumps(fields or {}), check=check)
         if method != "GET"
         else gh(args, token=token, check=check)
     )
