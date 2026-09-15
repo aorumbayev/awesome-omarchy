@@ -298,7 +298,7 @@ def approve_run(run_id: int) -> None:
         print(f"approved workflow run {run_id}")
         return
     err = (result.stderr or result.stdout).strip()
-    if "already" in err.lower() or result.returncode == 1:
+    if "already" in err.lower():
         print(f"approve {run_id}: {err}")
         return
     raise RuntimeError(f"approve {run_id} failed: {err}")
