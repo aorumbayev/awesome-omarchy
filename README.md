@@ -69,6 +69,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [omarchy-shell-plugins](https://github.com/bjarneo/omarchy-shell-plugins) - Omni command palette plus QuickApps HUD and cliamp now-playing plugins.
 - [omarchy-vpn](https://github.com/jkoestinger/omarchy-vpn) - VPN status and switching in the Omarchy bar across installed VPN tools.
 - [Prayer Times](https://github.com/husamemadH/omarchy-quattro-prayer-times) - Next prayer countdown and today's prayer times in the Omarchy bar.
+- [Pomodoro](https://github.com/maile-it-solutions/omarchy-pomodoro) - Pomodoro timer with focus mode (notification silencing, call-aware audio muting), ambient loops, and reggae or Spotify break music.
 - [Quattrolitaire](https://github.com/28allday/Quattrolitaire) - Klondike solitaire as a native Omarchy shell plugin.
 - [Sandman](https://github.com/lgse/sandman) - Lid-close, lock, sleep, and hibernate timing controls for Omarchy.
 - [Screen Time](https://github.com/ax1g/quickshell-screentime-plugin) - Per-app screen time in the Omarchy bar with local history and trends.
