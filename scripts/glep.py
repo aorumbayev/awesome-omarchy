@@ -160,7 +160,7 @@ def api(
     if raw:
         args.extend(["-H", "Accept: application/vnd.github.raw"])
     result = (
-        gh(args + ["--input"], token=token, input_text=json.dumps(fields or {}), check=check)
+        gh(args + ["--input", "-"], token=token, input_text=json.dumps(fields or {}), check=check)
         if method != "GET"
         else gh(args, token=token, check=check)
     )
@@ -269,7 +269,7 @@ def find_pr_for_sha(sha: str, head_repo: str | None, branch: str | None) -> int 
 def waiting_runs(sha: str) -> list[dict[str, Any]]:
     found: list[dict[str, Any]] = []
     seen: set[int] = set()
-    for status in ("waiting", "pending", "requested"):
+    for status in ("waiting", "pending", "requested", "action_required"):
         payload = api(
             f"repos/{repo()}/actions/runs?event=pull_request&status={status}&per_page=100"
         )
