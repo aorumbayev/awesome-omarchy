@@ -49,6 +49,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [Dock](https://github.com/rosakodu/omarchy-dock) - Animated application dock for Omarchy Quattro with Hyprland window tracking.
 - [GitHub](https://github.com/robzolkos/omarchy-github) - Keyboard-friendly GitHub inbox for notifications, reviews, PRs, and Actions.
 - [Home Assistant](https://github.com/konradk/hass) - View and control Home Assistant devices from the Omarchy bar.
+- [Hotbar](https://github.com/GreyforgeLabs/omarchy-hotbar) - Omarchy bar plugin with fixed slots for pinned apps, filesystem shortcuts, and a running-app drawer.
 - [hyprmoncfg](https://github.com/crmne/omarchy-hyprmoncfg) - Automatic Hyprland monitor profiles on hotplug, lid events, and resume.
 - [Lacuna](https://github.com/OldJobobo/lacuna-shell) - Shell suite for Omarchy with a custom bar, sidebar, system controls, and widgets.
 - [Lock Screen Explorer](https://github.com/SirJul1337/omarchy-lock-explorer) - Lock screen designs for Omarchy with a picker to preview and switch between them.
@@ -70,6 +71,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [omarchy-vpn](https://github.com/jkoestinger/omarchy-vpn) - VPN status and switching in the Omarchy bar across installed VPN tools.
 - [Prayer Times](https://github.com/husamemadH/omarchy-quattro-prayer-times) - Next prayer countdown and today's prayer times in the Omarchy bar.
 - [Quattrolitaire](https://github.com/28allday/Quattrolitaire) - Klondike solitaire as a native Omarchy shell plugin.
+- [Reprieve](https://github.com/GreyforgeLabs/reprieve) - Reversible window parking for Omarchy with undo, redo, and a recovery timeline.
 - [Sandman](https://github.com/lgse/sandman) - Lid-close, lock, sleep, and hibernate timing controls for Omarchy.
 - [Screen Time](https://github.com/ax1g/quickshell-screentime-plugin) - Per-app screen time in the Omarchy bar with local history and trends.
 - [SHIBUMI](https://github.com/HANCORE-linux/Shibumi-Shell) - Native bar and modular plugin suite for Omarchy Quattro.
