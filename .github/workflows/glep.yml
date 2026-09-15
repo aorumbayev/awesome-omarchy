@@ -1,0 +1,64 @@
+name: Glep
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened, ready_for_review]
+  workflow_run:
+    workflows: ["Awesome List CI", "Check Links"]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      pr:
+        description: "Number of the pull request. If empty, all open pull requests."
+        required: false
+
+permissions: {}
+
+concurrency:
+  group: glep-${{ github.event.pull_request.number || github.event.workflow_run.head_sha || github.event.inputs.pr || 'backfill' }}
+  cancel-in-progress: true
+
+jobs:
+  glep:
+    if: >-
+      github.repository == 'aorumbayev/awesome-omarchy' &&
+      (github.event_name != 'workflow_run' ||
+      github.event.workflow_run.event == 'pull_request')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      actions: read
+      checks: write
+    steps:
+      # On workflow_run, github.sha is the default branch; the pull request head is
+      # github.event.workflow_run.head_sha. Always get the default branch.
+      # Do not operate code from the fork with the app token.
+      - uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
+        with:
+          ref: refs/heads/${{ github.event.repository.default_branch }}
+          persist-credentials: false
+
+      - uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
+        id: app-token
+        with:
+          app-id: ${{ secrets.GLEP_APP_ID }}
+          private-key: ${{ secrets.GLEP_APP_PRIVATE_KEY }}
+          permission-actions: write
+          permission-pull-requests: write
+          permission-checks: read
+          permission-contents: read
+          permission-metadata: read
+
+      - name: Run glep
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+          CHECK_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          MAINTAINER: aorumbayev
+          GLEP_EVENT: ${{ github.event_name }}
+          GLEP_PR: ${{ github.event.pull_request.number || github.event.inputs.pr }}
+          GLEP_SHA: ${{ github.event.workflow_run.head_sha }}
+          GLEP_HEAD_REPO: ${{ github.event.workflow_run.head_repository.full_name }}
+          GLEP_HEAD_BRANCH: ${{ github.event.workflow_run.head_branch }}
+          GLEP_SOURCE_WORKFLOW: ${{ github.event.workflow_run.path }}
+        run: python3 scripts/glep.py ci
