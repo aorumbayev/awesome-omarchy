@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Glep: start README-only fork CI, post the merge bar, nag leftovers, never Approve."""
+"""Glep starts CI when a fork pull request changes only README.md. Glep writes remaining items. Glep does not give approval."""
 
 from __future__ import annotations
 
@@ -764,7 +764,7 @@ def backfill() -> None:
     for number in numbers:
         try:
             handle_pr(number)
-        except Exception as exc:  # noqa: BLE001 — keep going across PRs
+        except Exception as exc:  # noqa: BLE001
             print(f"PR #{number} failed: {exc}", file=sys.stderr)
 
 
@@ -800,20 +800,28 @@ def cmd_ci() -> None:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest="cmd", required=True)
-    pr_p = sub.add_parser("pr", help="approve README-only runs, then update the merge bar")
+    pr_p = sub.add_parser("pr", help="Start README-only CI. Then set the merge bar.")
     pr_p.add_argument("number", type=int)
     approve_p = sub.add_parser(
-        "approve", help="approve waiting runs if the PR only touches README.md"
+        "approve",
+        help="If the pull request changes only README.md, give approval to workflow runs that wait.",
     )
     approve_p.add_argument("number", type=int)
-    gate_p = sub.add_parser("gate", help="compute merge bar, comment, request review")
+    gate_p = sub.add_parser(
+        "gate",
+        help="Calculate the merge bar. Write the comment. Tell the maintainer to do an inspection.",
+    )
     gate_p.add_argument("number", type=int)
-    sha_p = sub.add_parser("sha", help="resolve a head SHA to a PR, then run pr")
+    sha_p = sub.add_parser(
+        "sha", help="Find the pull request for a head SHA. Then operate pr."
+    )
     sha_p.add_argument("sha")
     sha_p.add_argument("--head-repo")
     sha_p.add_argument("--branch")
-    sub.add_parser("backfill", help="run against every open PR")
-    sub.add_parser("ci", help="entry point for GitHub Actions (reads GLEP_* env)")
+    sub.add_parser("backfill", help="Operate on all open pull requests.")
+    sub.add_parser(
+        "ci", help="Start from GitHub Actions. Read the GLEP_* environment variables."
+    )
     args = parser.parse_args()
 
     if args.cmd == "pr":
