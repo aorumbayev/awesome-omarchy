@@ -51,6 +51,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [Home Assistant](https://github.com/konradk/hass) - View and control Home Assistant devices from the Omarchy bar.
 - [Hotbar](https://github.com/GreyforgeLabs/omarchy-hotbar) - Omarchy bar plugin with fixed slots for pinned apps, filesystem shortcuts, and a running-app drawer.
 - [hyprmoncfg](https://github.com/crmne/omarchy-hyprmoncfg) - Automatic Hyprland monitor profiles on hotplug, lid events, and resume.
+- [Kettle](https://github.com/zzwong/omarchy-kettle) - AI agent sessions as pots on the bar, with jump-to-window and done/blocked alerts.
 - [Lacuna](https://github.com/OldJobobo/lacuna-shell) - Shell suite for Omarchy with a custom bar, sidebar, system controls, and widgets.
 - [Lock Screen Explorer](https://github.com/SirJul1337/omarchy-lock-explorer) - Lock screen designs for Omarchy with a picker to preview and switch between them.
 - [Mihomo](https://github.com/lijiawei0305-pixel/omarchy-mihomo-plugin) - Status-bar control panel for a standalone mihomo proxy core.
