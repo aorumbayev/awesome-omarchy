@@ -233,6 +233,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [omarchy-nes-theme](https://github.com/bjarneo/omarchy-nes-theme) - Retro NES theme with nostalgic gaming aesthetics.
 - [omarchy-one-dark-pro-theme](https://github.com/sc0ttman/omarchy-one-dark-pro) - One Dark Pro color scheme adaptation.
 - [omarchy-osaka-jade-theme](https://github.com/Justikun/omarchy-osaka-jade-theme) - Elegant jade-colored theme inspired by Osaka aesthetics.
+- [omarchy-outpost-theme](https://github.com/simoz/omarchy-outpost-theme) - Dark theme with petroleum, bronze, and ivory colors and robot-inspired pixel art wallpapers.
 - [omarchy-pissarro-theme](https://github.com/mattbbia/pissarro-omarchy) - A light Omarchy theme inspired by Camille Pissarro.
 - [omarchy-pulsar-theme](https://github.com/bjarneo/omarchy-pulsar-theme) - Vibrant, cosmic-inspired dark theme for Omarchy that captures the brilliant energy of neutron stars.
 - [omarchy-purplewave-theme](https://github.com/dotsilva/omarchy-purplewave-theme) - Purple wave-inspired theme with elegant purple tones.
