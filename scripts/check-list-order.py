@@ -75,12 +75,12 @@ def main() -> int:
     parser.add_argument("--fix", action="store_true", help="rewrite the file in sorted order")
     args = parser.parse_args()
 
-    text = args.readme.read_text()
+    text = args.readme.read_text(encoding="utf-8")
     sorted_text, problems = ordered_lines(text)
 
     if args.fix:
         if sorted_text != text:
-            args.readme.write_text(sorted_text)
+            args.readme.write_text(sorted_text, encoding="utf-8")
             print(f"sorted lists in {args.readme}")
         else:
             print(f"{args.readme} already sorted")
