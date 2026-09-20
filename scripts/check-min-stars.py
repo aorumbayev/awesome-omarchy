@@ -22,7 +22,7 @@ DEFAULT_README = Path("README.md")
 
 
 def git_ok(args: list[str]) -> subprocess.CompletedProcess[str]:
-    return subprocess.run(["git", *args], capture_output=True, text=True)
+    return subprocess.run(["git", *args], capture_output=True, text=True, encoding="utf-8")
 
 
 def resolve_base(explicit: str | None) -> str | None:
@@ -65,7 +65,7 @@ def added_repos(base: str, readme: Path) -> list[str]:
     shown = git_ok(["show", f"{base}:{readme.as_posix()}"])
     old_text = shown.stdout if shown.returncode == 0 else ""
     old = repos_from(old_text)
-    current = repos_from(readme.read_text())
+    current = repos_from(readme.read_text(encoding="utf-8"))
     return [current[key] for key in current.keys() - old.keys()]
 
 
@@ -86,6 +86,7 @@ def star_counts(slugs: list[str]) -> dict[str, int | None]:
             input=payload,
             capture_output=True,
             text=True,
+            encoding="utf-8",
         )
         if result.returncode != 0:
             for slug in batch:
