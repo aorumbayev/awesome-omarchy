@@ -9,7 +9,7 @@ repos:
     hooks:
       - id: awesome-lint
         name: Awesome List Lint
-        entry: npx awesome-lint
+        entry: npx awesome-lint README.md
         language: system
         files: README\.md$
         description: "Validate README.md against awesome list standards"
