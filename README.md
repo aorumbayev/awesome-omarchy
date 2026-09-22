@@ -88,6 +88,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [flutter_omarchy](https://github.com/aloisdeniel/flutter_omarchy) - Develop Flutter apps for Omarchy.
 - [FW12Rotate](https://github.com/2disbetter/FW12Rotate) - Framework 12 rotation application specifically for Omarchy Linux.
 - [hyprBluetooth](https://github.com/magudb/hyprBluetooth) - Bluetoothctl-powered TUI for quickly pairing devices on Omarchy.
+- [Hyprflip](https://github.com/nocstah/hyprflip) - Hyprland plugin for two-sided window cards with animated flipping, multi-app faces, and saved workspace arrangements.
 - [hyprmarker](https://github.com/devmobasa/hyprmarker) - ZoomIt-inspired annotation overlay tailored for Hyprland/Omarchy.
 - [hyprmon](https://github.com/erans/hyprmon) - TUI monitor configuration tool for Hyprland with visual layout, drag-and-drop, and profile management.
 - [hypruler](https://github.com/t4t5/hypruler) - Measure anything on your screen. Inspired by PixelSnap for Mac.
