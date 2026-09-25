@@ -131,6 +131,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [omarchy-workspace-mover](https://github.com/jonashan/omarchy-workspace-mover) - An Omarchy plugin for moving workspaces between monitors.
 - [omazed](https://github.com/APS6/omazed) - Live theme switching for Zed editor in Omarchy.
 - [Pacsea](https://github.com/Firstp1ck/Pacsea) - Rust TUI for browsing and queueing pacman/AUR packages, inspired by Omarchy's installer.
+- [Phantomat](https://github.com/kaolti/phantomat) - Zoomable infinite-canvas window manager for Hyprland with a curved-lens overview and jump-to-window navigation.
 - [renCal](https://github.com/t4t5/rencal) - Modern desktop calendar built for Omarchy that syncs with Google, iCloud, Outlook and CalDAV.
 - [tema](https://github.com/bjarneo/tema) - Modern Omarchy theming UI with live previews and presets.
 - [waybar-themes](https://github.com/HANCORE-linux/waybar-themes) - Collection of Waybar themes with various styles and combinations for Omarchy.
