@@ -33,6 +33,7 @@ A curated list of Omarchy plugins, themes, resources, and tools.
 - [omarchy-hub](https://github.com/deepakness/omarchy-hub) - A comprehensive resource library for Omarchy Linux.
 - [omarchy-nix](https://github.com/henrysipp/omarchy-nix) - NixOS version of Omarchy with declarative configuration.
 - [omarchy-on-cachyos](https://github.com/mroboff/omarchy-on-cachyos) - Installation script for Omarchy on top of CachyOS.
+- [omarchy-pi5-quattro](https://github.com/NaustudentX18/omarchy-pi5-quattro) - Native Arch Linux ARM port of Omarchy for Raspberry Pi 5: flashable image with Hyprland, NVMe, and active cooling.
 - [omarchy-titus](https://github.com/ChrisTitusTech/omarchy-titus) - Chris Titus Tech's customized version of Omarchy.
 - [typecraft-dev/omarchy-supplement](https://github.com/typecraft-dev/omarchy-supplement) - Additional packages, dotfiles, and overrides to be used after installing Omarchy.
 
