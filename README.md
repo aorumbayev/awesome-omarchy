@@ -64,6 +64,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [Omalibre](https://github.com/AlexZeitler/omalibre) - Bookshelf plugin for recently read books on Omarchy.
 - [Omamail](https://github.com/huacnlee/omamail) - Native Gmail and IMAP client for Omarchy.
 - [omaplug](https://github.com/fross100/omaplug) - Standalone manager to enable, update, install, and remove Omarchy plugins.
+- [OmaProton VPN](https://github.com/grichard99/omaproton-vpn) - Proton VPN bar widget for Omarchy Quattro with one-click connect, a world map of cities, Kill Switch, NetShield, Always On, and split tunneling.
 - [Omarchy Power Manager](https://github.com/onlyVishesh/omarchy-power-manager) - Advanced battery controller with dynamic profile switching, smart thresholds, and native hibernation support.
 - [Omarchy Spotify](https://github.com/stappmus/Omarchy-Spotify) - Native Quickshell Spotify client themed for Omarchy.
 - [Omarchy Stage](https://github.com/zzwong/omarchy-stage) - Mission Control for Omarchy with carousel and grid views of live workspace previews, pane zoom, and now-playing pills.
