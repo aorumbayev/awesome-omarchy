@@ -68,6 +68,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [Omarchy Stage](https://github.com/zzwong/omarchy-stage) - Mission Control for Omarchy with carousel and grid views of live workspace previews, pane zoom, and now-playing pills.
 - [omarchy-shell-plugins](https://github.com/bjarneo/omarchy-shell-plugins) - Omni command palette plus QuickApps HUD and cliamp now-playing plugins.
 - [omarchy-vpn](https://github.com/jkoestinger/omarchy-vpn) - VPN status and switching in the Omarchy bar across installed VPN tools.
+- [Power Settings](https://github.com/infinitegithub/omarchy-power-settings) - Control laptop lid-close behavior (Sleep, Lock, Screen Off, Ignore) with 1-click toggles, AC vs Battery rules, Stay Awake mode, and battery telemetry.
 - [Prayer Times](https://github.com/husamemadH/omarchy-quattro-prayer-times) - Next prayer countdown and today's prayer times in the Omarchy bar.
 - [Quattrolitaire](https://github.com/28allday/Quattrolitaire) - Klondike solitaire as a native Omarchy shell plugin.
 - [Sandman](https://github.com/lgse/sandman) - Lid-close, lock, sleep, and hibernate timing controls for Omarchy.
