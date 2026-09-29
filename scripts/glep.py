@@ -227,6 +227,16 @@ def pull(number: int) -> dict[str, Any]:
     return api(f"repos/{repo()}/pulls/{number}")
 
 
+def has_conflicts(number: int) -> bool:
+    # GitHub computes `mergeable` in the background and returns null until it is ready.
+    for _ in range(5):
+        mergeable = pull(number).get("mergeable")
+        if mergeable is not None:
+            return mergeable is False
+        time.sleep(3)
+    return False
+
+
 def readme_at(ref: str) -> str:
     if ref not in BASE_BRANCHES:
         ref = require_sha(ref)
@@ -435,9 +445,14 @@ def compute_bar(number: int) -> Bar:
     if behind:
         add("behind", f"branch is {behind} commit(s) behind `main` — update it")
 
+    # GitHub never starts `pull_request` workflows for a conflicting PR, so waiting on CI would hang.
+    conflicts = has_conflicts(number)
+    if conflicts:
+        add("conflicts", "branch has merge conflicts with `main` — rebase and resolve them so CI can run")
+
     checks = latest_checks(sha)
     needed = (*REQUIRED_CHECKS, LINK_CHECK)
-    missing = [name for name in needed if not check_done(checks.get(name))]
+    missing = [] if conflicts else [name for name in needed if not check_done(checks.get(name))]
     ci_done = not missing
 
     if missing and not readme_only:
