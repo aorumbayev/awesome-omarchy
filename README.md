@@ -135,6 +135,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [Pacsea](https://github.com/Firstp1ck/Pacsea) - Rust TUI for browsing and queueing pacman/AUR packages, inspired by Omarchy's installer.
 - [Phantomat](https://github.com/kaolti/phantomat) - Zoomable infinite-canvas window manager for Hyprland with a curved-lens overview and jump-to-window navigation.
 - [renCal](https://github.com/t4t5/rencal) - Modern desktop calendar built for Omarchy that syncs with Google, iCloud, Outlook and CalDAV.
+- [snote](https://github.com/donnishcomau/snote) - Keyboard-driven Simplenote client for the terminal, syncing via Simperium and rendering with your terminal's own ANSI colours.
 - [tema](https://github.com/bjarneo/tema) - Modern Omarchy theming UI with live previews and presets.
 - [waybar-themes](https://github.com/HANCORE-linux/waybar-themes) - Collection of Waybar themes with various styles and combinations for Omarchy.
 - [wayscriber](https://github.com/devmobasa/wayscriber) - Instant on-screen annotations and markup for Wayland, ZoomIt-inspired.
