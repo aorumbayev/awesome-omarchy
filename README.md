@@ -48,6 +48,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [Claude Usage](https://github.com/mryll/claudebar) - Claude Code session, weekly, and per-model usage limits in the Omarchy bar.
 - [Dock](https://github.com/rosakodu/omarchy-dock) - Animated application dock for Omarchy Quattro with Hyprland window tracking.
 - [Fathom](https://github.com/mtolhuys/fathom) - Depth-based Alt+Tab that orders windows by recency, with a map of every workspace.
+- [Feader RSS](https://github.com/KitsuneForgering/Feader-RSS) - RSS reader and search panel built as an Omarchy Quickshell plugin.
 - [GitHub](https://github.com/robzolkos/omarchy-github) - Keyboard-friendly GitHub inbox for notifications, reviews, PRs, and Actions.
 - [Home Assistant](https://github.com/konradk/hass) - View and control Home Assistant devices from the Omarchy bar.
 - [Hotbar](https://github.com/GreyforgeLabs/omarchy-hotbar) - Omarchy bar plugin with fixed slots for pinned apps, filesystem shortcuts, and a running-app drawer.
@@ -132,6 +133,8 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [omarchy-vpn](https://github.com/limehawk/omarchy-vpn) - WireGuard VPN manager TUI with live connection stats, inline config import/rename, and optional Waybar module.
 - [omarchy-wireguard-vpn-toggle](https://github.com/JacobusXIII/omarchy-wireguard-vpn-toggle) - WireGuard VPN toggle for Omarchy's Waybar.
 - [omarchy-workspace-mover](https://github.com/jonashan/omarchy-workspace-mover) - An Omarchy plugin for moving workspaces between monitors.
+- [OmaStore](https://github.com/KitsuneForgering/OmaStore) - App store for discovering, installing, and updating standalone Linux apps on Omarchy.
+- [OmaVM](https://github.com/KitsuneForgering/OmaVM) - Desktop application for creating and managing Linux virtual machines on Omarchy.
 - [omazed](https://github.com/APS6/omazed) - Live theme switching for Zed editor in Omarchy.
 - [Pacsea](https://github.com/Firstp1ck/Pacsea) - Rust TUI for browsing and queueing pacman/AUR packages, inspired by Omarchy's installer.
 - [Phantomat](https://github.com/kaolti/phantomat) - Zoomable infinite-canvas window manager for Hyprland with a curved-lens overview and jump-to-window navigation.
