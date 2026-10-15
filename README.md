@@ -70,6 +70,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [Omamail](https://github.com/huacnlee/omamail) - Native Gmail and IMAP client for Omarchy.
 - [omaplug](https://github.com/fross100/omaplug) - Standalone manager to enable, update, install, and remove Omarchy plugins.
 - [OmaProton VPN](https://github.com/grichard99/omaproton-vpn) - Proton VPN bar widget for Omarchy Quattro with one-click connect, a world map of cities, Kill Switch, NetShield, Always On, and split tunneling.
+- [Omarchy Multi-Monitor Bar](https://github.com/PatrickFanella/omarchy-monitor-bar) - Configure full, minimal, or hidden Omarchy bars independently for each monitor.
 - [Omarchy Power Manager](https://github.com/onlyVishesh/omarchy-power-manager) - Advanced battery controller with dynamic profile switching, smart thresholds, and native hibernation support.
 - [Omarchy Spotify](https://github.com/stappmus/Omarchy-Spotify) - Native Quickshell Spotify client themed for Omarchy.
 - [Omarchy Stage](https://github.com/zzwong/omarchy-stage) - Mission Control for Omarchy with carousel and grid views of live workspace previews, pane zoom, and now-playing pills.
@@ -84,8 +85,12 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [Reprieve](https://github.com/GreyforgeLabs/reprieve) - Reversible window parking for Omarchy with undo, redo, and a recovery timeline.
 - [Sandman](https://github.com/lgse/sandman) - Lid-close, lock, sleep, and hibernate timing controls for Omarchy.
 - [Screen Time](https://github.com/ax1g/quickshell-screentime-plugin) - Per-app screen time in the Omarchy bar with local history and trends.
+- [Shelfish](https://github.com/PatrickFanella/omarchy-plugin-shelfish) - Organize Omarchy bar widgets into collapsible groups with support for ten languages.
 - [SHIBUMI](https://github.com/HANCORE-linux/Shibumi-Shell) - Native bar and modular plugin suite for Omarchy Quattro.
+- [Spool](https://github.com/PatrickFanella/omarchy-plugin-spool) - Animated cassette companion that shows local T3 Code session activity and threads needing attention.
+- [Super Productivity](https://github.com/PatrickFanella/omarchy-superproductivity) - Track and control Super Productivity tasks from the Omarchy bar with a countdown, Quick Add, and task alerts.
 - [Todoist](https://github.com/Aryan-Techie/omarchy-todoist) - Due counts and quick-add from the Omarchy bar.
+- [TOZO HT3](https://github.com/PatrickFanella/omarchy-plugin-ht3) - Control TOZO HT3 headphone volume, hardware equalizer, active noise cancellation, and transparency mode.
 - [Voxtype Enhance](https://github.com/iamcheyan/omarchy-voxtype-enhance) - Voxtype dictation control center with model downloads and paste controls.
 
 ## Development Tools
