@@ -40,6 +40,7 @@ A curated list of Omarchy plugins, themes, resources, and tools.
 
 Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree/quattro).
 
+- [Active Window + Icon](https://github.com/crmne/omarchy-active-window) - Shows the focused window title and application icon in the bar, with adjustable icon saturation.
 - [Activity Monitor](https://github.com/stappmus/omarchy-activity-monitor) - Lightweight CPU, memory, GPU, storage, and process glance for Omarchy Quattro.
 - [AI Usage](https://github.com/akitaonrails/ai-usagebar) - Multi-provider AI plan usage and balances in a native Omarchy Quattro panel.
 - [AirPods](https://github.com/thisisgm/omarchy-pods) - Battery, listening mode, and noise-control widgets for connected AirPods.
@@ -54,11 +55,14 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [hyprmoncfg](https://github.com/crmne/omarchy-hyprmoncfg) - Automatic Hyprland monitor profiles on hotplug, lid events, and resume.
 - [Lacuna](https://github.com/OldJobobo/lacuna-shell) - Shell suite for Omarchy with a custom bar, sidebar, system controls, and widgets.
 - [Lock Screen Explorer](https://github.com/SirJul1337/omarchy-lock-explorer) - Lock screen designs for Omarchy with a picker to preview and switch between them.
+- [Lyrics Synced with Music](https://github.com/crmne/omarchy-lyrics) - Displays lyrics for the current media player track and highlights each line as the song plays.
+- [Media Controls + Album Art](https://github.com/crmne/omarchy-mpris) - Shows album art, track details, and playback controls for MPRIS media players in the bar.
 - [Mihomo](https://github.com/lijiawei0305-pixel/omarchy-mihomo-plugin) - Status-bar control panel for a standalone mihomo proxy core.
 - [Mihoro](https://github.com/huacnlee/omarchy-mihoro) - Mihomo/Clash.Meta proxy status, speed, and subscription switching for Omarchy.
 - [Mirador](https://github.com/sanjyay/Mirador) - Visual overview of workspaces and their windows.
 - [Notification Center](https://github.com/Shavanced/omarchy-notification-center-plugin) - Native notification center with history, search, and Do Not Disturb.
 - [Okomart](https://github.com/brianblakely/omarchy-plugins) - Storefront to browse, install, update, and remove Omarchy plugins.
+- [OmaCal](https://github.com/crmne/omacal) - Adds calendar events, quick add, reminders, and time tracking to the stock clock and calendar, with a HEY backend.
 - [OmaConnect](https://github.com/jitendradara12/omaconnect) - KDE Connect integration for SMS, clipboard, file sharing, and device commands.
 - [Omagen](https://github.com/prettyletto/omagen) - Generate Omarchy themes from images.
 - [Omaland](https://github.com/bobby-nicholas/omaland) - Live-preview panel for editing Hyprland look-and-feel from the Omarchy menu.
@@ -71,7 +75,9 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [Omarchy Stage](https://github.com/zzwong/omarchy-stage) - Mission Control for Omarchy with carousel and grid views of live workspace previews, pane zoom, and now-playing pills.
 - [omarchy-shell-plugins](https://github.com/bjarneo/omarchy-shell-plugins) - Omni command palette plus QuickApps HUD and cliamp now-playing plugins.
 - [omarchy-vpn](https://github.com/jkoestinger/omarchy-vpn) - VPN status and switching in the Omarchy bar across installed VPN tools.
+- [OmaStats](https://github.com/crmne/omastats) - Monitors CPU, GPU, memory, disks, network, temperatures, fans, and battery with bar graphs and detailed panels.
 - [Omastocks](https://github.com/dmitry-solomadin/omastocks) - Stock research app with charts, market heatmaps, watchlists, and a top-bar ticker.
+- [OmaTasks for Todoist](https://github.com/crmne/omatasks) - Brings Todoist tasks, Quick Add, editing, and drag-to-reorder into the Omarchy bar.
 - [Pane Manager](https://github.com/momoi-labs/omarchy-pane-manager) - Resize tiled panes by dragging the divider, with a live drop indicator, per-workspace layouts, and layout reset.
 - [Prayer Times](https://github.com/husamemadH/omarchy-quattro-prayer-times) - Next prayer countdown and today's prayer times in the Omarchy bar.
 - [Quattrolitaire](https://github.com/28allday/Quattrolitaire) - Klondike solitaire as a native Omarchy shell plugin.
@@ -89,12 +95,14 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [awesome-omarchy-tui](https://github.com/aorumbayev/awesome-omarchy-tui) - Terminal UI for browsing awesome-omarchy repository content.
 - [clipboard-manager](https://github.com/Grenish/clipboard-manager) - Windows-like clipboard manager for Omarchy.
 - [edit](https://github.com/mirarr-app/editt) - Beautiful image viewer and editor with Omarchy styling support.
+- [fastframe](https://github.com/crmne/fastframe) - Native Rust application framework with automatic Omarchy palette updates for egui apps.
 - [flutter_omarchy](https://github.com/aloisdeniel/flutter_omarchy) - Develop Flutter apps for Omarchy.
 - [FW12Rotate](https://github.com/2disbetter/FW12Rotate) - Framework 12 rotation application specifically for Omarchy Linux.
 - [hyprBluetooth](https://github.com/magudb/hyprBluetooth) - Bluetoothctl-powered TUI for quickly pairing devices on Omarchy.
 - [Hyprflip](https://github.com/nocstah/hyprflip) - Hyprland plugin for two-sided window cards with animated flipping, multi-app faces, and saved workspace arrangements.
 - [hyprmarker](https://github.com/devmobasa/hyprmarker) - ZoomIt-inspired annotation overlay tailored for Hyprland/Omarchy.
 - [hyprmon](https://github.com/erans/hyprmon) - TUI monitor configuration tool for Hyprland with visual layout, drag-and-drop, and profile management.
+- [hyprmoncfg](https://github.com/crmne/hyprmoncfg) - Visual Hyprland monitor editor with profiles, automatic switching, and Omarchy integration.
 - [hypruler](https://github.com/t4t5/hypruler) - Measure anything on your screen. Inspired by PixelSnap for Mac.
 - [JaimeStill/omarchy-theme-generator](https://github.com/JaimeStill/omarchy-theme-generator) - Generate Omarchy themes based on images.
 - [lazyVPN-for-Omarchy](https://github.com/blank-query/lazyVPN-for-Omarchy) - A WireGuard VPN manager with Walker menu integration, killswitch protection, and dynamic server browsing.
@@ -146,10 +154,13 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [CyphrRiot/ArchRiot](https://github.com/CyphrRiot/ArchRiot) - A curated Arch Linux experience inspired by Omarchy's philosophy.
 - [dougburks/ohmydebn](https://github.com/dougburks/ohmydebn) - A debonair Debian + Cinnamon setup inspired by Omarchy.
 - [j5onrf/dots](https://github.com/j5onrf/dots) - Hyprland dotfiles with Waybar and ML4W inspired by Omarchy aesthetics.
+- [omafish](https://github.com/crmne/omafish) - Fish shell setup based on Omarchy defaults, with matching aliases and Omarchy command completions.
 - [omarchy-mirror](https://github.com/omacom-io/omarchy-mirror) - Dedicated mirror of Arch repositories for Omarchy hosted on Cloudflare R2.
 - [omarchy-site](https://github.com/omacom-io/omarchy-site) - Official Omarchy website source code.
 - [pixincreate/configs](https://github.com/pixincreate/configs) - Cross-platform dotfiles and setup scripts with Omarchy/Omaforge profiles.
 - [sheikhlimon/dotfiles](https://github.com/sheikhlimon/dotfiles) - Personal Omarchy dotfiles configuration.
+- [Spotifast](https://github.com/crmne/spotifast) - Native Spotify client with playback, Spotify Connect, and automatic Omarchy theme support.
+- [ZapFast](https://github.com/crmne/zapfast) - Native WhatsApp client with messaging, calls, and automatic Omarchy theme support.
 
 ## Alternative Curated Lists
 
