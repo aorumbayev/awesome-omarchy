@@ -104,6 +104,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [hyprmon](https://github.com/erans/hyprmon) - TUI monitor configuration tool for Hyprland with visual layout, drag-and-drop, and profile management.
 - [hyprmoncfg](https://github.com/crmne/hyprmoncfg) - Visual Hyprland monitor editor with profiles, automatic switching, and Omarchy integration.
 - [hypruler](https://github.com/t4t5/hypruler) - Measure anything on your screen. Inspired by PixelSnap for Mac.
+- [ibara](https://github.com/MayberryDT/ibara) - MCP server for agents to use browsers and desktop apps on separate Omarchy computers you own.
 - [JaimeStill/omarchy-theme-generator](https://github.com/JaimeStill/omarchy-theme-generator) - Generate Omarchy themes based on images.
 - [lazyVPN-for-Omarchy](https://github.com/blank-query/lazyVPN-for-Omarchy) - A WireGuard VPN manager with Walker menu integration, killswitch protection, and dynamic server browsing.
 - [live-wallpaper-for-omarchy-linux](https://github.com/daurydicaprio/live-wallpaper-for-omarchy-linux) - A robust script to manage and cycle through live video wallpapers on Omarchy/Hyprland.
