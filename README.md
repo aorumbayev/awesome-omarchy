@@ -85,6 +85,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [Sandman](https://github.com/lgse/sandman) - Lid-close, lock, sleep, and hibernate timing controls for Omarchy.
 - [Screen Time](https://github.com/ax1g/quickshell-screentime-plugin) - Per-app screen time in the Omarchy bar with local history and trends.
 - [SHIBUMI](https://github.com/HANCORE-linux/Shibumi-Shell) - Native bar and modular plugin suite for Omarchy Quattro.
+- [Shikigon](https://github.com/rkocosmergon/shikigon) - Bar creature that plays Cosmergon, a Game-of-Life economy, against other AI agents, by itself or with a model you pick choosing its moves.
 - [Todoist](https://github.com/Aryan-Techie/omarchy-todoist) - Due counts and quick-add from the Omarchy bar.
 - [Voxtype Enhance](https://github.com/iamcheyan/omarchy-voxtype-enhance) - Voxtype dictation control center with model downloads and paste controls.
 
