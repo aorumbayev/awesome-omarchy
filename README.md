@@ -64,6 +64,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [Okomart](https://github.com/brianblakely/omarchy-plugins) - Storefront to browse, install, update, and remove Omarchy plugins.
 - [OmaCal](https://github.com/crmne/omacal) - Adds calendar events, quick add, reminders, and time tracking to the stock clock and calendar, with a HEY backend.
 - [OmaConnect](https://github.com/jitendradara12/omaconnect) - KDE Connect integration for SMS, clipboard, file sharing, and device commands.
+- [omaFace](https://github.com/L0adn9/omaface) - Face unlock for the lock screen, login, sudo, and polkit prompts with an IR camera or webcam, fully local.
 - [Omagen](https://github.com/prettyletto/omagen) - Generate Omarchy themes from images.
 - [Omaland](https://github.com/bobby-nicholas/omaland) - Live-preview panel for editing Hyprland look-and-feel from the Omarchy menu.
 - [Omalibre](https://github.com/AlexZeitler/omalibre) - Bookshelf plugin for recently read books on Omarchy.
