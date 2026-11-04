@@ -82,6 +82,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [Pane Manager](https://github.com/momoi-labs/omarchy-pane-manager) - Resize tiled panes by dragging the divider, with a live drop indicator, per-workspace layouts, and layout reset.
 - [Prayer Times](https://github.com/husamemadH/omarchy-quattro-prayer-times) - Next prayer countdown and today's prayer times in the Omarchy bar.
 - [Quattrolitaire](https://github.com/28allday/Quattrolitaire) - Klondike solitaire as a native Omarchy shell plugin.
+- [Replay](https://github.com/rblalock/omarchy-replay) - Records a selected display, runs local OCR, and gives a searchable timeline of past screen images.
 - [Reprieve](https://github.com/GreyforgeLabs/reprieve) - Reversible window parking for Omarchy with undo, redo, and a recovery timeline.
 - [Sandman](https://github.com/lgse/sandman) - Lid-close, lock, sleep, and hibernate timing controls for Omarchy.
 - [Screen Time](https://github.com/ax1g/quickshell-screentime-plugin) - Per-app screen time in the Omarchy bar with local history and trends.
