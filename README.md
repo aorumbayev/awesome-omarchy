@@ -47,6 +47,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [Calendar](https://github.com/tmn73/omarchy-calendar) - Next Google Calendar event in the Omarchy bar with one-click meeting join.
 - [Calendar Sync Clock](https://github.com/promaaa/sync-calendar-omarchy) - Clock and calendar for the Omarchy bar with two-way sync for Google, iCloud, Proton, Outlook, Fastmail JMAP, Nextcloud, and any iCalendar feed.
 - [Claude Usage](https://github.com/mryll/claudebar) - Claude Code session, weekly, and per-model usage limits in the Omarchy bar.
+- [Command Bar](https://github.com/Saikomantisu/omarchy-commandbar) - Spotlight-style command bar for launching apps, switching windows, finding files, and calculating currency and unit conversions.
 - [Dock](https://github.com/rosakodu/omarchy-dock) - Animated application dock for Omarchy Quattro with Hyprland window tracking.
 - [Fathom](https://github.com/mtolhuys/fathom) - Depth-based Alt+Tab that orders windows by recency, with a map of every workspace.
 - [GitHub](https://github.com/robzolkos/omarchy-github) - Keyboard-friendly GitHub inbox for notifications, reviews, PRs, and Actions.
