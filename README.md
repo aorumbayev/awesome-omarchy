@@ -170,6 +170,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 
 ## Alternative Curated Lists
 
+- [OmaPicks](https://omapicks.com/) - Independent weekly ranking of Omarchy plugins by task, with source-reviewed shortlists and setup requirements.
 - [omarchy-plugin-marketplace](https://github.com/HANCORE-linux/omarchy-plugin-marketplace) - Community registry of Omarchy Quattro plugins, published at omarchyplugins.com.
 - [Wheel-Smith/awesome-omarchy](https://github.com/Wheel-Smith/awesome-omarchy) - Alternative curated list of Omarchy resources with explicit focus on theme resources with screenshot previews.
 
