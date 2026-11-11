@@ -15,6 +15,7 @@ A curated list of Omarchy plugins, themes, resources, and tools.
 - [Community Resources](#community-resources)
 - [Articles and Tutorials](#articles-and-tutorials)
 - [Themes](#themes)
+- [Archived](#archived)
 
 ## Official Resources
 
@@ -61,7 +62,6 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [Mihomo](https://github.com/lijiawei0305-pixel/omarchy-mihomo-plugin) - Status-bar control panel for a standalone mihomo proxy core.
 - [Mihoro](https://github.com/huacnlee/omarchy-mihoro) - Mihomo/Clash.Meta proxy status, speed, and subscription switching for Omarchy.
 - [Mirador](https://github.com/sanjyay/Mirador) - Visual overview of workspaces and their windows.
-- [Notification Center](https://github.com/Shavanced/omarchy-notification-center-plugin) - Native notification center with history, search, and Do Not Disturb.
 - [Okomart](https://github.com/brianblakely/omarchy-plugins) - Storefront to browse, install, update, and remove Omarchy plugins.
 - [OmaCal](https://github.com/crmne/omacal) - Adds calendar events, quick add, reminders, and time tracking to the stock clock and calendar, with a HEY backend.
 - [OmaConnect](https://github.com/jitendradara12/omaconnect) - KDE Connect integration for SMS, clipboard, file sharing, and device commands.
@@ -113,7 +113,6 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [JaimeStill/omarchy-theme-generator](https://github.com/JaimeStill/omarchy-theme-generator) - Generate Omarchy themes based on images.
 - [lazyVPN-for-Omarchy](https://github.com/blank-query/lazyVPN-for-Omarchy) - A WireGuard VPN manager with Walker menu integration, killswitch protection, and dynamic server browsing.
 - [live-wallpaper-for-omarchy-linux](https://github.com/daurydicaprio/live-wallpaper-for-omarchy-linux) - A robust script to manage and cycle through live video wallpapers on Omarchy/Hyprland.
-- [Neovim-theme-switcher](https://github.com/HectorBjernersjo/Neovim-theme-switcher) - Lightweight theme switcher for Neovim compatible with Omarchy.
 - [omacal](https://github.com/x3me/omacal) - Desktop calendar for Google, iCloud and CalDAV with live Omarchy theming, a bar widget, and a CLI for terminals and agents.
 - [omaclip](https://github.com/rhemvi/omaclip) - A clipboard manager with cross-device sync and hot theme reloading.
 - [omarchist](https://github.com/tahayvr/omarchist) - GUI app for Omarchy with visual theme designer built with Tauri/Rust/Svelte.
@@ -123,12 +122,9 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [omarchy-box](https://github.com/dylanbr/omarchy-box) - Containerized Omarchy environment.
 - [omarchy-calculator](https://github.com/aloisdeniel/omarchy_calculator) - Official Omarchy calculator application built with Flutter.
 - [omarchy-cheat-sheet](https://github.com/acrogenesis/omarchy-cheat-sheet) - Quick reference guide for Omarchy commands and shortcuts.
-- [omarchy-chromium](https://github.com/omacom-io/omarchy-chromium) - Chromium browser integration and optimizations for Omarchy.
 - [omarchy-cleaner](https://github.com/maxart/omarchy-cleaner) - Quickly and easily remove pre-installed apps and webapps.
-- [omarchy-configurator](https://github.com/omacom-io/omarchy-configurator) - Configuration management tool for Omarchy.
 - [omarchy-enhanced-bindings](https://github.com/nemuiyarou/omarchy-enhanced-bindings) - Enhanced keyboard bindings for Omarchy.
 - [omarchy-gui](https://github.com/amanat361/omarchy-gui) - GUI tools for Omarchy configuration.
-- [omarchy-installer](https://github.com/omacom-io/omarchy-installer) - Enhanced installation utilities and scripts for Omarchy setup.
 - [omarchy-iso](https://github.com/omacom-io/omarchy-iso) - Custom ISO builder for Omarchy installations.
 - [omarchy-material-waybar](https://github.com/thatmechguy/omarchy-material-waybar) - Material design style Waybar configuration for Hyprland.
 - [omarchy-migrate](https://github.com/CyphrRiot/Migrate) - Stunningly beautiful terminal backup and restore tool written in Pure Go.
@@ -163,7 +159,6 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [omafish](https://github.com/crmne/omafish) - Fish shell setup based on Omarchy defaults, with matching aliases and Omarchy command completions.
 - [omarchy-mirror](https://github.com/omacom-io/omarchy-mirror) - Dedicated mirror of Arch repositories for Omarchy hosted on Cloudflare R2.
 - [omarchy-site](https://github.com/omacom-io/omarchy-site) - Official Omarchy website source code.
-- [pixincreate/configs](https://github.com/pixincreate/configs) - Cross-platform dotfiles and setup scripts with Omarchy/Omaforge profiles.
 - [sheikhlimon/dotfiles](https://github.com/sheikhlimon/dotfiles) - Personal Omarchy dotfiles configuration.
 - [Spotifast](https://github.com/crmne/spotifast) - Native Spotify client with playback, Spotify Connect, and automatic Omarchy theme support.
 - [ZapFast](https://github.com/crmne/zapfast) - Native WhatsApp client with messaging, calls, and automatic Omarchy theme support.
@@ -276,7 +271,6 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [omarchy-space-monkey-theme](https://github.com/TyRichards/omarchy-space-monkey-theme) - Space-inspired theme with cosmic elements.
 - [omarchy-spectra-theme](https://github.com/abhijeet-swami/omarchy-spectra-theme) - Blur and transparency theme that adapts to any wallpaper.
 - [omarchy-sunset-drive-theme](https://github.com/tahayvr/omarchy-sunset-drive-theme) - Sunset-inspired theme with warm gradients.
-- [omarchy-synthwave84-theme](https://github.com/omacom-io/omarchy-synthwave84-theme) - Synthwave 84 inspired theme with retro aesthetics.
 - [omarchy-thegreek-theme](https://github.com/HANCORE-linux/omarchy-thegreek-theme) - Sleek, strategic spy theme blending classic espionage with modern intrigue.
 - [omarchy-tycho](https://github.com/leonardobetti/omarchy-tycho) - Minimalist pastel theme inspired by musician Tycho's aesthetics.
 - [omarchy-velvetnight-theme](https://github.com/HANCORE-linux/omarchy-velvetnight-theme) - Dark, night-inspired theme with soft contrasts and subtle glimmers.
@@ -284,10 +278,22 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [omarchy-vesper-theme](https://github.com/thmoee/omarchy-vesper-theme) - Dark theme with warm vesper-orange highlights.
 - [omarchy-vhs80-theme](https://github.com/tahayvr/omarchy-vhs80-theme) - Retro VHS-inspired theme with 80s aesthetics and neon colors.
 - [omarchy-void-theme](https://github.com/vyrx-dev/omarchy-void-theme) - Low-contrast purple theme with soft accents for a calm UI.
-- [omarchy-wasteland-theme](https://github.com/perfektnacht/omarchy-wasteland-theme) - Post-apocalyptic wasteland-inspired color scheme.
 - [omarchy-waveform-dark-theme](https://github.com/hipsterusername/omarchy-waveform-dark-theme) - Dark theme with waveform-inspired design patterns.
 - [omarchy-whitegold-theme](https://github.com/HANCORE-linux/omarchy-whitegold-theme) - Light and elegance intertwined with gold accents.
 - [pink-blood-omarchy-theme](https://github.com/ITSZXY/pink-blood-omarchy-theme) - Bold pink-themed design.
+
+## Archived
+
+Repositories archived by their authors. Kept here for reference; the links still resolve.
+
+- [Neovim-theme-switcher](https://github.com/HectorBjernersjo/Neovim-theme-switcher) - Lightweight theme switcher for Neovim compatible with Omarchy.
+- [Notification Center](https://github.com/Shavanced/omarchy-notification-center-plugin) - Native notification center with history, search, and Do Not Disturb.
+- [omarchy-chromium](https://github.com/omacom-io/omarchy-chromium) - Chromium browser integration and optimizations for Omarchy.
+- [omarchy-configurator](https://github.com/omacom-io/omarchy-configurator) - Configuration management tool for Omarchy.
+- [omarchy-installer](https://github.com/omacom-io/omarchy-installer) - Enhanced installation utilities and scripts for Omarchy setup.
+- [omarchy-synthwave84-theme](https://github.com/omacom-io/omarchy-synthwave84-theme) - Synthwave 84 inspired theme with retro aesthetics.
+- [omarchy-wasteland-theme](https://github.com/perfektnacht/omarchy-wasteland-theme) - Post-apocalyptic wasteland-inspired color scheme.
+- [pixincreate/configs](https://github.com/pixincreate/configs) - Cross-platform dotfiles and setup scripts with Omarchy/Omaforge profiles.
 
 ## Contributing
 
