@@ -173,6 +173,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 
 - [GitHub Discussions](https://github.com/basecamp/omarchy/discussions) - Official community discussions and support.
 - [GitHub Issues](https://github.com/basecamp/omarchy/issues) - Bug reports and feature requests.
+- [Omarchy laptop owner reports](https://maxlothorn-7.github.io/linux-laptops/) - Sourced owner reports covering 23 laptop models, with unreported features marked unknown.
 - [Omarchy on 11 inch MacBook Air](https://seanabrahams.com/linux/archlinux/macbook/omarchy/2025/08/07/omarchy-macbook-air.html) - Technical guide for installing Omarchy on a 2014 MacBook Air with WiFi configuration.
 - [Omarchy on Raspberry Pi 5](https://github.com/basecamp/omarchy/discussions/642) - Community discussion on running Omarchy on Raspberry Pi 5.
 - [omarchy-theme Topic](https://github.com/topics/omarchy-theme) - Browse all repositories tagged with omarchy-theme.
