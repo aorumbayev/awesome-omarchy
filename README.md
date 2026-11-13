@@ -230,6 +230,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [omarchy-firesky-theme](https://github.com/bjarneo/omarchy-firesky-theme) - Fire-lit sky inspired theme for deep focus.
 - [omarchy-flexoki-dark-theme](https://github.com/euandeas/omarchy-flexoki-dark-theme) - Flexoki color palette adaptation.
 - [omarchy-flexoki-light-theme](https://github.com/euandeas/omarchy-flexoki-light-theme) - Light version of Flexoki color palette.
+- [omarchy-flower-fruit-mountain-theme](https://github.com/monkeyking-hq/omarchy-flower-fruit-mountain-theme) - Dark theme inspired by Flower-Fruit Mountain with obsidian backgrounds and amber and peach accents.
 - [omarchy-forest-green-theme](https://github.com/abhijeet-swami/omarchy-forest-green-theme) - Nature-inspired forest green color scheme.
 - [omarchy-frost-theme](https://github.com/bjarneo/omarchy-frost-theme) - Simple, elegant theme inspired by the serene beauty of frost patterns.
 - [omarchy-frutiger-aero](https://github.com/VECTORG99/omarchy-frutiger-aero) - Frutiger Aero theme with 6 EWW desktop widgets, liquid glass aesthetics, celestial gradients, and light/dark support.
