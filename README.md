@@ -81,6 +81,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [Omastocks](https://github.com/dmitry-solomadin/omastocks) - Stock research app with charts, market heatmaps, watchlists, and a top-bar ticker.
 - [OmaTasks for Todoist](https://github.com/crmne/omatasks) - Brings Todoist tasks, Quick Add, editing, and drag-to-reorder into the Omarchy bar.
 - [Pane Manager](https://github.com/momoi-labs/omarchy-pane-manager) - Resize tiled panes by dragging the divider, with a live drop indicator, per-workspace layouts, and layout reset.
+- [Pomodoro](https://github.com/maile-it-solutions/omarchy-pomodoro) - Timer with focus mode (notification silencing, call-aware audio muting), ambient loops, and reggae or Spotify break music.
 - [Prayer Times](https://github.com/husamemadH/omarchy-quattro-prayer-times) - Next prayer countdown and today's prayer times in the Omarchy bar.
 - [Quattrolitaire](https://github.com/28allday/Quattrolitaire) - Klondike solitaire as a native Omarchy shell plugin.
 - [Replay](https://github.com/rblalock/omarchy-replay) - Records a selected display, runs local OCR, and gives a searchable timeline of past screen images.
