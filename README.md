@@ -163,6 +163,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [omarchy-site](https://github.com/omacom-io/omarchy-site) - Official Omarchy website source code.
 - [sheikhlimon/dotfiles](https://github.com/sheikhlimon/dotfiles) - Personal Omarchy dotfiles configuration.
 - [Spotifast](https://github.com/crmne/spotifast) - Native Spotify client with playback, Spotify Connect, and automatic Omarchy theme support.
+- [Spotish](https://github.com/huacnlee/spotish) - Native Spotify client built with NSH that drives Spotify's web player from a lightweight native interface.
 - [ZapFast](https://github.com/crmne/zapfast) - Native WhatsApp client with messaging, calls, and automatic Omarchy theme support.
 
 ## Alternative Curated Lists
