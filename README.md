@@ -187,6 +187,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [Installing Omarchy on Arch - iFixit Repair Guide](https://www.ifixit.com/Guide/Installing+Omarchy+on+Arch/190367) - Step-by-step installation guide on iFixit.
 - [Installing Omarchy via Arch Linux on macOS](https://deepakness.com/raw/installing-arch-omarchy-on-mac/) - Guide for installing on Mac hardware.
 - [My Journey from macOS to Arch Linux with Omarchy](https://www.ssp.sh/blog/macbook-to-arch-linux-omarchy/) - Sean Abrahams' detailed experience switching from a MacBook Pro to Linux with Omarchy.
+- [Omarchy 4.5 Tutorial](https://www.starryhope.com/linux/omarchy-tutorial/) - Install steps, BIOS and encryption setup, main shortcuts, apps, themes, updates and snapshots.
 - [Sudomarchy](https://sudomarchy.com) - PO Martel's blog offering Omarchy & Hyprland tips and tweaks.
 - [This One Command Turned My Arch Install Into a Beautiful Hyprland Setup](https://news.itsfoss.com/omarchy/) - It's FOSS review of Omarchy installation and features.
 - [Why I Switched to Omarchy (and Why You Might Too)](https://medium.com/@prathamgundikere/why-i-switched-to-omarchy-and-why-you-might-too-617d84ac63ce) - Medium article about discovering and adopting Omarchy.
