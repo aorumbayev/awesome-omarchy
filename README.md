@@ -158,6 +158,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [CyphrRiot/ArchRiot](https://github.com/CyphrRiot/ArchRiot) - A curated Arch Linux experience inspired by Omarchy's philosophy.
 - [dougburks/ohmydebn](https://github.com/dougburks/ohmydebn) - A debonair Debian + Cinnamon setup inspired by Omarchy.
 - [j5onrf/dots](https://github.com/j5onrf/dots) - Hyprland dotfiles with Waybar and ML4W inspired by Omarchy aesthetics.
+- [omacloud](https://omacloud.dev) - Hosted Omarchy desktops on a cloud VM, streamed to Mac, Windows, iPad or Chromebook with Moonlight (paid).
 - [omafish](https://github.com/crmne/omafish) - Fish shell setup based on Omarchy defaults, with matching aliases and Omarchy command completions.
 - [omarchy-mirror](https://github.com/omacom-io/omarchy-mirror) - Dedicated mirror of Arch repositories for Omarchy hosted on Cloudflare R2.
 - [omarchy-site](https://github.com/omacom-io/omarchy-site) - Official Omarchy website source code.
