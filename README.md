@@ -45,6 +45,7 @@ Community plugins for [Omarchy Quattro](https://github.com/basecamp/omarchy/tree
 - [Activity Monitor](https://github.com/stappmus/omarchy-activity-monitor) - Lightweight CPU, memory, GPU, storage, and process glance for Omarchy Quattro.
 - [AI Usage](https://github.com/akitaonrails/ai-usagebar) - Multi-provider AI plan usage and balances in a native Omarchy Quattro panel.
 - [AirPods](https://github.com/thisisgm/omarchy-pods) - Battery, listening mode, and noise-control widgets for connected AirPods.
+- [Backstory](https://github.com/RidgetopAi/backstory) - Local memory for AI coding agents (Claude Code, Codex, Hermes, Pi), with a panel showing where each project left off and what needs you.
 - [Calendar](https://github.com/tmn73/omarchy-calendar) - Next Google Calendar event in the Omarchy bar with one-click meeting join.
 - [Calendar Sync Clock](https://github.com/promaaa/sync-calendar-omarchy) - Clock and calendar for the Omarchy bar with two-way sync for Google, iCloud, Proton, Outlook, Fastmail JMAP, Nextcloud, and any iCalendar feed.
 - [Claude Usage](https://github.com/mryll/claudebar) - Claude Code session, weekly, and per-model usage limits in the Omarchy bar.
